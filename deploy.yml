@@ -10,12 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Inject Mapbox token
-        env:
-          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+      - name: Create config with token
         run: |
-          # Replace window.MAPBOX_TOKEN with the actual token
-          sed -i "s|window.MAPBOX_TOKEN|'$MAPBOX_TOKEN'|g" index.html
+          echo "window.MAPBOX_TOKEN = '${{ secrets.MAPBOX_TOKEN }}';" > config.js
+          cat config.js
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

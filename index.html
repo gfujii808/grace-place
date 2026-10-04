@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
-    <script src="config.js"></script>
     <style>
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
         .sidebar { width: 360px; max-height: 100vh; overflow-y: auto; }
@@ -89,12 +88,8 @@
     </div>
 
     <script>
-        // Mapbox setup - token from environment or window variable
-        const token = window.MAPBOX_TOKEN || 'pk.default-public-token';
-        if (token === 'pk.default-public-token') {
-            console.warn('⚠️ Mapbox token not found. Set window.MAPBOX_TOKEN or VITE_MAPBOX_TOKEN environment variable.');
-        }
-        mapboxgl.accessToken = token;
+        // Mapbox setup - token injected by GitHub Actions at deploy time
+        mapboxgl.accessToken = window.MAPBOX_TOKEN;
         const map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/light-v11',
@@ -114,7 +109,7 @@
         };
 
         // Fetch your complete data
-        fetch('/data.json')
+        fetch('./data.json')
             .then(r => r.json())
             .catch(() => {
                 console.log('No data.json, using empty state');

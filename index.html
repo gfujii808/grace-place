@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Place — Catalog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="config.js"></script>
+    <style>
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .sidebar { width: 360px; max-height: 100vh; overflow-y: auto; }
+        @media (max-width: 768px) { .sidebar { width: 100%; max-height: 50vh; } }
+    </style>
+</head>
+<body class="bg-stone-50">
+    <div class="flex h-screen gap-0">
+        <!-- Map -->
+        <div class="flex-1 relative">
+            <div id="map"></div>
+        </div>
+        
+        <!-- Sidebar -->
+        <div class="sidebar bg-white border-l border-stone-200 flex flex-col">
+            <!-- Tabs -->
+            <div class="flex border-b border-stone-200 sticky top-0 bg-white">
+                <button id="tab-places" class="flex-1 px-4 py-3 text-sm font-medium border-b-2 border-blue-500 text-blue-600">Places</button>
+                <button id="tab-add" class="flex-1 px-4 py-3 text-sm font-medium border-b-2 border-transparent text-stone-600 hover:text-stone-900">Add</button>
+                <button id="tab-reading" class="flex-1 px-4 py-3 text-sm font-medium border-b-2 border-transparent text-stone-600 hover:text-stone-900">Reading</button>
+            </div>
+            
+            <!-- Places Tab -->
+            <div id="content-places" class="flex-1 overflow-y-auto p-4">
+                <input type="text" id="search" placeholder="Search places..." class="w-full px-3 py-2 border border-stone-200 rounded-lg mb-4 text-sm">
+                
+                <div class="space-y-2">
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium bg-blue-100 text-blue-700" data-filter="all">All Places</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Food">🍽 Food</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Shopping">🛍 Shopping</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Books">📚 Books</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Experience">✨ Experience</button>
+                </div>
+                
+                <div id="places-list" class="mt-6 space-y-3"></div>
+            </div>
+            
+            <!-- Add Tab -->
+            <div id="content-add" class="hidden flex-1 overflow-y-auto p-4">
+                <form id="add-place-form" class="space-y-3">
+                    <input type="text" id="form-title" placeholder="Place name" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm" required>
+                    <input type="text" id="form-address" placeholder="Address" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                    <input type="url" id="form-link" placeholder="Link (optional)" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                    <select id="form-category" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                        <option value="Food">Food</option>
+                        <option value="Shopping">Shopping</option>
+                        <option value="Books">Books</option>
+                        <option value="Experience">Experience</option>
+                    </select>
+                    <input type="text" id="form-price" placeholder="Price ($$, $$, etc)" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                    <textarea id="form-notes" placeholder="Notes" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm h-20"></textarea>
+                    <button type="submit" class="w-full px-3 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700">Add Place</button>
+                </form>
+            </div>
+            
+            <!-- Reading Tab -->
+            <div id="content-reading" class="hidden flex-1 overflow-y-auto p-4">
+                <div class="space-y-2">
+                    <input type="text" id="reading-title" placeholder="Book title" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                    <input type="text" id="reading-author" placeholder="Author" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                    <input type="url" id="reading-link" placeholder="Link (optional)" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm">
+                    <textarea id="reading-notes" placeholder="Notes" class="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm h-20"></textarea>
+                    <button id="add-reading-btn" class="w-full px-3 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700">Add to Reading List</button>
+                </div>
+                <div id="reading-list" class="mt-6 space-y-3"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Place Detail Modal -->
+    <div id="modal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-lg max-w-md w-full max-h-96 overflow-y-auto">
+            <div class="p-6 space-y-4">
+                <h2 id="modal-title" class="text-2xl font-bold"></h2>
+                <div id="modal-content" class="space-y-3 text-sm"></div>
+                <button id="close-modal" class="w-full px-3 py-2 bg-stone-200 rounded-lg hover:bg-stone-300">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mapbox setup - token from environment or window variable
+        const token = window.MAPBOX_TOKEN || 'pk.default-public-token';
+        if (token === 'pk.default-public-token') {
+            console.warn('⚠️ Mapbox token not found. Set window.MAPBOX_TOKEN or VITE_MAPBOX_TOKEN environment variable.');
+        }
+        mapboxgl.accessToken = token;
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v11',
+            center: [-122.2707, 37.8716],
+            zoom: 10
+        });
+
+        // App state
+        let places = [];
+        let reading = [];
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        // Load initial data from your file
+        const initialData = {
+            "places": []
+        };
+
+        // Fetch your complete data
+        fetch('/data.json')
+            .then(r => r.json())
+            .catch(() => {
+                console.log('No data.json, using empty state');
+                return initialData;
+            })
+            .then(data => {
+                places = data.places || [];
+                renderPlaces();
+                renderMap();
+            });
+
+        // Tab switching
+        ['places', 'add', 'reading'].forEach(tab => {
+            document.getElementById(`tab-${tab}`).addEventListener('click', () => {
+                document.querySelectorAll('[id^="content-"]').forEach(el => el.classList.add('hidden'));
+                document.getElementById(`content-${tab}`).classList.remove('hidden');
+                document.querySelectorAll('[id^="tab-"]').forEach(el => el.classList.remove('border-b-2', 'border-blue-500', 'text-blue-600'));
+                document.getElementById(`tab-${tab}`).classList.add('border-b-2', 'border-blue-500', 'text-blue-600');
+            });
+        });
+
+        // Search & filter
+        document.getElementById('search').addEventListener('input', (e) => {
+            currentSearch = e.target.value.toLowerCase();
+            renderPlaces();
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-blue-100', 'text-blue-700'));
+                btn.classList.add('bg-blue-100', 'text-blue-700');
+                currentFilter = btn.dataset.filter;
+                renderPlaces();
+            });
+        });
+
+        function renderPlaces() {
+            const filtered = places.filter(p => {
+                const matchCategory = currentFilter === 'all' || p.category === currentFilter;
+                const matchSearch = p.title.toLowerCase().includes(currentSearch) || 
+                                  (p.address || '').toLowerCase().includes(currentSearch);
+                return matchCategory && matchSearch;
+            });
+
+            document.getElementById('places-list').innerHTML = filtered.map(p => `
+                <div class="p-3 border border-stone-200 rounded-lg cursor-pointer hover:bg-stone-50" onclick="showModal('${p.title}', ${JSON.stringify(p).replace(/'/g, '&apos;')})">
+                    <div class="font-medium text-sm">${p.title}</div>
+                    <div class="text-xs text-stone-600">${p.category}</div>
+                    ${p.price ? `<div class="text-xs text-stone-500">${p.price}</div>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function renderMap() {
+            places.forEach(p => {
+                if (p.lat && p.lng) {
+                    const el = document.createElement('div');
+                    el.style.backgroundImage = `url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='8' fill='%233b82f6'/%3E%3C/svg%3E)`;
+                    el.style.width = '32px';
+                    el.style.height = '32px';
+                    el.style.cursor = 'pointer';
+                    
+                    new mapboxgl.Marker(el)
+                        .setLngLat([p.lng, p.lat])
+                        .setPopup(new mapboxgl.Popup().setHTML(`
+                            <div class="font-medium">${p.title}</div>
+                            <div class="text-sm text-stone-600">${p.category}</div>
+                        `))
+                        .addTo(map);
+                }
+            });
+        }
+
+        function showModal(title, place) {
+            document.getElementById('modal-title').textContent = place.title;
+            document.getElementById('modal-content').innerHTML = `
+                ${place.address ? `<div><strong>Address:</strong> ${place.address}</div>` : ''}
+                ${place.price ? `<div><strong>Price:</strong> ${place.price}</div>` : ''}
+                ${place.link ? `<div><a href="${place.link}" target="_blank" class="text-blue-600 underline">Visit</a></div>` : ''}
+                ${place.notes ? `<div><strong>Notes:</strong> ${place.notes}</div>` : ''}
+            `;
+            document.getElementById('modal').classList.remove('hidden');
+        }
+
+        document.getElementById('close-modal').addEventListener('click', () => {
+            document.getElementById('modal').classList.add('hidden');
+        });
+
+        // Add place
+        document.getElementById('add-place-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const newPlace = {
+                id: `user-${Date.now()}`,
+                title: document.getElementById('form-title').value,
+                address: document.getElementById('form-address').value,
+                link: document.getElementById('form-link').value,
+                category: document.getElementById('form-category').value,
+                price: document.getElementById('form-price').value,
+                notes: document.getElementById('form-notes').value,
+                lat: null,
+                lng: null
+            };
+            places.push(newPlace);
+            document.getElementById('add-place-form').reset();
+            renderPlaces();
+            alert('Place added! (Geocoding via address lookup coming soon)');
+        });
+
+        // Reading list
+        document.getElementById('add-reading-btn').addEventListener('click', () => {
+            const newBook = {
+                id: `reading-${Date.now()}`,
+                title: document.getElementById('reading-title').value,
+                author: document.getElementById('reading-author').value,
+                link: document.getElementById('reading-link').value,
+                notes: document.getElementById('reading-notes').value
+            };
+            if (newBook.title) {
+                reading.push(newBook);
+                renderReading();
+                document.getElementById('reading-title').value = '';
+                document.getElementById('reading-author').value = '';
+                document.getElementById('reading-link').value = '';
+                document.getElementById('reading-notes').value = '';
+            }
+        });
+
+        function renderReading() {
+            document.getElementById('reading-list').innerHTML = reading.map(b => `
+                <div class="p-3 border border-stone-200 rounded-lg">
+                    <div class="font-medium text-sm">${b.title}</div>
+                    ${b.author ? `<div class="text-xs text-stone-600">${b.author}</div>` : ''}
+                    ${b.link ? `<div><a href="${b.link}" target="_blank" class="text-xs text-blue-600 underline">Link</a></div>` : ''}
+                    ${b.notes ? `<div class="text-xs text-stone-500 mt-1">${b.notes}</div>` : ''}
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+</html>

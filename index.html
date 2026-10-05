@@ -110,15 +110,22 @@
 
         // Fetch your complete data
         fetch('./data.json')
-            .then(r => r.json())
-            .catch(() => {
-                console.log('No data.json, using empty state');
+            .then(r => {
+                if (!r.ok) throw new Error('Failed to fetch');
+                return r.json();
+            })
+            .catch(err => {
+                console.error('Error loading data:', err);
                 return initialData;
             })
             .then(data => {
-                places = data.places || [];
+                places = (data && data.places) ? data.places : [];
+                console.log('Loaded', places.length, 'places');
                 renderPlaces();
-                renderMap();
+                // Wait for map to be ready
+                map.on('load', () => {
+                    renderMap();
+                });
             });
 
         // Tab switching
@@ -154,13 +161,22 @@
                 return matchCategory && matchSearch;
             });
 
-            document.getElementById('places-list').innerHTML = filtered.map(p => `
-                <div class="p-3 border border-stone-200 rounded-lg cursor-pointer hover:bg-stone-50" onclick="showModal('${p.title}', ${JSON.stringify(p).replace(/'/g, '&apos;')})">
+            document.getElementById('places-list').innerHTML = filtered.map((p, idx) => `
+                <div class="p-3 border border-stone-200 rounded-lg cursor-pointer hover:bg-stone-50" data-place-id="${idx}">
                     <div class="font-medium text-sm">${p.title}</div>
                     <div class="text-xs text-stone-600">${p.category}</div>
                     ${p.price ? `<div class="text-xs text-stone-500">${p.price}</div>` : ''}
                 </div>
             `).join('');
+            
+            // Attach click handlers
+            document.querySelectorAll('[data-place-id]').forEach(el => {
+                el.addEventListener('click', () => {
+                    const idx = parseInt(el.dataset.placeId);
+                    const p = filtered[idx];
+                    if (p) showModal(p.title, p);
+                });
+            });
         }
 
         function renderMap() {

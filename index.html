@@ -88,132 +88,146 @@
     </div>
 
     <script>
-        // Mapbox setup - token hardcoded
-        mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JhY2VmODA4IiwiYSI6ImNtdWo2NGF5dDAxNGkyd29qaHpsd3UweWUifQ.Mf9Y1d9e_qIl7EEs2bTmgw';
-        const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/light-v11',
-            center: [-122.2707, 37.8716],
-            zoom: 10
-        });
-
-        // App state
+        // ── State ─────────────────────────────────────────────
         let places = [];
         let reading = [];
         let currentFilter = 'all';
         let currentSearch = '';
+        let mapReady = false;
+        let dataReady = false;
 
-        // Load initial data from your file
-        const initialData = {
-            "places": []
-        };
+        // ── Map ───────────────────────────────────────────────
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JhY2VmODA4IiwiYSI6ImNtdWo2NGF5dDAxNGkyd29qaHpsd3UweWUifQ.Mf9Y1d9e_qIl7EEs2bTmgw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v11',
+            center: [133, -25],   // centre of Australia + world view
+            zoom: 2
+        });
 
-        // Fetch your complete data
+        map.on('load', () => {
+            mapReady = true;
+            if (dataReady) renderMap();
+        });
+
+        // ── Data ──────────────────────────────────────────────
         fetch('./data.json')
-            .then(r => {
-                if (!r.ok) throw new Error('Failed to fetch');
-                return r.json();
-            })
-            .catch(err => {
-                console.error('Error loading data:', err);
-                return initialData;
-            })
+            .then(r => r.ok ? r.json() : Promise.reject())
+            .catch(() => ({ places: [] }))
             .then(data => {
-                places = (data && data.places) ? data.places : [];
-                console.log('Loaded', places.length, 'places');
+                places = data.places || [];
+                dataReady = true;
                 renderPlaces();
-                // Wait for map to be ready
-                map.on('load', () => {
-                    renderMap();
-                });
+                if (mapReady) renderMap();
             });
 
-        // Tab switching
+        // ── Tabs ──────────────────────────────────────────────
         ['places', 'add', 'reading'].forEach(tab => {
             document.getElementById(`tab-${tab}`).addEventListener('click', () => {
                 document.querySelectorAll('[id^="content-"]').forEach(el => el.classList.add('hidden'));
                 document.getElementById(`content-${tab}`).classList.remove('hidden');
-                document.querySelectorAll('[id^="tab-"]').forEach(el => el.classList.remove('border-b-2', 'border-blue-500', 'text-blue-600'));
-                document.getElementById(`tab-${tab}`).classList.add('border-b-2', 'border-blue-500', 'text-blue-600');
+                document.querySelectorAll('[id^="tab-"]').forEach(el => {
+                    el.classList.remove('border-blue-500', 'text-blue-600');
+                    el.classList.add('border-transparent', 'text-stone-600');
+                });
+                document.getElementById(`tab-${tab}`).classList.remove('border-transparent', 'text-stone-600');
+                document.getElementById(`tab-${tab}`).classList.add('border-blue-500', 'text-blue-600');
             });
         });
 
-        // Search & filter
-        document.getElementById('search').addEventListener('input', (e) => {
+        // ── Filter ────────────────────────────────────────────
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => {
+                    b.classList.remove('bg-blue-100', 'text-blue-700');
+                    b.classList.add('text-stone-700');
+                });
+                btn.classList.add('bg-blue-100', 'text-blue-700');
+                btn.classList.remove('text-stone-700');
+                currentFilter = btn.dataset.filter;
+                renderPlaces();
+            });
+        });
+
+        // ── Search ────────────────────────────────────────────
+        document.getElementById('search').addEventListener('input', e => {
             currentSearch = e.target.value.toLowerCase();
             renderPlaces();
         });
 
-        function attachFilterHandlers() {
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    document.querySelectorAll('.filter-btn').forEach(b => {
-                        b.classList.remove('bg-blue-100', 'text-blue-700');
-                        b.classList.add('text-stone-700', 'hover:bg-stone-100');
-                    });
-                    btn.classList.remove('text-stone-700', 'hover:bg-stone-100');
-                    btn.classList.add('bg-blue-100', 'text-blue-700');
-                    currentFilter = btn.dataset.filter === 'all' ? 'all' : btn.dataset.filter;
-                    renderPlaces();
-                });
-            });
-        }
-        
-        attachFilterHandlers();
-
+        // ── Render Places List ────────────────────────────────
         function renderPlaces() {
             const filtered = places.filter(p => {
-                const matchCategory = currentFilter === 'all' || (p.category && p.category.toLowerCase() === currentFilter.toLowerCase());
-                const matchSearch = !currentSearch || p.title.toLowerCase().includes(currentSearch) || 
-                                  (p.address || '').toLowerCase().includes(currentSearch);
-                return matchCategory && matchSearch;
+                const cat = (p.category || '').toLowerCase();
+                const filter = currentFilter.toLowerCase();
+                const matchCat = filter === 'all' || cat === filter;
+                const matchSearch = !currentSearch
+                    || (p.title || '').toLowerCase().includes(currentSearch)
+                    || (p.address || '').toLowerCase().includes(currentSearch);
+                return matchCat && matchSearch;
             });
 
-            document.getElementById('places-list').innerHTML = filtered.map((p, idx) => `
-                <div class="p-3 border border-stone-200 rounded-lg cursor-pointer hover:bg-stone-50" data-place-id="${idx}">
-                    <div class="font-medium text-sm">${p.title}</div>
-                    <div class="text-xs text-stone-600">${p.category}</div>
-                    ${p.price ? `<div class="text-xs text-stone-500">${p.price}</div>` : ''}
+            document.getElementById('places-list').innerHTML = filtered.map((p, i) => `
+                <div class="p-3 border border-stone-200 rounded-lg cursor-pointer hover:bg-stone-50" data-idx="${i}">
+                    <div class="font-medium text-sm">${p.title || ''}</div>
+                    <div class="text-xs text-stone-500">${p.category || ''} ${p.price ? '· ' + p.price : ''}</div>
+                    ${p.address ? `<div class="text-xs text-stone-400 mt-0.5">${p.address}</div>` : ''}
                 </div>
             `).join('');
-            
-            // Attach click handlers
-            document.querySelectorAll('[data-place-id]').forEach(el => {
+
+            document.querySelectorAll('[data-idx]').forEach(el => {
                 el.addEventListener('click', () => {
-                    const idx = parseInt(el.dataset.placeId);
-                    const p = filtered[idx];
-                    if (p) showModal(p.title, p);
+                    showModal(filtered[parseInt(el.dataset.idx)]);
                 });
             });
         }
 
+        // ── Render Map Pins ───────────────────────────────────
         function renderMap() {
+            const catColors = {
+                food: '#ef4444',
+                shopping: '#8b5cf6',
+                books: '#f59e0b',
+                experience: '#10b981'
+            };
+
             places.forEach(p => {
-                if (p.lat && p.lng) {
-                    const el = document.createElement('div');
-                    el.style.backgroundImage = `url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='8' fill='%233b82f6'/%3E%3C/svg%3E)`;
-                    el.style.width = '32px';
-                    el.style.height = '32px';
-                    el.style.cursor = 'pointer';
-                    
-                    new mapboxgl.Marker(el)
-                        .setLngLat([p.lng, p.lat])
-                        .setPopup(new mapboxgl.Popup().setHTML(`
-                            <div class="font-medium">${p.title}</div>
-                            <div class="text-sm text-stone-600">${p.category}</div>
-                        `))
-                        .addTo(map);
-                }
+                const lat = parseFloat(p.lat);
+                const lng = parseFloat(p.lng);
+                if (!lat || !lng) return;
+
+                const color = catColors[(p.category || '').toLowerCase()] || '#3b82f6';
+
+                const el = document.createElement('div');
+                el.style.cssText = `
+                    width: 12px; height: 12px;
+                    background: ${color};
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+                    cursor: pointer;
+                `;
+
+                new mapboxgl.Marker(el)
+                    .setLngLat([lng, lat])
+                    .setPopup(new mapboxgl.Popup({ offset: 10 }).setHTML(
+                        `<strong>${p.title}</strong><br><span style="font-size:12px;color:#666">${p.category || ''}${p.price ? ' · ' + p.price : ''}</span>`
+                    ))
+                    .addTo(map);
+
+                el.addEventListener('click', () => showModal(p));
             });
         }
 
-        function showModal(title, place) {
-            document.getElementById('modal-title').textContent = place.title;
+        // ── Modal ─────────────────────────────────────────────
+        function showModal(p) {
+            document.getElementById('modal-title').textContent = p.title || '';
             document.getElementById('modal-content').innerHTML = `
-                ${place.address ? `<div><strong>Address:</strong> ${place.address}</div>` : ''}
-                ${place.price ? `<div><strong>Price:</strong> ${place.price}</div>` : ''}
-                ${place.link ? `<div><a href="${place.link}" target="_blank" class="text-blue-600 underline">Visit</a></div>` : ''}
-                ${place.notes ? `<div><strong>Notes:</strong> ${place.notes}</div>` : ''}
+                ${p.category ? `<div class="text-xs font-semibold uppercase tracking-wide text-stone-400">${p.category}</div>` : ''}
+                ${p.address  ? `<div><strong>Address:</strong> ${p.address}</div>` : ''}
+                ${p.price    ? `<div><strong>Price:</strong> ${p.price}</div>` : ''}
+                ${p.notes    ? `<div><strong>Notes:</strong> ${p.notes}</div>` : ''}
+                ${p.link     ? `<div><a href="${p.link}" target="_blank" rel="noopener" class="text-blue-600 underline">Visit ↗</a></div>` : ''}
             `;
             document.getElementById('modal').classList.remove('hidden');
         }
@@ -222,52 +236,45 @@
             document.getElementById('modal').classList.add('hidden');
         });
 
-        // Add place
-        document.getElementById('add-place-form').addEventListener('submit', (e) => {
+        // ── Add Place ─────────────────────────────────────────
+        document.getElementById('add-place-form').addEventListener('submit', e => {
             e.preventDefault();
-            const newPlace = {
+            places.push({
                 id: `user-${Date.now()}`,
-                title: document.getElementById('form-title').value,
-                address: document.getElementById('form-address').value,
-                link: document.getElementById('form-link').value,
+                title:    document.getElementById('form-title').value,
+                address:  document.getElementById('form-address').value,
+                link:     document.getElementById('form-link').value,
                 category: document.getElementById('form-category').value,
-                price: document.getElementById('form-price').value,
-                notes: document.getElementById('form-notes').value,
-                lat: null,
-                lng: null
-            };
-            places.push(newPlace);
+                price:    document.getElementById('form-price').value,
+                notes:    document.getElementById('form-notes').value,
+                lat: null, lng: null
+            });
             document.getElementById('add-place-form').reset();
             renderPlaces();
-            alert('Place added! (Geocoding via address lookup coming soon)');
         });
 
-        // Reading list
+        // ── Reading List ──────────────────────────────────────
         document.getElementById('add-reading-btn').addEventListener('click', () => {
-            const newBook = {
-                id: `reading-${Date.now()}`,
-                title: document.getElementById('reading-title').value,
+            const title = document.getElementById('reading-title').value.trim();
+            if (!title) return;
+            reading.push({
+                title,
                 author: document.getElementById('reading-author').value,
-                link: document.getElementById('reading-link').value,
-                notes: document.getElementById('reading-notes').value
-            };
-            if (newBook.title) {
-                reading.push(newBook);
-                renderReading();
-                document.getElementById('reading-title').value = '';
-                document.getElementById('reading-author').value = '';
-                document.getElementById('reading-link').value = '';
-                document.getElementById('reading-notes').value = '';
-            }
+                link:   document.getElementById('reading-link').value,
+                notes:  document.getElementById('reading-notes').value
+            });
+            ['reading-title','reading-author','reading-link','reading-notes']
+                .forEach(id => document.getElementById(id).value = '');
+            renderReading();
         });
 
         function renderReading() {
             document.getElementById('reading-list').innerHTML = reading.map(b => `
                 <div class="p-3 border border-stone-200 rounded-lg">
                     <div class="font-medium text-sm">${b.title}</div>
-                    ${b.author ? `<div class="text-xs text-stone-600">${b.author}</div>` : ''}
-                    ${b.link ? `<div><a href="${b.link}" target="_blank" class="text-xs text-blue-600 underline">Link</a></div>` : ''}
-                    ${b.notes ? `<div class="text-xs text-stone-500 mt-1">${b.notes}</div>` : ''}
+                    ${b.author ? `<div class="text-xs text-stone-500">${b.author}</div>` : ''}
+                    ${b.link   ? `<a href="${b.link}" target="_blank" class="text-xs text-blue-600 underline">Link ↗</a>` : ''}
+                    ${b.notes  ? `<div class="text-xs text-stone-400 mt-1">${b.notes}</div>` : ''}
                 </div>
             `).join('');
         }

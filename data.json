@@ -1,192 +1,5655 @@
 {
-  "exportedAt": "2026-10-05T00:44:47.991528Z",
+  "exportedAt": "2026-10-05T01:13:50.785607+00:00",
   "places": [
     {
-      "id": "seed-places-1",
-      "catalogNo": "PL-001",
-      "status": "want",
+      "title": "Keep It Simple",
+      "detail": "Shop, Honolulu",
+      "category": "Shopping",
+      "address": "Keep It Simple, Honolulu, HI",
       "lat": 21.3069,
       "lng": -157.8583,
-      "address": "Keep It Simple, Honolulu, HI",
       "notes": "Student Discount Thursdays",
-      "category": "Shopping",
-      "title": "Keep It Simple",
-      "geocodeAttempted": true,
-      "pinCheck": true,
       "link": "https://keepitsimplehawaii.com",
-      "price": "$$"
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
     },
     {
-      "id": "seed-places-2",
-      "catalogNo": "PL-002",
-      "status": "want",
+      "title": "AIRAYA U-Pick Farm",
+      "detail": "U-pick farm",
+      "category": "Food",
+      "address": "AIRAYA U-Pick Farm, Contra Costa, CA",
       "lat": 37.8759,
       "lng": -121.9027,
-      "address": "AIRAYA U-Pick Farm, Contra Costa, CA",
-      "category": "Food",
-      "title": "AIRAYA U-Pick Farm",
+      "notes": "U-pick fruit farm in Contra Costa County. Seasonal berries and stone fruit. Great family outing.",
       "link": "https://www.yelp.com/biz/airaya-u-pick-farm",
-      "price": "$",
-      "notes": "U-pick fruit farm in Contra Costa County. Seasonal berries and stone fruit. Great family outing."
+      "price": "$"
     },
     {
-      "id": "seed-places-3",
-      "catalogNo": "PL-003",
-      "status": "want",
+      "title": "Nihonbashi Kaisen Don Tsujihan",
+      "detail": "Seafood donburi restaurant, Nihonbashi branch",
+      "category": "Food",
+      "address": "Nihonbashi Kaisen Don Tsujihan, Nihonbashi, Tokyo, Japan",
       "lat": 35.6836,
       "lng": 139.7745,
-      "address": "Kyuei Building 1F, 3-1-15 Nihonbashi, Chuo-ku, Tokyo 103-0027",
-      "notes": "Famous kaisendon + ochazuke...",
+      "notes": "Famous kaisendon + ochazuke. Order while queuing (up to 2-3 hours wait). Less wait in late afternoon or at Ark Hills/Kagurazaka branches. \u00a51,000\u20133,600 (~$7\u2013$24).",
       "link": "https://www.tsujihan-jp.com/",
-      "category": "Food",
-      "title": "Nihonbashi Kaisen Don Tsujihan",
+      "price": "$$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
+      "pinCheck": true
     },
     {
-      "id": "enriched-48",
-      "catalogNo": "PL-048",
-      "status": "want",
-      "lat": 34.9926,
-      "lng": 135.769,
-      "address": "501 Naka-Uoya-cho, Nakagyo-ku, Kyoto 604-8125, Japan",
-      "notes": "Japanese tea caf\u00e9, matcha sweets, warabimochi, parfaits, anmitsu. Multiple branches in Kyoto (Nishiki Market, Kiyomizu, Arashiyama, Kagurazaka). Hours: Weekdays 10:00-17:00, Weekends 10:00-18:00.",
-      "link": "https://kumonocha.com/",
-      "category": "Food",
-      "title": "KUMONOCHA",
-      "detail": "Kyoto, Japan",
-      "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
+      "title": "Natural Bridges Viewpoint",
+      "detail": "Coastal viewpoint",
+      "category": "Views",
+      "address": "Natural Bridges Viewpoint, Highway 101, Curry County, Oregon",
+      "lat": 42.4374,
+      "lng": -124.4163,
+      "notes": "South of Gold Beach",
+      "link": ""
     },
     {
-      "id": "enriched-49",
-      "catalogNo": "PL-049",
+      "title": "Ori",
+      "detail": "Clothing brand, Honolulu",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "lat": 21.3069,
+      "lng": -157.8583,
+      "notes": "Modern fashion brand celebrating limited collections inspired by neighborhoods and place",
+      "link": "https://www.orihnl.com"
+    },
+    {
+      "title": "'Oa Pacific Legacywear",
+      "detail": "Clothing brand, Rarotonga",
+      "category": "Shopping",
+      "address": "Rarotonga, Cook Islands",
+      "lat": -21.2328,
+      "lng": -159.7776,
+      "notes": "Now selling in-store at Liliko\u2019i Bikini",
+      "link": ""
+    },
+    {
+      "title": "Astoria Fashion Fabrics",
+      "detail": "Fabric shop",
+      "category": "Shopping",
+      "address": "Astoria Fashion Fabrics, 30th Ave, Astoria, Queens, NY",
+      "lat": 40.7714,
+      "lng": -73.9303,
+      "notes": "Near the 30th Ave stop on the N/W",
+      "link": ""
+    },
+    {
+      "title": "Rocket Ahuna",
+      "detail": "Fashion designer, Kanaka Maoli",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Fashion designer marrying hula with fashion",
+      "link": "https://rocketahuna.com"
+    },
+    {
+      "title": "The Lawrence",
+      "detail": "Science museum, Berkeley",
+      "category": "Misc",
+      "address": "The Lawrence Hall of Science, Berkeley, CA",
+      "lat": 37.8784,
+      "lng": -122.2474,
+      "notes": "Co-developing mixed reality exhibits with Ohlone youth",
+      "link": ""
+    },
+    {
+      "title": "Cafe Ohlone",
+      "detail": "Native American restaurant, Berkeley",
+      "category": "Food",
+      "address": "Cafe Ohlone, Berkeley, CA",
+      "lat": 37.8716,
+      "lng": -122.2727,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Mount Trashmore",
+      "detail": "Running trail",
+      "category": "Walking/Running",
+      "address": "Mount Trashmore, Santa Clara, CA",
+      "lat": 37.3382,
+      "lng": -121.8863,
+      "notes": "SCU cross country morning run spot",
+      "link": ""
+    },
+    {
+      "title": "Bay Trail",
+      "detail": "Running trail",
+      "category": "Walking/Running",
+      "address": "Bay Trail, Santa Clara, CA",
+      "lat": 37.3861,
+      "lng": -121.9667,
+      "notes": "SCU cross country morning run spot",
+      "link": ""
+    },
+    {
+      "title": "Churro cart (Hayward)",
+      "detail": "Food vendor",
+      "category": "Food",
+      "address": "32575 Mission Blvd, Hayward, CA 94544",
+      "lat": 37.5527,
+      "lng": -122.0552,
+      "notes": "Grease through the bag \u2014 usually sold out before he leaves",
+      "link": ""
+    },
+    {
+      "title": "Hawk Hill",
+      "detail": "Coastal viewpoint hike, ~1.3mi RT, easy",
+      "category": "Walking/Running",
+      "address": "Hawk Hill, Marin Headlands, Golden Gate National Recreation Area, CA",
+      "lat": 37.8284,
+      "lng": -122.4997,
+      "notes": "Gets windy and cold \u2014 bring more layers than you think. Best for golden hour / SF skyline views",
+      "link": ""
+    },
+    {
+      "title": "Yakiniku Like",
+      "detail": "Yakiniku restaurant, Honolulu",
+      "category": "Food",
+      "address": "Yakiniku Like, Honolulu, HI",
+      "lat": 21.2972,
+      "lng": -157.8546,
+      "notes": "Cheap yakiniku \u2014 sets and a la carte from a few dollars a cut",
+      "link": ""
+    },
+    {
+      "title": "Mahina Made",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://mahinamade.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Yireh",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Kapalili",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://kapalili.store/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Tiara Koba",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://www.tiarakoba.com/shop/p/lei-poo-vintage-stripe-cropped-tee"
+    },
+    {
+      "title": "dolkii",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "tekoru",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Hula lei designs",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Erika",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://www.shop-erika.com/products"
+    },
+    {
+      "title": "Po-em",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://po-em.studio/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Trades Hawaii",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://tradeshawaii.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Kahua Collective",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://kahuacollective.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Sig Zane Designs",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Always Aline",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Urban Island Society",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Clothing",
+      "link": "https://urbanislandsociety.us/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Aokai Swim",
+      "detail": "Swim",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Swim",
+      "link": "https://aokaiswim.com/collections/collection-04",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Kuniko Swim",
+      "detail": "Swim",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Swim",
+      "link": "https://www.kunikoswim.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Lahea Swim",
+      "detail": "Swim",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Swim",
+      "link": ""
+    },
+    {
+      "title": "Lou Swim",
+      "detail": "Swim",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Swim",
+      "link": ""
+    },
+    {
+      "title": "Charmies of Kona \u2014 Naupaka Ring",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Jewelry",
+      "link": "https://www.charmiesofkona.com/product-page/naupaka-band-ring"
+    },
+    {
+      "title": "Hina's Treasures",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Jewelry",
+      "link": "https://hinastreasureshawaii.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Arlie Glass",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Jewelry",
+      "link": "https://www.arlie-glass.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Na Wehi",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Jewelry",
+      "link": "https://nawehi.com",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Keiko",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Jewelry",
+      "link": ""
+    },
+    {
+      "title": "ksea made",
+      "detail": "Bags",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Bags",
+      "link": ""
+    },
+    {
+      "title": "Ammi Handmade",
+      "detail": "Bags",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Bags",
+      "link": "https://ammihandmade.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Oceans End",
+      "detail": "Bags",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Bags",
+      "link": ""
+    },
+    {
+      "title": "Liana Lola",
+      "detail": "Bags",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Bags",
+      "link": ""
+    },
+    {
+      "title": "ua body",
+      "detail": "Body / Skin",
+      "category": "Shopping",
+      "address": "Honolulu, HI",
+      "notes": "HNL \u2014 Body / Skin",
+      "link": "https://uabody.com/",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "kai's groove",
+      "detail": "Body / Skin",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Body / Skin",
+      "link": ""
+    },
+    {
+      "title": "Punky Aloha",
+      "detail": "Art",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Art",
+      "link": ""
+    },
+    {
+      "title": "Hunneh Girl Tingz",
+      "detail": "Art",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Art",
+      "link": ""
+    },
+    {
+      "title": "Lauren Roth",
+      "detail": "Art",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Art",
+      "link": ""
+    },
+    {
+      "title": "Kelsie Dayna",
+      "detail": "Art",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Art",
+      "link": ""
+    },
+    {
+      "title": "plant hawaii",
+      "detail": "Flowers",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Flowers",
+      "link": ""
+    },
+    {
+      "title": "Pua Blooms Flower Truck",
+      "detail": "Flowers",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Flowers",
+      "link": ""
+    },
+    {
+      "title": "Island Blooms",
+      "detail": "Flowers",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Flowers",
+      "link": "https://islandbloomflorals.com/"
+    },
+    {
+      "title": "Haus of Puas",
+      "detail": "Flowers",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Flowers",
+      "link": ""
+    },
+    {
+      "title": "Yay Hawaii",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": "https://yayhawaiijewelry.com/collections/pikake-print-products/products/copy-of-double-pikake-lei-tyvek-tote"
+    },
+    {
+      "title": "Aloha de Mele",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": "https://alohademele.com/"
+    },
+    {
+      "title": "Resin Ellie 808",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": "https://resinellie808.com/"
+    },
+    {
+      "title": "Kahomelani's",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": "https://kahomelanis.com/"
+    },
+    {
+      "title": "Lei'ohu Designs",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": "https://www.leiohudesigns.com/"
+    },
+    {
+      "title": "Tag Aloha",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "Hale Pua",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "Hapa Girl",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "SunDaes",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": "https://shopsundaes.com/collections"
+    },
+    {
+      "title": "hapa honey",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "Manukapu bermudes",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "Pop-Up Makeke",
+      "detail": "Collective",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Collective",
+      "link": "https://popupmakeke.com/"
+    },
+    {
+      "title": "K\u0101kou Collective",
+      "detail": "Collective",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Collective",
+      "link": "https://kakoucollective.com/"
+    },
+    {
+      "title": "hawaii kine products",
+      "detail": "Collective",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Collective",
+      "link": ""
+    },
+    {
+      "title": "ho'omau market",
+      "detail": "Collective",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Collective",
+      "link": ""
+    },
+    {
+      "title": "BlueTree Kaka\u02bbako",
+      "detail": "WFH cafe",
+      "category": "Food",
+      "address": "Kaka\u02bbako, Honolulu, HI",
+      "notes": "HNL \u2014 WFH cafe",
+      "link": "https://www.google.com/maps/place/Bluetree+Cafe+Kakaako",
+      "lat": 21.2983,
+      "lng": -157.8635
+    },
+    {
+      "title": "Salt",
+      "detail": "WFH",
+      "category": "Misc",
+      "address": "",
+      "notes": "HNL \u2014 WFH",
+      "link": ""
+    },
+    {
+      "title": "Hawaii State Library",
+      "detail": "WFH",
+      "category": "Misc",
+      "address": "Hawaii State Library, Honolulu, HI",
+      "notes": "HNL \u2014 WFH",
+      "link": "",
+      "lat": 21.3073,
+      "lng": -157.8593
+    },
+    {
+      "title": "Maya Bauman",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "",
+      "notes": "SFO \u2014 Jewelry",
+      "link": "https://mayabauman.com/"
+    },
+    {
+      "title": "anda the label",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "SFO \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "on waverly",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "SFO \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "zero waste store",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "SFO \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "Daisy Refillery",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "SFO \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "SF Flower Mart",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "SF Flower Mart, San Francisco, CA",
+      "notes": "SFO \u2014 Misc",
+      "link": "",
+      "lat": 37.7706,
+      "lng": -122.4124
+    },
+    {
+      "title": "Little Friends of Printmaking",
+      "detail": "Misc",
+      "category": "Shopping",
+      "address": "",
+      "notes": "SFO \u2014 Misc",
+      "link": ""
+    },
+    {
+      "title": "Mia Fleur",
+      "detail": "Running",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Running",
+      "link": ""
+    },
+    {
+      "title": "None Other",
+      "detail": "Running",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Running",
+      "link": "https://noneotherclothing.com/"
+    },
+    {
+      "title": "Craighill",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": "https://craighill.co/"
+    },
+    {
+      "title": "Finnish Design Shop",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": "https://www.finnishdesignshop.com/en-us/"
+    },
+    {
+      "title": "Open Spaces",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": "https://getopenspaces.com/"
+    },
+    {
+      "title": "Orbitkey",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": "https://www.orbitkey.com/"
+    },
+    {
+      "title": "West Elm",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": ""
+    },
+    {
+      "title": "West Elm Kids",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": ""
+    },
+    {
+      "title": "Elle Stvdio",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": ""
+    },
+    {
+      "title": "Ototo Design",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": ""
+    },
+    {
+      "title": "New Things Lab",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": "https://newthingslab.com/"
+    },
+    {
+      "title": "Mikasa",
+      "detail": "Home / Design",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Home / Design",
+      "link": "https://www.mikasa.com/"
+    },
+    {
+      "title": "Thrive Market",
+      "detail": "Grocery",
+      "category": "Food",
+      "address": "",
+      "notes": "Online \u2014 Grocery",
+      "link": "https://thrivemarket.com/"
+    },
+    {
+      "title": "Ni De Mama",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Clothing",
+      "link": "https://nidemama.com/"
+    },
+    {
+      "title": "Popflex",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Nocontext",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "SSQRD",
+      "detail": "Clothing",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Clothing",
+      "link": ""
+    },
+    {
+      "title": "Atolea",
+      "detail": "Jewelry",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Jewelry",
+      "link": "https://atoleajewelry.com/collections/waterproof-jewelry"
+    },
+    {
+      "title": "BrightSpotDesign",
+      "detail": "Art",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Online \u2014 Art",
+      "link": ""
+    },
+    {
+      "title": "Shaws Cove",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 33.5456,
+      "lng": -117.7983,
+      "status": "want"
+    },
+    {
+      "title": "Isabella Stewart Gardner Museum",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 42.3381,
+      "lng": -71.0991,
+      "status": "want"
+    },
+    {
+      "title": "Buffalo Bayou Park Cistern",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 29.7624,
+      "lng": -95.376,
+      "status": "want"
+    },
+    {
+      "title": "Pulgas Water Temple",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.4835,
+      "lng": -122.3165,
+      "status": "want"
+    },
+    {
+      "title": "Mount Tamalpais",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.9235,
+      "lng": -122.5965,
+      "status": "want"
+    },
+    {
+      "title": "Montara State Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.5469,
+      "lng": -122.5149,
+      "status": "want"
+    },
+    {
+      "title": "Lovers Point",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.6266,
+      "lng": -121.9155,
+      "status": "want"
+    },
+    {
+      "title": "Sutro Baths",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7804,
+      "lng": -122.5136,
+      "status": "want"
+    },
+    {
+      "title": "Alviso Marina County Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.4304,
+      "lng": -121.9795,
+      "status": "want"
+    },
+    {
+      "title": "Maisie's Peak",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.2845,
+      "lng": -122.0662,
+      "status": "want"
+    },
+    {
+      "title": "Beaver Falls",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.2825,
+      "lng": -112.7294,
+      "status": "want"
+    },
+    {
+      "title": "Coyote Buttes",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.9678,
+      "lng": -112.0113,
+      "status": "want"
+    },
+    {
+      "title": "Gold Bluffs Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 41.3965,
+      "lng": -124.0684,
+      "status": "want"
+    },
+    {
+      "title": "Wavecrest Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.4473,
+      "lng": -122.4448,
+      "status": "want"
+    },
+    {
+      "title": "Camp Ohlone Road",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.5048,
+      "lng": -121.8252,
+      "status": "want"
+    },
+    {
+      "title": "Sharp Park Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.6324,
+      "lng": -122.4947,
+      "status": "want"
+    },
+    {
+      "title": "Alabama Hills",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.5677,
+      "lng": -118.0898,
+      "status": "want"
+    },
+    {
+      "title": "Zabriskie Point",
+      "detail": "views",
+      "category": "Views",
+      "notes": "SUNRISE!",
+      "lat": 36.4201,
+      "lng": -116.8122,
+      "status": "want"
+    },
+    {
+      "title": "Badwater Basin",
+      "detail": "views",
+      "category": "Views",
+      "notes": "salt flats 1 mi hike from parking lot",
+      "lat": 36.23,
+      "lng": -116.7678,
+      "status": "want"
+    },
+    {
+      "title": "Trojan Point",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.9047,
+      "lng": -122.614,
+      "status": "want"
+    },
+    {
+      "title": "Waterhole Canyon",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.0789,
+      "lng": -111.6518,
+      "status": "want"
+    },
+    {
+      "title": "Pirates Cove Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 35.176,
+      "lng": -120.7159,
+      "status": "want"
+    },
+    {
+      "title": "Corona Heights Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.7653,
+      "lng": -122.4386,
+      "status": "want"
+    },
+    {
+      "title": "Raufarh\u00f6fn",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 66.4544,
+      "lng": -15.9505,
+      "status": "want"
+    },
+    {
+      "title": "Salt Creek Beach Bluff Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 33.4767,
+      "lng": -117.7204,
+      "status": "want"
+    },
+    {
+      "title": "Keyhole Arch at Pfeiffer Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.2382,
+      "lng": -121.8174,
+      "status": "want"
+    },
+    {
+      "title": "Mussel Rock Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.6684,
+      "lng": -122.4942,
+      "status": "want"
+    },
+    {
+      "title": "The Thinker",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.7847,
+      "lng": -122.5005,
+      "status": "want"
+    },
+    {
+      "title": "Yerba Buena Gardens",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.785,
+      "lng": -122.4024,
+      "status": "want"
+    },
+    {
+      "title": "Monta\u00f1a de Oro State Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 35.2576,
+      "lng": -120.8556,
+      "status": "want"
+    },
+    {
+      "title": "Point Reyes",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 38.0178,
+      "lng": -122.9913,
+      "status": "want"
+    },
+    {
+      "title": "Calla Lily Valley",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.4219,
+      "lng": -121.9135,
+      "status": "want"
+    },
+    {
+      "title": "Sunset Cliffs",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 32.7252,
+      "lng": -117.2531,
+      "status": "want"
+    },
+    {
+      "title": "Alamere Falls",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.9537,
+      "lng": -122.7834,
+      "status": "want"
+    },
+    {
+      "title": "McWay Falls",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 36.1578,
+      "lng": -121.6722,
+      "status": "want"
+    },
+    {
+      "title": "Japanese Friendship Garden",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.3219,
+      "lng": -121.8599,
+      "status": "want"
+    },
+    {
+      "title": "Sierra Vista Open Space Preserve",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.4092,
+      "lng": -121.8016,
+      "status": "want"
+    },
+    {
+      "title": "Parque Nacional dos Len\u00e7\u00f3is Maranhenses",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": -2.4859,
+      "lng": -43.1284,
+      "status": "want"
+    },
+    {
+      "title": "The Frick Pittsburgh Museums & Gardens",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 40.4475,
+      "lng": -79.9018,
+      "status": "want"
+    },
+    {
+      "title": "The Getty",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 34.0773,
+      "lng": -118.4733,
+      "status": "want"
+    },
+    {
+      "title": "James Turrell Skyspace",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 34.1002,
+      "lng": -117.7132,
+      "status": "want"
+    },
+    {
+      "title": "Noguchi Garden",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 33.6891,
+      "lng": -117.8822,
+      "status": "want"
+    },
+    {
+      "title": "Pogonip Koi Pond",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.0002,
+      "lng": -122.0483,
+      "status": "want"
+    },
+    {
+      "title": "Nestldown",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.1462,
+      "lng": -121.9689,
+      "status": "want"
+    },
+    {
+      "title": "Dumbarton Oaks Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 38.9157,
+      "lng": -77.0617,
+      "status": "want"
+    },
+    {
+      "title": "Sandy Gully Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": -38.4594,
+      "lng": 144.1128,
+      "status": "want"
+    },
+    {
+      "title": "Morro Creek",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 35.3764,
+      "lng": -120.8643,
+      "status": "want"
+    },
+    {
+      "title": "Dinosaur Caves Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 35.1542,
+      "lng": -120.6658,
+      "status": "done"
+    },
+    {
+      "title": "Foothills Nature Preserve",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.363,
+      "lng": -122.1718,
+      "status": "done"
+    },
+    {
+      "title": "Stanford Dish",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.4086,
+      "lng": -122.1796,
+      "status": "done"
+    },
+    {
+      "title": "CCRMA Stanford Center for Computer Research in Music and Acoustics",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.421,
+      "lng": -122.1724,
+      "status": "done"
+    },
+    {
+      "title": "Albany Bulb",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.8898,
+      "lng": -122.3247,
+      "status": "done"
+    },
+    {
+      "title": "Crissy Field",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.804,
+      "lng": -122.465,
+      "status": "done"
+    },
+    {
+      "title": "Palace of Fine Arts",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.8029,
+      "lng": -122.4484,
+      "status": "done"
+    },
+    {
+      "title": "Golden Gate Park",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.7694,
+      "lng": -122.4862,
+      "status": "done"
+    },
+    {
+      "title": "Thornton State Beach",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.6981,
+      "lng": -122.496,
+      "status": "done"
+    },
+    {
+      "title": "Ferry Building",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.7954,
+      "lng": -122.3936,
+      "status": "done"
+    },
+    {
+      "title": "Sausalito",
+      "detail": "views",
+      "category": "Views",
+      "notes": "",
+      "lat": 37.8591,
+      "lng": -122.4853,
+      "status": "done"
+    },
+    {
+      "title": "Saratoga Gap Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.2411,
+      "lng": -122.1196,
+      "status": "want"
+    },
+    {
+      "title": "Grabtown Gulch Trailhead",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.422,
+      "lng": -122.3372,
+      "status": "want"
+    },
+    {
+      "title": "Golden Canyon Trailhead",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "3 mi round trip hike, moderate w/ elevation",
+      "lat": 36.4207,
+      "lng": -116.8466,
+      "status": "want"
+    },
+    {
+      "title": "Bluff Creek trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 33.9755,
+      "lng": -118.4092,
+      "status": "want"
+    },
+    {
+      "title": "Bayview Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.5546,
+      "lng": -122.0921,
+      "status": "want"
+    },
+    {
+      "title": "The Wave Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "https://www.thewave.info/",
+      "lat": 37.0088,
+      "lng": -112.0067,
+      "status": "want"
+    },
+    {
+      "title": "Stream Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.82,
+      "lng": -122.1664,
+      "status": "want"
+    },
+    {
+      "title": "Devil's Slide Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.583,
+      "lng": -122.5151,
+      "status": "want"
+    },
+    {
+      "title": "Waterfall Loop",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.0821,
+      "lng": -121.7987,
+      "status": "want"
+    },
+    {
+      "title": "Flat Rock Beach Trailhead",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 32.9197,
+      "lng": -117.253,
+      "status": "want"
+    },
+    {
+      "title": "Stonewall Peak",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 32.961,
+      "lng": -116.5719,
+      "status": "want"
+    },
+    {
+      "title": "Tall Trees Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 41.2087,
+      "lng": -124.0035,
+      "status": "want"
+    },
+    {
+      "title": "Fern Canyon Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 41.4023,
+      "lng": -124.0618,
+      "status": "want"
+    },
+    {
+      "title": "Cypress Grove Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 36.521,
+      "lng": -121.9517,
+      "status": "want"
+    },
+    {
+      "title": "Immigrant Point Overlook",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7962,
+      "lng": -122.4779,
+      "status": "want"
+    },
+    {
+      "title": "Cataract Falls",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.9318,
+      "lng": -122.6354,
+      "status": "want"
+    },
+    {
+      "title": "Kolekole Hike",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 21.4751,
+      "lng": -158.1136,
+      "status": "want"
+    },
+    {
+      "title": "Davidson, Mount",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7383,
+      "lng": -122.4533,
+      "status": "want"
+    },
+    {
+      "title": "Brushy Peak Loop Trail & West Side Loop Trail",
+      "detail": "hike",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7585,
+      "lng": -121.7109,
+      "status": "want"
+    },
+    {
+      "title": "San Francisco Botanical Garden",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7677,
+      "lng": -122.4693,
+      "status": "want"
+    },
+    {
+      "title": "Vasona Reservoir",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.2438,
+      "lng": -121.9694,
+      "status": "want"
+    },
+    {
+      "title": "Ulistac Natural Area",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.4038,
+      "lng": -121.9544,
+      "status": "want"
+    },
+    {
+      "title": "Home Coffee Roasters",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7823,
+      "lng": -122.481,
+      "status": "want"
+    },
+    {
+      "title": "The Richfield",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.785,
+      "lng": -122.4637,
+      "status": "want"
+    },
+    {
+      "title": "Andytown Coffee Roasters",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7728,
+      "lng": -122.5107,
+      "status": "want"
+    },
+    {
+      "title": "Arsicault Bakery",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7834,
+      "lng": -122.4593,
+      "status": "want"
+    },
+    {
+      "title": "\u00c9mile Anthoine Stadium",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 48.8562,
+      "lng": 2.2912,
+      "status": "want"
+    },
+    {
+      "title": "Almaden Quicksilver County Park",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.1889,
+      "lng": -121.8579,
+      "status": "want"
+    },
+    {
+      "title": "Rancho San Antonio Open Space Preserve",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.336,
+      "lng": -122.0912,
+      "status": "want"
+    },
+    {
+      "title": "Stevens Creek County Park",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.3054,
+      "lng": -122.0739,
+      "status": "want"
+    },
+    {
+      "title": "Magnolia Road",
+      "detail": "runs",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 39.974,
+      "lng": -105.4259,
+      "status": "want"
+    },
+    {
+      "title": "Crissy Field East Beach",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.8064,
+      "lng": -122.4507,
+      "status": "done"
+    },
+    {
+      "title": "Golden Gate Bridge",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.8199,
+      "lng": -122.4783,
+      "status": "done"
+    },
+    {
+      "title": "Ocean Beach",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7594,
+      "lng": -122.5107,
+      "status": "done"
+    },
+    {
+      "title": "Lake Lagunita",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.4233,
+      "lng": -122.1761,
+      "status": "done"
+    },
+    {
+      "title": "Lands End Trail",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7858,
+      "lng": -122.5034,
+      "status": "done"
+    },
+    {
+      "title": "Presidio of San Francisco",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.7924,
+      "lng": -122.481,
+      "status": "done"
+    },
+    {
+      "title": "John F Kennedy Promenade",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.771,
+      "lng": -122.4732,
+      "status": "done"
+    },
+    {
+      "title": "Great Meadow Park at Fort Mason",
+      "detail": "run",
+      "category": "Walking/Running",
+      "notes": "",
+      "lat": 37.8048,
+      "lng": -122.4304,
+      "status": "done"
+    },
+    {
+      "title": "Black Cat Jazz Supper Club",
+      "detail": "music",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7838,
+      "lng": -122.4145,
+      "status": "want"
+    },
+    {
+      "title": "Lee's Sax Worx",
+      "detail": "music",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7428,
+      "lng": -122.4848,
+      "status": "want"
+    },
+    {
+      "title": "Amoeba Music",
+      "detail": "music",
+      "category": "Misc",
+      "notes": "Legendary independent record store. Vinyl, CDs, rare finds. Haight-Ashbury. Mon-Sat 11am-8pm, Sun 11am-7pm.",
+      "lat": 37.7706,
+      "lng": -122.4545,
       "status": "want",
+      "link": "https://www.amoeba.com/",
+      "address": "1855 Haight St, San Francisco, CA 94117",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Originals Vinyl",
+      "detail": "music",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7759,
+      "lng": -122.4314,
+      "status": "want"
+    },
+    {
+      "title": "The Baked Potato",
+      "detail": "music",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.1367,
+      "lng": -118.3631,
+      "status": "want"
+    },
+    {
+      "title": "Happy Family Gourmet Inc",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7432,
+      "lng": -122.4775,
+      "status": "want"
+    },
+    {
+      "title": "Gion Shirakawa Ramen",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 35.0076,
+      "lng": 135.7786,
+      "status": "want"
+    },
+    {
+      "title": "Home Plate",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.8,
+      "lng": -122.4372,
+      "status": "want"
+    },
+    {
+      "title": "Crepes On Cole",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7659,
+      "lng": -122.4502,
+      "status": "want"
+    },
+    {
+      "title": "Luke's Lobster SoMa",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.788,
+      "lng": -122.4,
+      "status": "want"
+    },
+    {
+      "title": "The Mochi Donut Shop",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7636,
+      "lng": -122.4808,
+      "status": "want"
+    },
+    {
+      "title": "Il Parco",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.8019,
+      "lng": -122.4563,
+      "status": "want"
+    },
+    {
+      "title": "Fitchi House",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 47.6612,
+      "lng": -122.3238,
+      "status": "want"
+    },
+    {
+      "title": "Kanadaya",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 35.6707,
+      "lng": 139.7638,
+      "status": "want"
+    },
+    {
+      "title": "Q Bistro",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 36.1272,
+      "lng": -115.2241,
+      "status": "want"
+    },
+    {
+      "title": "Shin-Yokohama Ramen Museum",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 35.5099,
+      "lng": 139.6146,
+      "status": "want"
+    },
+    {
+      "title": "Yokai",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7888,
+      "lng": -122.3985,
+      "status": "want"
+    },
+    {
+      "title": "Offshore 9 Rooftop Lounge",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 33.6528,
+      "lng": -117.9942,
+      "status": "want"
+    },
+    {
+      "title": "Far from Paradise Cafe",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7232,
+      "lng": -122.4431,
+      "status": "want"
+    },
+    {
+      "title": "Gran Blanco",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 33.9875,
+      "lng": -118.4723,
+      "status": "want"
+    },
+    {
+      "title": "Arcana",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7568,
+      "lng": -122.4191,
+      "status": "want"
+    },
+    {
+      "title": "Madison",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 32.7615,
+      "lng": -117.1465,
+      "status": "want"
+    },
+    {
+      "title": "Palmys Cafe",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 32.7985,
+      "lng": -117.2524,
+      "status": "want"
+    },
+    {
+      "title": "Daydream",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 33.6327,
+      "lng": -117.9343,
+      "status": "want"
+    },
+    {
+      "title": "Pearl 6101",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7838,
+      "lng": -122.483,
+      "status": "want"
+    },
+    {
+      "title": "Chubby Noodle",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.8007,
+      "lng": -122.4079,
+      "status": "want"
+    },
+    {
+      "title": "Tacko",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7983,
+      "lng": -122.4359,
+      "status": "want"
+    },
+    {
+      "title": "Cuban Media Noche Counter",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7568,
+      "lng": -122.4188,
+      "status": "want"
+    },
+    {
+      "title": "Nopa",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7749,
+      "lng": -122.4375,
+      "status": "want"
+    },
+    {
+      "title": "Coqueta",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7986,
+      "lng": -122.3966,
+      "status": "want"
+    },
+    {
+      "title": "El Techo",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7566,
+      "lng": -122.4193,
+      "status": "want"
+    },
+    {
+      "title": "District Tea",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7625,
+      "lng": -122.4196,
+      "status": "want"
+    },
+    {
+      "title": "LoveBite Dumplings (Formerly Lovesack Dumplings)",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 33.4588,
+      "lng": -112.0717,
+      "status": "want"
+    },
+    {
+      "title": "Kaimuki Shokudo",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 21.2823,
+      "lng": -157.8003,
+      "status": "want"
+    },
+    {
+      "title": "Dough Zone Dumpling House Cupertino",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.3254,
+      "lng": -122.0117,
+      "status": "want"
+    },
+    {
+      "title": "La La Land Kind Cafe",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 34.0328,
+      "lng": -118.4943,
+      "status": "want"
+    },
+    {
+      "title": "Kingyubu",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 34.0574,
+      "lng": -118.2953,
+      "status": "want"
+    },
+    {
+      "title": "The Story of Ramen",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7522,
+      "lng": -122.417,
+      "status": "want"
+    },
+    {
+      "title": "Mychal's Caf\u00e9",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 33.8726,
+      "lng": -118.3703,
+      "status": "want"
+    },
+    {
+      "title": "Mark's Kitchen",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 36.7502,
+      "lng": -119.7355,
+      "status": "want"
+    },
+    {
+      "title": "Malibu Seafood",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 34.0338,
+      "lng": -118.7351,
+      "status": "want"
+    },
+    {
+      "title": "Pho Ha Noi",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.3216,
+      "lng": -122.0319,
+      "status": "want"
+    },
+    {
+      "title": "Shadowbrook Restaurant",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 36.9746,
+      "lng": -121.9558,
+      "status": "want"
+    },
+    {
+      "title": "Wagaya",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 21.2947,
+      "lng": -157.8284,
+      "status": "want"
+    },
+    {
+      "title": "Boots & Kimo's Homestyle Kitchen",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 21.3777,
+      "lng": -157.7297,
+      "status": "want"
+    },
+    {
+      "title": "Santo Market Inc",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.3517,
+      "lng": -121.8953,
+      "status": "want"
+    },
+    {
+      "title": "Altro Frenchie",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 48.8677,
+      "lng": 2.3478,
+      "status": "want"
+    },
+    {
+      "title": "Andys",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 34.0817,
+      "lng": -118.3892,
+      "status": "want"
+    },
+    {
+      "title": "Q Sushi",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 34.1472,
+      "lng": -118.795,
+      "status": "want"
+    },
+    {
+      "title": "Ko",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.762,
+      "lng": -122.4192,
+      "status": "want"
+    },
+    {
+      "title": "16185 Brookhurst St",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 33.7274,
+      "lng": -117.9554,
+      "status": "want"
+    },
+    {
+      "title": "Homeroom",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.8286,
+      "lng": -122.2599,
+      "status": "done"
+    },
+    {
+      "title": "Rocko's Ice Cream Tacos",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.3456,
+      "lng": -121.9376,
+      "status": "done"
+    },
+    {
+      "title": "Noodle St",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 34.1459,
+      "lng": -118.1486,
+      "status": "done"
+    },
+    {
+      "title": "Garden Creamery",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7587,
+      "lng": -122.4204,
+      "status": "done"
+    },
+    {
+      "title": "Eggettes",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7535,
+      "lng": -122.4976,
+      "status": "done"
+    },
+    {
+      "title": "Mitchell's Ice Cream",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7442,
+      "lng": -122.4228,
+      "status": "done"
+    },
+    {
+      "title": "El Farolito",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.7985,
+      "lng": -122.4071,
+      "status": "done"
+    },
+    {
+      "title": "Radhaus",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.8064,
+      "lng": -122.4322,
+      "status": "done"
+    },
+    {
+      "title": "Scoma's Restaurant",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "Classic San Francisco seafood. Italian-American. Fisherman's Wharf institution. Crab & pasta.",
+      "lat": 37.7975,
+      "lng": -122.4168,
+      "status": "done",
+      "link": "https://www.scomas.com/",
+      "price": "$$$",
+      "address": "1965 Powell St, San Francisco, CA 94133",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Franciscan Crab Restaurant",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.8091,
+      "lng": -122.4146,
+      "status": "done"
+    },
+    {
+      "title": "Frostcity",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 21.2926,
+      "lng": -157.8222,
+      "status": "done"
+    },
+    {
+      "title": "Sweethoney Dessert",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.6779,
+      "lng": -122.4695,
+      "status": "done"
+    },
+    {
+      "title": "Dumpling Capital",
+      "detail": "eats",
+      "category": "Food",
+      "notes": "",
+      "lat": 37.3234,
+      "lng": -121.9922,
+      "status": "done"
+    },
+    {
+      "title": "post.script.",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7888,
+      "lng": -122.4342,
+      "status": "want"
+    },
+    {
+      "title": "Pigment",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 32.7414,
+      "lng": -117.2114,
+      "status": "want"
+    },
+    {
+      "title": "Moniker General",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 32.741,
+      "lng": -117.2113,
+      "status": "want"
+    },
+    {
+      "title": "Mai Do - Fine Stationery & Goods - Santana Row",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.3194,
+      "lng": -121.9476,
+      "status": "want"
+    },
+    {
+      "title": "Needles & Pens",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7542,
+      "lng": -122.4207,
+      "status": "want"
+    },
+    {
+      "title": "The Aesthetic Union",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7622,
+      "lng": -122.4119,
+      "status": "want"
+    },
+    {
+      "title": "Fog City Flea Trading Post",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.795,
+      "lng": -122.3927,
+      "status": "want"
+    },
+    {
+      "title": "Picnic",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7936,
+      "lng": -122.4211,
+      "status": "want"
+    },
+    {
+      "title": "ANOMIE",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7971,
+      "lng": -122.4347,
+      "status": "want"
+    },
+    {
+      "title": "GENERAL STORE",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7603,
+      "lng": -122.5055,
+      "status": "want"
+    },
+    {
+      "title": "The Perish Trust",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.7764,
+      "lng": -122.4379,
+      "status": "want"
+    },
+    {
+      "title": "Tanger Outlets Phoenix",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 33.5342,
+      "lng": -112.2667,
+      "status": "want"
+    },
+    {
+      "title": "Makers Market",
+      "detail": "Trinkets",
+      "category": "Shopping",
+      "notes": "",
+      "lat": 37.3195,
+      "lng": -121.9476,
+      "status": "want"
+    },
+    {
+      "title": "Coex Aquarium",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.5131,
+      "lng": 127.0583,
+      "status": "want"
+    },
+    {
+      "title": "San Francisco Flower Market",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7763,
+      "lng": -122.4003,
+      "status": "want"
+    },
+    {
+      "title": "Cary Lane",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7696,
+      "lng": -122.4491,
+      "status": "want"
+    },
+    {
+      "title": "Blue Bin Vintage",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7697,
+      "lng": -122.4474,
+      "status": "want"
+    },
+    {
+      "title": "Bay Street Emeryville",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.8349,
+      "lng": -122.2922,
+      "status": "want"
+    },
+    {
+      "title": "Boston Common",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 42.3551,
+      "lng": -71.0657,
+      "status": "want"
+    },
+    {
+      "title": "Sirena Vineyard Resort and Winery",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 35.6582,
+      "lng": -120.7635,
+      "status": "want"
+    },
+    {
+      "title": "MAUM Market ROW DTLA",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.0343,
+      "lng": -118.2408,
+      "status": "want"
+    },
+    {
+      "title": "No. 165, Chengdu Rd",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "Cat Cafe!",
+      "lat": 25.0439,
+      "lng": 121.5023,
+      "status": "want"
+    },
+    {
+      "title": "Yant Studio - Forest Hills",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 40.7184,
+      "lng": -73.8412,
+      "status": "want"
+    },
+    {
+      "title": "Silver Lake Pool & Inn",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.0918,
+      "lng": -118.2828,
+      "status": "want"
+    },
+    {
+      "title": "Laguna Beach House",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "TRY CODE \u2018ALEISHA\u2019 AT CHECKOUT TO GET 10% OFF YOUR NEXT STAY!",
+      "lat": 33.5447,
+      "lng": -117.7916,
+      "status": "want"
+    },
+    {
+      "title": "Ace Hotel New York",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 40.7457,
+      "lng": -73.9884,
+      "status": "want"
+    },
+    {
+      "title": "Isalis",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7913,
+      "lng": -122.4341,
+      "status": "want"
+    },
+    {
+      "title": "Le Bouquet Flower Shop",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.797,
+      "lng": -122.4357,
+      "status": "want"
+    },
+    {
+      "title": "La Fontelina",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 40.5438,
+      "lng": 14.2511,
+      "status": "want"
+    },
+    {
+      "title": "Onyado Nono Kyoto Shichijo",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.989,
+      "lng": 135.7624,
+      "status": "want"
+    },
+    {
+      "title": "White Water",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 35.5796,
+      "lng": -121.1164,
+      "status": "want"
+    },
+    {
+      "title": "The Tech Interactive",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.3315,
+      "lng": -121.8902,
+      "status": "want"
+    },
+    {
+      "title": "Photoworks SF",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.7646,
+      "lng": -122.4323,
+      "status": "want"
+    },
+    {
+      "title": "In-N-Out Burger University",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.0678,
+      "lng": -117.9743,
+      "status": "want"
+    },
+    {
+      "title": "THE ASOBOARD \u6843\u8c37\u5e97 \u30a2\u30bd\u30dc\u30fc\u30c9",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.6588,
+      "lng": 135.5363,
+      "status": "want"
+    },
+    {
+      "title": "Rotary PlayGarden",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.3419,
+      "lng": -121.9048,
+      "status": "want"
+    },
+    {
+      "title": "Greedy Scent Bukchon (\uadf8\ub9ac\ub514\uc13c\ud2b8 \ubd81\ucd0c)",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.5821,
+      "lng": 126.982,
+      "status": "want"
+    },
+    {
+      "title": "Muji Hotel Ginza",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 35.6732,
+      "lng": 139.7657,
+      "status": "want"
+    },
+    {
+      "title": "ann fragrance",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 35.6724,
+      "lng": 139.7105,
+      "status": "want"
+    },
+    {
+      "title": "UNIQLO PARK",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 35.3813,
+      "lng": 139.6468,
+      "status": "want"
+    },
+    {
+      "title": "BUJI DESIGN Boston",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 42.3484,
+      "lng": -71.086,
+      "status": "want"
+    },
+    {
+      "title": "Vizcaya Museum & Gardens",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 25.7444,
+      "lng": -80.2105,
+      "status": "want"
+    },
+    {
+      "title": "Murrieta Hot Springs",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 33.5582,
+      "lng": -117.156,
+      "status": "want"
+    },
+    {
+      "title": "Dillon Beach Resort",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 38.2498,
+      "lng": -122.9648,
+      "status": "want"
+    },
+    {
+      "title": "unimocc art cafe gallery",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 34.674,
+      "lng": 135.5175,
+      "status": "want"
+    },
+    {
+      "title": "EMMA \u2013 Espoo Museum of Modern Art",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 60.1787,
+      "lng": 24.7947,
+      "status": "want"
+    },
+    {
+      "title": "Lindsay Wildlife Experience",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.9235,
+      "lng": -122.0757,
+      "status": "want"
+    },
+    {
+      "title": "LEGOLAND Discovery Center Bay Area",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.4167,
+      "lng": -121.8967,
+      "status": "want"
+    },
+    {
+      "title": "Bay Area Discovery Museum",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 37.8356,
+      "lng": -122.4768,
+      "status": "want"
+    },
+    {
+      "title": "Kimono Reborn Tokyo",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 35.714,
+      "lng": 139.8006,
+      "status": "want"
+    },
+    {
+      "title": "The River Electric",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 38.4984,
+      "lng": -122.9937,
+      "status": "want"
+    },
+    {
+      "title": "Pier 57",
+      "detail": "misc",
+      "category": "Misc",
+      "notes": "",
+      "lat": 40.7434,
+      "lng": -74.009,
+      "status": "want"
+    },
+    {
+      "title": "Katsu Zen",
+      "detail": "Hawaii's first solo dining katsu restaurant",
+      "category": "Food",
+      "address": "808 Sheridan St, Honolulu, HI 96814",
+      "lat": 21.3069,
+      "lng": -157.8583,
+      "notes": "Ichiran-style solo dining with individual booths, request cards, and QR ordering. Protein options: pork loin, pork collar, chicken, tiger shrimp \u2014 enjoy as a set or katsudon. Free cabbage/rice refills. Opens to the public Wed, July 29.",
+      "link": "https://katsu-zen.com",
+      "pinCheck": true
+    },
+    {
+      "title": "The Falkirk Wheel",
+      "detail": "Rotating boat lift",
+      "category": "Views",
+      "address": "The Falkirk Wheel, Falkirk, Scotland",
+      "lat": 56.0004,
+      "lng": -3.8418,
+      "notes": "Connects the Forth and Clyde Canal with the Union Canal \u2014 boats ride up in the rotating gondolas",
+      "link": ""
+    },
+    {
+      "title": "Sanborn County Park",
+      "detail": "Redwood park, Santa Cruz Mountains",
+      "category": "Walking/Running",
+      "address": "Sanborn County Park, Saratoga, CA",
+      "lat": 37.243,
+      "lng": -122.0758,
+      "notes": "Family-friendly trails: Peterson Grove & Nature Trail (easy, under 1mi, deck looking up into the redwood canopy), San Andreas & Nature Trail Loop (easy/mod, ~1.5-1.8mi, wooden bridge over Aubrey Creek + historic pond), Lake Ranch Trail (easy, ~3.3mi RT, shaded gravel, good for biking). $6 vehicle entry fee, dog-friendly on leash, heavily shaded.",
+      "link": ""
+    },
+    {
+      "title": "Sanchos Taqueria",
+      "detail": "Fish tacos, Redwood City & Palo Alto",
+      "category": "Food",
+      "address": "Sanchos Taqueria, Redwood City, CA",
+      "lat": 37.4853,
+      "lng": -122.2364,
+      "notes": "Giant fish tacos for $8. This location is technically in RWC but right on the San Carlos edge.",
+      "link": "",
+      "priceLevel": "$"
+    },
+    {
+      "title": "Nisene Marks State Park",
+      "detail": "Redwood hiking trails, Aptos",
+      "category": "Walking/Running",
+      "address": "Nisene Marks State Park, Aptos, CA",
+      "lat": 37.0235,
+      "lng": -121.8823,
+      "notes": "Lots of gorgeous trails. Watch for poison oak, especially around the Sand Point Trail \u2014 easy to get lost on.",
+      "link": ""
+    },
+    {
+      "title": "\u56db\u59d0 Special Noodle",
+      "detail": "Late-night dumplings, San Jose",
+      "category": "Food",
+      "address": "Special Noodle, San Jose, CA",
+      "lat": 37.3382,
+      "lng": -121.8863,
+      "notes": "Favorite late-night dumpling spot, on the Cupertino end of San Jose.",
+      "link": ""
+    },
+    {
+      "title": "Purisima Creek Trail",
+      "detail": "Shaded redwood hike, Half Moon Bay",
+      "category": "Walking/Running",
+      "address": "Purisima Creek Trail, Half Moon Bay, CA",
+      "lat": 37.4219,
+      "lng": -122.3769,
+      "notes": "Beautiful shady summertime trail \u2014 lots of banana slugs, watch your step. Leave it better than you found it.",
+      "link": ""
+    },
+    {
+      "title": "Ridout Tea Garden McDonald's",
+      "detail": "Scenic McDonald\u2019s, Singapore",
+      "category": "Food",
+      "address": "Ridout Tea Garden, Singapore",
+      "lat": 1.3178,
+      "lng": 103.7994,
+      "notes": "A Japanese-inspired pavilion overlooking a quiet river with a koi pond (turtles + fish). Dine indoors or outside in one of the most peaceful settings imaginable \u2014 all at a McDonald\u2019s.",
+      "link": ""
+    },
+    {
+      "title": "Starfield Suwon Byeolmadang Library",
+      "detail": "Library inside a shopping mall, Suwon, South Korea",
+      "category": "Views",
+      "address": "Starfield Suwon, Suwon, South Korea",
+      "lat": 37.2797,
+      "lng": 127.0432,
+      "notes": "Spans 3 floors with a book-tower structure, ceiling-piercing architecture, and cosmos sculptures. Location: Starfield Suwon 4-7F. Hosts lectures and concerts.",
+      "link": "https://www.instagram.com/starfield.official"
+    },
+    {
+      "title": "Coast Starlight (Amtrak)",
+      "detail": "Scenic train route, San Diego to Seattle",
+      "category": "Views",
+      "address": "San Diego, CA",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "notes": "Amtrak route running the length of the West Coast through the PNW, LA, and San Diego \u2014 dramatic coastal cliffs along the way.",
+      "link": ""
+    },
+    {
+      "title": "Standard Products",
+      "detail": "MUJI-affiliated everyday goods store, Japan",
+      "category": "Shopping",
+      "address": "Standard Products, Japan",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "notes": "Household goods/lifestyle shop chain, similar vibe to MUJI.",
+      "link": ""
+    },
+    {
+      "title": "Gl\u00e4nta Kyoto Ninenzaka",
+      "detail": "Custom ring workshop, Kyoto",
+      "category": "Shopping",
+      "address": "Ninenzaka, Kyoto, Japan",
+      "lat": 34.9989,
+      "lng": 135.7784,
+      "notes": "Order a custom ring, ready in 5-10 min (from \u00a5980) or a 40-60 min hands-on workshop. No reservation needed \u2014 whole process ~15 min.",
+      "link": "https://www.instagram.com/glanta_kyoto_ninenzaka"
+    },
+    {
+      "title": "Mossbrae Falls",
+      "detail": "Waterfall, Dunsmuir",
+      "category": "Views",
+      "address": "Mossbrae Falls, Dunsmuir, CA",
+      "lat": 41.2282,
+      "lng": -122.2625,
+      "notes": "Moss-covered cliff waterfall feeding into a swimmable pool.",
+      "link": ""
+    },
+    {
+      "title": "L\u014d\u02bbihi",
+      "detail": "Conscious ocean-inspired apparel, Hawaii Island",
+      "category": "Shopping",
+      "address": "Hawaii Island, HI",
+      "lat": 19.8968,
+      "lng": -155.5828,
+      "notes": "Sustainable/upcycled apparel brand \u2014 \"for the ocean, created with the planet in mind.\"",
+      "link": "https://www.alohaloihi.com"
+    },
+    {
+      "title": "Fukui Prefectural Dinosaur Museum",
+      "detail": "Dinosaur museum, Japan",
+      "category": "Misc",
+      "address": "Fukui Prefectural Dinosaur Museum, Katsuyama, Fukui, Japan",
+      "lat": 36.0025,
+      "lng": 136.5673,
+      "notes": "One of the largest dinosaur museums in the world \u2014 40+ skeletons, real fossils found in Fukui (incl. Fukuiraptor), life-sized moving dinosaurs. \u00a51,000 adults / \u00a5800 students / \u00a5500 kids / under 6 free. From Fukui Station: Echizen Railway Katsuyama Eiheiji Line to Katsuyama Station, then 10-15 min bus/taxi.",
+      "link": ""
+    },
+    {
+      "title": "343 Sansome (POPOS)",
+      "detail": "Rooftop terrace, SF",
+      "category": "Views",
+      "address": "343 Sansome St, San Francisco, CA",
+      "lat": 37.7934,
+      "lng": -122.4011,
+      "notes": "Privately Owned Public Open Space (POPOS) \u2014 publicly accessible plaza/terrace maintained by the building\u2019s developer.",
+      "link": ""
+    },
+    {
+      "title": "150 California (POPOS)",
+      "detail": "Rooftop terrace, SF",
+      "category": "Views",
+      "address": "150 California St, San Francisco, CA",
+      "lat": 37.793,
+      "lng": -122.3977,
+      "notes": "POPOS \u2014 publicly accessible rooftop space in the Downtown office district.",
+      "link": ""
+    },
+    {
+      "title": "Crocker Galleria (POPOS)",
+      "detail": "Rooftop terrace, SF",
+      "category": "Views",
+      "address": "Crocker Galleria, San Francisco, CA",
+      "lat": 37.7901,
+      "lng": -122.4024,
+      "notes": "POPOS \u2014 publicly accessible rooftop terrace.",
+      "link": ""
+    },
+    {
+      "title": "One Kearny (POPOS)",
+      "detail": "Rooftop terrace, SF",
+      "category": "Views",
+      "address": "One Kearny St, San Francisco, CA",
+      "lat": 37.7907,
+      "lng": -122.403,
+      "notes": "POPOS \u2014 publicly accessible rooftop terrace.",
+      "link": ""
+    },
+    {
+      "title": "72 Ellis Street (POPOS)",
+      "detail": "Rooftop terrace, SF",
+      "category": "Views",
+      "address": "72 Ellis St, San Francisco, CA",
+      "lat": 37.7836,
+      "lng": -122.4088,
+      "notes": "POPOS \u2014 publicly accessible rooftop terrace.",
+      "link": ""
+    },
+    {
+      "title": "Blue Elephant",
+      "detail": "Eyewear shop, Shibuya",
+      "category": "Shopping",
+      "address": "Shibuya, Tokyo, Japan",
+      "lat": 35.6598,
+      "lng": 139.7004,
+      "notes": "Eyeglasses, sunglasses, fashion eyewear accessories.",
+      "link": ""
+    },
+    {
+      "title": "Niko and...",
+      "detail": "Lifestyle/clothing shop, Japan",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Clothing (men & women), home decor, kitchenware, stationery, furniture, lifestyle goods.",
+      "link": ""
+    },
+    {
+      "title": "BEAMS",
+      "detail": "Curated fashion shop, Japan",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Curated fashion (men & women), accessories, bags & shoes, lifestyle goods, home items, collab items.",
+      "link": ""
+    },
+    {
+      "title": "HAY",
+      "detail": "Designer furniture/home shop, Japan",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Designer furniture, home decor, lighting, kitchenware, stationery.",
+      "link": ""
+    },
+    {
+      "title": "Zapady-Do",
+      "detail": "Home goods shop, Japan",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Home essentials, kitchen tools, storage items, interior decor.",
+      "link": ""
+    },
+    {
+      "title": "3COINS",
+      "detail": "Home goods shop, Japan",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Home goods, kitchenware, accessories, travel items, gadgets, kids & pet items.",
+      "link": ""
+    },
+    {
+      "title": "Kotor Old Town",
+      "detail": "Cat-friendly old town, Montenegro",
+      "category": "Views",
+      "address": "Kotor Old Town, Montenegro",
+      "lat": 42.4247,
+      "lng": 18.7712,
+      "notes": "Basically an open-air cat sanctuary \u2014 shops/restaurants feed the cats, plus a whole park full of them.",
+      "link": ""
+    },
+    {
+      "title": "Aegean Islands",
+      "detail": "Cat-friendly Greek islands",
+      "category": "Views",
+      "address": "Aegean Islands, Greece",
+      "lat": 37.5,
+      "lng": 25,
+      "notes": "Lots of cats on pretty much any Greek island, but the Aegean ones have the most \u2014 legend says descendants of pirate ships\u2019 mousers.",
+      "link": ""
+    },
+    {
+      "title": "Largo di Torre Argentina",
+      "detail": "Roman ruins / cat sanctuary",
+      "category": "Views",
+      "address": "Largo di Torre Argentina, Rome, Italy",
+      "lat": 41.8956,
+      "lng": 12.4762,
+      "notes": "Ancient Roman ruins turned modern-day cat sanctuary \u2014 also where Julius Caesar was killed.",
+      "link": ""
+    },
+    {
+      "title": "Istanbul",
+      "detail": "Cat-friendly city, Turkey",
+      "category": "Views",
+      "address": "Istanbul, Turkey",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "notes": "Famous for its abundance of street cats, which play a major role in local culture.",
+      "link": ""
+    },
+    {
+      "title": "Kishi Station",
+      "detail": "Tama the cat stationmaster, Wakayama",
+      "category": "Views",
+      "address": "Kishi Station, Wakayama, Japan",
+      "lat": 34.2678,
+      "lng": 135.3967,
+      "notes": "Wakayama Electric Railway Kishigawa Line terminal \u2014 famous for its cat stationmasters (started with Tama), a cat-shaped station building, themed trains, and a cafe/shop. From Wakayama Station: ~30 min on the Kishigawa Line. \u00a5800 one-day pass for unlimited rides.",
+      "link": ""
+    },
+    {
+      "title": "Godmothers Books",
+      "detail": "Independent bookstore, Summerland",
+      "category": "Shopping",
+      "address": "Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Three stories to explore.",
+      "link": "https://www.instagram.com/godmothersbooks"
+    },
+    {
+      "title": "Red Kettle Coffee",
+      "detail": "Coffee shop, Summerland",
+      "category": "Food",
+      "address": "Lillie Ave, Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Local coffee stop along Lillie Avenue.",
+      "link": "https://www.instagram.com/redkettlecoffee"
+    },
+    {
+      "title": "Dart Coffee Co.",
+      "detail": "Coffee shop, Summerland",
+      "category": "Food",
+      "address": "Lillie Ave, Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Local coffee stop along Lillie Avenue.",
+      "link": "https://www.instagram.com/dartcoffeeco"
+    },
+    {
+      "title": "Porch",
+      "detail": "Home goods store, Summerland",
+      "category": "Shopping",
+      "address": "Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Home goods store.",
+      "link": "https://www.instagram.com/porch_summerland"
+    },
+    {
+      "title": "Botanik",
+      "detail": "Plant & home shop, Summerland",
+      "category": "Shopping",
+      "address": "Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Curated plant and home shop.",
+      "link": "https://www.instagram.com/botanik_summerland"
+    },
+    {
+      "title": "Summerland Beach Cafe",
+      "detail": "Breakfast spot, Summerland",
+      "category": "Food",
+      "address": "Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Classic coastal breakfast spot with ocean views.",
+      "link": "https://www.instagram.com/summerlandbeachcafe"
+    },
+    {
+      "title": "Farm to Paper",
+      "detail": "Market & homegoods, Summerland",
+      "category": "Shopping",
+      "address": "Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Small market and homegoods store.",
+      "link": ""
+    },
+    {
+      "title": "The Nugget",
+      "detail": "Restaurant, Summerland",
+      "category": "Food",
+      "address": "Summerland, CA",
+      "lat": 34.4063,
+      "lng": -119.5968,
+      "notes": "Casual neighborhood restaurant serving American comfort food, with a cute bar.",
+      "link": "https://www.instagram.com/thenuggetofsummerland"
+    },
+    {
+      "title": "The Oddity Patch Bar",
+      "detail": "Custom patch shop, Rome",
+      "category": "Shopping",
+      "address": "Via Urbana 17, Rome, Italy",
+      "lat": 41.8969,
+      "lng": 12.4981,
+      "notes": "Pick-your-own embroidered patch bar.",
+      "link": ""
+    },
+    {
+      "title": "Insadongart",
+      "detail": "Stamp-making craft shop, Seoul",
+      "category": "Shopping",
+      "address": "183 Insa-dong, Jongno-gu, Seoul, South Korea",
+      "lat": 37.5743,
+      "lng": 126.9852,
+      "notes": "Pick a stamp design and have it hand-carved as a souvenir.",
+      "link": ""
+    },
+    {
+      "title": "Daylesford Longhouse",
+      "detail": "Architectural glasshouse/garden, Victoria",
+      "category": "Views",
+      "address": "Daylesford, Victoria, Australia",
+      "lat": -37.3484,
+      "lng": 144.139,
+      "notes": "A long glasshouse that is a cabin, that is a garden, that is a shed, on a farm on a windswept hill.",
+      "link": ""
+    },
+    {
+      "title": "Ginzan Onsen",
+      "detail": "Hot spring town, Yamagata",
+      "category": "Views",
+      "address": "Ginzan Onsen, Obanazawa, Yamagata, Japan",
+      "lat": 38.6017,
+      "lng": 140.5383,
+      "notes": "Taisho-era wooden ryokans line a narrow river, gas lamps light the stone streets after dark \u2014 closest thing on earth to walking into Spirited Away. Day visitors restricted after 4pm without an advance ticket; stay overnight and book 3-6 months ahead, or day-trip via a 35-min bus from Oishida Station (last bus back ~6:21pm).",
+      "link": ""
+    },
+    {
+      "title": "Cine Lounge Tiburon",
+      "detail": "Retro movie-themed lounge, Tiburon",
+      "category": "Food",
+      "address": "Tiburon, CA",
+      "lat": 37.8714,
+      "lng": -122.4567,
+      "notes": "Bay Area movie night spot \u2014 retro diner counter, orange lava lamp, vintage payphone decor.",
+      "link": ""
+    },
+    {
+      "title": "Lover\u2019s Point Beach",
+      "detail": "Beach, Pacific Grove",
+      "category": "Views",
+      "address": "Lover\u2019s Point Beach, Pacific Grove, CA",
+      "lat": 36.628,
+      "lng": -121.917,
+      "notes": "Crystal-clear water, resembles the south of France. Near Carmel-by-the-Sea and Big Sur.",
+      "link": ""
+    },
+    {
+      "title": "West Point Inn",
+      "detail": "Hike-in pancake breakfast inn, Mt. Tam",
+      "category": "Food",
+      "address": "Fire Road, 100 Old Railroad Grade, Mill Valley, CA 94941",
+      "lat": 37.9077,
+      "lng": -122.5785,
+      "notes": "Only reachable by hiking or biking in (Pantoll Ranger Station route ~45 min, shortest). Pancake breakfasts first Sunday of the month, May\u2013Oct, 9am-1pm or until supplies run out. Cash/Venmo only. $13-15 for pancakes.",
+      "link": ""
+    },
+    {
+      "title": "IKEA Hotel (Hotel Entr\u00e9)",
+      "detail": "The only IKEA-branded hotel, \u00c4lmhult",
+      "category": "Misc",
+      "address": "\u00c4lmhult, Sweden",
+      "lat": 56.5524,
+      "lng": 14.1361,
+      "notes": "Sleep inside an IKEA showroom-style hotel near the original IKEA store.",
+      "link": ""
+    },
+    {
+      "title": "Camila CTG",
+      "detail": "DIY bikini-making class, Barcelona",
+      "category": "Shopping",
+      "address": "Barcelona, Spain",
+      "lat": 41.3851,
+      "lng": 2.1734,
+      "notes": "Make your own custom bikini.",
+      "link": "https://www.instagram.com/camilactg_"
+    },
+    {
+      "title": "Dawn Club",
+      "detail": "Live jazz club, SF",
+      "category": "Misc",
+      "address": "Dawn Club, San Francisco, CA",
+      "lat": 37.789,
+      "lng": -122.4094,
+      "notes": "Classic, stylish jazz club mixing generations.",
+      "link": "https://www.instagram.com/dawnclubsf"
+    },
+    {
+      "title": "Local Edition",
+      "detail": "Underground speakeasy jazz bar, SF",
+      "category": "Misc",
+      "address": "Local Edition, San Francisco, CA",
+      "lat": 37.7878,
+      "lng": -122.4007,
+      "notes": "Tucked below Market Street \u2014 speakeasy-meets-jazz-club, vintage typewriters, moody lighting.",
+      "link": "https://www.instagram.com/localeditionsf"
+    },
+    {
+      "title": "Geelou",
+      "detail": "Cocktail lounge with live jazz, Marina",
+      "category": "Misc",
+      "address": "Geelou, San Francisco, CA",
+      "lat": 37.8025,
+      "lng": -122.438,
+      "notes": "Chic cocktail lounge in the Marina \u2014 try the mocha espresso martini.",
+      "link": "https://www.instagram.com/geelousf"
+    },
+    {
+      "title": "Machida Squirrel Garden",
+      "detail": "Squirrel park, Machida, Tokyo",
+      "category": "Misc",
+      "address": "Machida Squirrel Garden, Machida, Tokyo, Japan",
+      "lat": 35.5454,
+      "lng": 139.456,
+      "notes": "Squirrels roam freely and climb onto you for chestnuts \u2014 will even hide them in your hoodie pockets. Great with kids.",
+      "link": ""
+    },
+    {
+      "title": "Trees of Mystery",
+      "detail": "Redwood canopy trail + gondola, Klamath",
+      "category": "Views",
+      "address": "Trees of Mystery, Klamath, CA",
+      "lat": 41.5237,
+      "lng": -124.0523,
+      "notes": "Elevated canopy trail 50-100ft up with 8 suspension bridges, plus a gondola ride through the redwood canopy. Dog-friendly. $30 adults/$25 seniors/$15 kids 3-12/infants free. Arrive at 9am to beat crowds; check their parking-lot webcam first.",
+      "link": ""
+    },
+    {
+      "title": "Barryland",
+      "detail": "Saint Bernard museum, Martigny",
+      "category": "Misc",
+      "address": "Barryland, Martigny, Switzerland",
+      "lat": 46.1039,
+      "lng": 7.0862,
+      "notes": "Museum dedicated to Switzerland\u2019s Saint Bernards, with live dogs as the main attraction \u2014 watch them play, eat, and go through daily routines.",
+      "link": ""
+    },
+    {
+      "title": "Snoopy Botanical Garden",
+      "detail": "Snoopy-themed garden + photo studio, Jeju",
+      "category": "Views",
+      "address": "Snoopy Botanical Garden, Jeju, South Korea",
+      "lat": 33.3623,
+      "lng": 126.5296,
+      "notes": "Includes Snoopy\u2019s Photo Studio for themed photo strips.",
+      "link": ""
+    },
+    {
+      "title": "Chiswick Flower Market",
+      "detail": "Monthly flower market, London",
+      "category": "Shopping",
+      "address": "Chiswick, London, UK",
+      "lat": 51.4927,
+      "lng": -0.2661,
+      "notes": "Held on the first Sunday of every month in the old market place.",
+      "link": ""
+    },
+    {
+      "title": "Yo Yo\u2019s",
+      "detail": "Cheap udon & sushi, SF Financial District",
+      "category": "Food",
+      "address": "Yo Yo\u2019s, San Francisco, CA",
+      "lat": 37.7946,
+      "lng": -122.3997,
+      "notes": "One of the most affordable lunches in the Financial District \u2014 udon noodle soup $9, six-piece sushi tray $3.25.",
+      "link": "",
+      "priceLevel": "$"
+    },
+    {
+      "title": "Snoopy Museum Tokyo",
+      "detail": "Peanuts museum, Tokyo",
+      "category": "Views",
+      "address": "Snoopy Museum Tokyo, Tokyo, Japan",
+      "lat": 35.6196,
+      "lng": 139.7783,
+      "notes": "Includes the Peanuts Cafe and a gift shop for Snoopy trinkets.",
+      "link": ""
+    },
+    {
+      "title": "Bart\u2019s Books",
+      "detail": "Outdoor independent bookstore, Ojai",
+      "category": "Shopping",
+      "address": "Bart\u2019s Books, Ojai, CA",
+      "lat": 34.4482,
+      "lng": -119.2432,
+      "notes": "Beloved open-air bookstore in Ojai.",
+      "link": ""
+    },
+    {
+      "title": "Waihole Poi Factory",
+      "detail": "Poi factory, Waiahole, Oahu",
+      "category": "Food",
+      "address": "Waiahole, HI",
+      "lat": 21.4844,
+      "lng": -157.8419,
+      "notes": "Locally owned business, Oahu.",
+      "link": ""
+    },
+    {
+      "title": "Nicole\u2019s Leis",
+      "detail": "Lei shop, Oahu",
+      "category": "Shopping",
+      "address": "Oahu, HI",
+      "lat": 21.4389,
+      "lng": -158.0001,
+      "notes": "Locally owned business.",
+      "link": ""
+    },
+    {
+      "title": "Aloha Tofu Factory",
+      "detail": "Tofu factory, Honolulu",
+      "category": "Food",
+      "address": "Aloha Tofu Factory, Honolulu, HI",
+      "lat": 21.3108,
+      "lng": -157.8542,
+      "notes": "Locally owned business.",
+      "link": ""
+    },
+    {
+      "title": "Asato Family Shop",
+      "detail": "Family-owned shop, Oahu",
+      "category": "Shopping",
+      "address": "Oahu, HI",
+      "lat": 21.4389,
+      "lng": -158.0001,
+      "notes": "Locally owned business.",
+      "link": ""
+    },
+    {
+      "title": "Ted\u2019s Jewelry",
+      "detail": "Jewelry shop, Oahu",
+      "category": "Shopping",
+      "address": "Oahu, HI",
+      "lat": 21.4389,
+      "lng": -158.0001,
+      "notes": "Locally owned business.",
+      "link": ""
+    },
+    {
+      "title": "Aloha Andagi",
+      "detail": "Okinawan donuts, Oahu",
+      "category": "Food",
+      "address": "Oahu, HI",
+      "lat": 21.4389,
+      "lng": -158.0001,
+      "notes": "Locally owned business.",
+      "link": ""
+    },
+    {
+      "title": "Kahula Lea",
+      "detail": "Native Hawaiian-owned clothing brand",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": 20.7984,
+      "lng": -156.3319,
+      "notes": "Native Hawaiian owned clothing.",
+      "link": "https://www.instagram.com/kahulalea"
+    },
+    {
+      "title": "Kahuku Farms",
+      "detail": "U-pick/visitable farm, Kahuku",
+      "category": "Food",
+      "address": "Kahuku Farms, Kahuku, HI",
+      "lat": 21.6785,
+      "lng": -157.952,
+      "notes": "Farm visit + cafe.",
+      "link": "https://www.instagram.com/kahukufarms"
+    },
+    {
+      "title": "Little Plumeria Farms",
+      "detail": "Farm, Oahu",
+      "category": "Food",
+      "address": "Oahu, HI",
+      "lat": 21.4389,
+      "lng": -158.0001,
+      "notes": "Locally owned farm.",
+      "link": "https://www.instagram.com/littleplumeriafarms"
+    },
+    {
+      "title": "Kaka\u02bbako Farmers Market",
+      "detail": "Farmers market, Honolulu",
+      "category": "Food",
+      "address": "Kaka\u02bbako, Honolulu, HI",
+      "lat": 21.2983,
+      "lng": -157.8635,
+      "notes": "Tons of local and native Hawaiian vendors.",
+      "link": ""
+    },
+    {
+      "title": "Betty Belts",
+      "detail": "Beachcombed-glass jewelry shop",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Makes jewelry from beachcombed glass \u2014 takes cash, Venmo, Apple Pay, and \u201cmermaid money.\u201d Location not specified.",
+      "link": "https://www.instagram.com/bettybelts"
+    },
+    {
+      "title": "Fishs Eddy",
+      "detail": "Housewares/dishware shop, NYC",
+      "category": "Shopping",
+      "address": "Fishs Eddy, New York, NY",
+      "lat": 40.7438,
+      "lng": -73.9897,
+      "notes": "",
+      "link": "https://www.instagram.com/fishseddy"
+    },
+    {
+      "title": "Philip Williams Posters",
+      "detail": "Vintage poster shop, NYC",
+      "category": "Shopping",
+      "address": "Philip Williams Posters, New York, NY",
+      "lat": 40.721,
+      "lng": -74.0031,
+      "notes": "",
+      "link": "https://www.instagram.com/postermuseum"
+    },
+    {
+      "title": "Yu & Me Books",
+      "detail": "Independent bookstore, NYC",
+      "category": "Shopping",
+      "address": "Yu and Me Books, New York, NY",
+      "lat": 40.7224,
+      "lng": -73.9954,
+      "notes": "",
+      "link": "https://www.instagram.com/yuandmebooks"
+    },
+    {
+      "title": "haricot vert\u2019s dreamworld",
+      "detail": "Vintage/curio shop, NYC",
+      "category": "Shopping",
+      "address": "New York, NY",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "notes": "",
+      "link": "https://www.instagram.com/haricotvert"
+    },
+    {
+      "title": "Alila Ventana Big Sur",
+      "detail": "Japanese-inspired hot baths, Big Sur",
+      "category": "Views",
+      "address": "Alila Ventana Big Sur, Big Sur, CA",
+      "lat": 36.2324,
+      "lng": -121.771,
+      "notes": "Heated to 104\u00b0, inspired by traditional onsen, with forest views.",
+      "link": ""
+    },
+    {
+      "title": "Bricks & Brews",
+      "detail": "LEGO-themed cafe, Holly Springs NC",
+      "category": "Food",
+      "address": "1118 Kentworth Dr, Holly Springs, NC",
+      "lat": 35.6516,
+      "lng": -78.8356,
+      "notes": "New local cafe with a build area for kids \u2014 free.",
+      "link": "https://www.instagram.com/bricksnbrewsnc"
+    },
+    {
+      "title": "Gilroy Gardens",
+      "detail": "Nature-inspired theme park, Gilroy",
+      "category": "Misc",
+      "address": "3050 Hecker Pass Hwy, Gilroy, CA",
+      "lat": 37.0326,
+      "lng": -121.6002,
+      "notes": "Family theme park in the Garlic Capital of the World. 3 water play zones, 6 gardens (incl. Monarch Garden), rides for all ages, train & boat rides, The Green Barn indoor science activities. Tickets $65 online / $80 gate / $70 child+senior / under 3 free. Parking $25. Premium membership ($104) = unlimited visits through Dec 31 + free parking + bring-a-friend free Fridays.",
+      "link": "https://www.instagram.com/gilroy_gardens"
+    },
+    {
+      "title": "All the Single Kitties",
+      "detail": "Cat-themed spot, Old Saybrook, CT",
+      "category": "Food",
+      "address": "242 Main St, Old Saybrook, CT",
+      "lat": 41.2948,
+      "lng": -72.3757,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": "https://allthesinglekitties.com",
+      "pinCheck": true
+    },
+    {
+      "title": "Book Barn",
+      "detail": "Cat-themed spot, Niantic, CT",
+      "category": "Shopping",
+      "address": "Book Barn, Niantic, CT",
+      "lat": 41.3262,
+      "lng": -72.192,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Curious Cat Book Shop",
+      "detail": "Cat-themed spot, Winstead, CT",
+      "category": "Shopping",
+      "address": "Curious Cat Book Shop, Winstead, CT",
+      "lat": 41.9262,
+      "lng": -73.0571,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Mew Haven Cat Cafe",
+      "detail": "Cat-themed spot, New Haven, CT",
+      "category": "Food",
+      "address": "904 Whalley Ave, New Haven, CT 06515",
+      "lat": 41.3083,
+      "lng": -72.9279,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": "",
+      "pinCheck": true
+    },
+    {
+      "title": "Marcie's Angels",
+      "detail": "Cat-themed spot, Glastonbury, CT",
+      "category": "Food",
+      "address": "Marcie's Angels, Glastonbury, CT",
+      "lat": 41.7026,
+      "lng": -72.6082,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": "https://marciesangelscatcafe.com"
+    },
+    {
+      "title": "Two Wrasslin' Cats",
+      "detail": "Cat-themed spot, East Haddam, CT",
+      "category": "Food",
+      "address": "Two Wrasslin' Cats, East Haddam, CT",
+      "lat": 41.4526,
+      "lng": -72.4643,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Perks & Paws Cat Cafe",
+      "detail": "Cat-themed spot, Torrington, CT",
+      "category": "Food",
+      "address": "Perks & Paws Cat Cafe, Torrington, CT",
+      "lat": 41.8009,
+      "lng": -73.1215,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Purrfect Lounge",
+      "detail": "Cat-themed spot, Plainville, CT",
+      "category": "Shopping",
+      "address": "Purrfect Lounge, Plainville, CT",
+      "lat": 41.6737,
+      "lng": -72.859,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Raining Cats & Dogs",
+      "detail": "Cat-themed spot, Old Mystic Village, CT",
+      "category": "Shopping",
+      "address": "Raining Cats & Dogs, Old Mystic Village, CT",
+      "lat": 41.3612,
+      "lng": -71.9668,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Spacecat Brewery",
+      "detail": "Cat-themed spot, Norwalk, CT",
+      "category": "Food",
+      "address": "Spacecat Brewery, Norwalk, CT",
+      "lat": 41.1176,
+      "lng": -73.4079,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Kitty Cat Cafe",
+      "detail": "Cat-themed spot, Peabody, MA",
+      "category": "Food",
+      "address": "Kitty Cat Cafe, Peabody, MA",
+      "lat": 42.5279,
+      "lng": -70.9287,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Lazy Cat Lounge",
+      "detail": "Cat-themed spot, Lowell, MA",
+      "category": "Food",
+      "address": "Lazy Cat Lounge, Lowell, MA",
+      "lat": 42.6334,
+      "lng": -71.3162,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "A Sanctuary Cafe",
+      "detail": "Cat-themed spot, Boston, MA",
+      "category": "Food",
+      "address": "A Sanctuary Cafe, Boston, MA",
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Salem Cat Museum",
+      "detail": "Cat-themed spot, Salem, MA",
+      "category": "Misc",
+      "address": "Salem Cat Museum, Salem, MA",
+      "lat": 42.5195,
+      "lng": -70.8967,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Black Cat Diner",
+      "detail": "Cat-themed spot, Salem, MA",
+      "category": "Food",
+      "address": "Black Cat Diner, Salem, MA",
+      "lat": 42.5234,
+      "lng": -70.9023,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Cape Cat",
+      "detail": "Cat-themed spot, Yarmouth, MA",
+      "category": "Shopping",
+      "address": "Cape Cat, Yarmouth, MA",
+      "lat": 41.7057,
+      "lng": -70.2284,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Cat Walk Boutique",
+      "detail": "Cat-themed spot, Great Barrington, MA",
+      "category": "Shopping",
+      "address": "Cat Walk Boutique, Great Barrington, MA",
+      "lat": 42.1951,
+      "lng": -73.362,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Camelot Cat Cafe",
+      "detail": "Cat-themed spot, Greenfield, MA",
+      "category": "Food",
+      "address": "Camelot Cat Cafe, Greenfield, MA",
+      "lat": 42.5876,
+      "lng": -72.5993,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Boswell's Books",
+      "detail": "Cat-themed spot, Shelburne Falls, MA",
+      "category": "Shopping",
+      "address": "Boswell's Books, Shelburne Falls, MA",
+      "lat": 42.5998,
+      "lng": -72.7329,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Black Cat",
+      "detail": "Cat-themed spot, Cohasset, MA",
+      "category": "Food",
+      "address": "Black Cat, Cohasset, MA",
+      "lat": 42.2415,
+      "lng": -70.8023,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Rescue Cafe",
+      "detail": "Cat-themed spot, Fairhaven, MA",
+      "category": "Food",
+      "address": "Rescue Cafe, Fairhaven, MA",
+      "lat": 41.6376,
+      "lng": -70.9032,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Cat Rock Park",
+      "detail": "Cat-themed spot, Weston, MA",
+      "category": "Misc",
+      "address": "Cat Rock Park, Weston, MA",
+      "lat": 42.3668,
+      "lng": -71.2998,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Sister Thrift",
+      "detail": "Cat-themed spot, Watertown, MA",
+      "category": "Shopping",
+      "address": "Sister Thrift, Watertown, MA",
+      "lat": 42.3668,
+      "lng": -71.182,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Bajah's Cat Cafe",
+      "detail": "Cat-themed spot, Tiverton, RI",
+      "category": "Food",
+      "address": "Bajah's Cat Cafe, Tiverton, RI",
+      "lat": 41.6251,
+      "lng": -71.212,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Carmen & Ginger",
+      "detail": "Cat-themed spot, Warren, RI",
+      "category": "Food",
+      "address": "Carmen & Ginger, Warren, RI",
+      "lat": 41.7262,
+      "lng": -71.2837,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Mad Cats & More",
+      "detail": "Cat-themed spot, Coventry, RI",
+      "category": "Food",
+      "address": "Mad Cats & More, Coventry, RI",
+      "lat": 41.6901,
+      "lng": -71.5623,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Royal Bobcat",
+      "detail": "Cat-themed spot, Providence, RI",
+      "category": "Food",
+      "address": "Royal Bobcat, Providence, RI",
+      "lat": 41.824,
+      "lng": -71.4128,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Heart Leaf Books",
+      "detail": "Cat-themed spot, Providence, RI",
+      "category": "Shopping",
+      "address": "Heart Leaf Books, Providence, RI",
+      "lat": 41.8253,
+      "lng": -71.4151,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Black Cat Historical Fencing",
+      "detail": "Cat-themed spot, Warren, RI",
+      "category": "Shopping",
+      "address": "Black Cat Historical Fencing, Warren, RI",
+      "lat": 41.728,
+      "lng": -71.2812,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "The Tipsy Tabby",
+      "detail": "Cat-themed spot, Newmarket, NH",
+      "category": "Food",
+      "address": "The Tipsy Tabby, Newmarket, NH",
+      "lat": 43.0784,
+      "lng": -70.9396,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Cat Alley",
+      "detail": "Cat-themed spot, Manchester, NH",
+      "category": "Misc",
+      "address": "Cat Alley, Manchester, NH",
+      "lat": 42.9956,
+      "lng": -71.4548,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Wildcat Mountain",
+      "detail": "Cat-themed spot, Gorham, NH",
+      "category": "Misc",
+      "address": "Wildcat Mountain, Gorham, NH",
+      "lat": 44.2534,
+      "lng": -71.2134,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Alley Cat Pizza",
+      "detail": "Cat-themed spot, Manchester, NH",
+      "category": "Food",
+      "address": "Alley Cat Pizza, Manchester, NH",
+      "lat": 42.9934,
+      "lng": -71.4612,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Cats Kingdom",
+      "detail": "Cat-themed spot, Manchester, NH",
+      "category": "Shopping",
+      "address": "Cats Kingdom, Manchester, NH",
+      "lat": 42.9978,
+      "lng": -71.4501,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Meow Lounge",
+      "detail": "Cat-themed spot, Westbrook, ME",
+      "category": "Food",
+      "address": "630 Main St, Westbrook, ME 04092",
+      "lat": 43.6768,
+      "lng": -70.3701,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": "",
+      "pinCheck": true
+    },
+    {
+      "title": "Meowy Jane/Glitterbox Lounge",
+      "detail": "Cat-themed spot, Portland, ME",
+      "category": "Food",
+      "address": "Meowy Jane/Glitterbox Lounge, Portland, ME",
+      "lat": 43.6591,
+      "lng": -70.2568,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Two Cats",
+      "detail": "Cat-themed spot, Bar Harbor, ME",
+      "category": "Food",
+      "address": "Two Cats, Bar Harbor, ME",
+      "lat": 44.3876,
+      "lng": -68.2039,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Dr Pussums",
+      "detail": "Cat-themed spot, Turner, ME",
+      "category": "Shopping",
+      "address": "Dr Pussums, Turner, ME",
+      "lat": 44.2573,
+      "lng": -70.2548,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Dos Gatos",
+      "detail": "Cat-themed spot, Belfast, ME",
+      "category": "Food",
+      "address": "Dos Gatos, Belfast, ME",
+      "lat": 44.4262,
+      "lng": -69.0065,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Cat Yard Bookshop",
+      "detail": "Cat-themed spot, Skowhegan, ME",
+      "category": "Shopping",
+      "address": "Cat Yard Bookshop, Skowhegan, ME",
+      "lat": 44.7648,
+      "lng": -69.7201,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Two Fat Cats Bakery",
+      "detail": "Cat-themed spot, Portland, ME",
+      "category": "Food",
+      "address": "47 India St, Portland, ME 04101",
+      "lat": 43.6613,
+      "lng": -70.2534,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": "",
+      "pinCheck": true
+    },
+    {
+      "title": "Safe Haven Humane Society",
+      "detail": "Cat-themed spot, Wells, ME",
+      "category": "Shopping",
+      "address": "Safe Haven Humane Society, Wells, ME",
+      "lat": 43.3223,
+      "lng": -70.5807,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Black Cat Cannabis",
+      "detail": "Cat-themed spot, Lewiston, ME",
+      "category": "Misc",
+      "address": "Black Cat Cannabis, Lewiston, ME",
+      "lat": 44.1004,
+      "lng": -70.2148,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Orange Cat Cafe",
+      "detail": "Cat-themed spot, Farmington, ME",
+      "category": "Food",
+      "address": "Orange Cat Cafe, Farmington, ME",
+      "lat": 44.6695,
+      "lng": -70.1523,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Kitty Korner Cafe",
+      "detail": "Cat-themed spot, Barre, VT",
+      "category": "Food",
+      "address": "Kitty Korner Cafe, Barre, VT",
+      "lat": 44.197,
+      "lng": -72.5015,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Queen City Cat Lounge",
+      "detail": "Cat-themed spot, Burlington, VT",
+      "category": "Food",
+      "address": "Queen City Cat Lounge, Burlington, VT",
+      "lat": 44.4759,
+      "lng": -73.2121,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Star Cat Books",
+      "detail": "Cat-themed spot, Bradford, VT",
+      "category": "Shopping",
+      "address": "Star Cat Books, Bradford, VT",
+      "lat": 44.0048,
+      "lng": -72.134,
+      "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
+      "link": ""
+    },
+    {
+      "title": "Jams World",
+      "detail": "Clothing, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Iconic Hawaii-made resort wear since 1964; vibrant prints, rayon dresses, aloha shirts. Made in Honolulu.",
+      "link": "https://www.jamsworld.com/"
+    },
+    {
+      "title": "Island Slipper",
+      "detail": "Footwear, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Last remaining handmade-in-Hawaii footwear brand since 1946. Sandals, slippers, and more in 80+ styles.",
+      "link": "https://shop.islandslipper.com/"
+    },
+    {
+      "title": "Fighting Eel",
+      "detail": "Clothing, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Lifestyle & clothing brand designed in Hawaii since 2003. 5 locations: Downtown, Kahala, Kailua, Kapolei, Manoa.",
+      "link": "https://fightingeel.com/"
+    },
+    {
+      "title": "Kealopiko",
+      "detail": "Clothing, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Hawaiian-inspired clothing founded in 2006. Prints rooted in native plants, animals, language, and mo\u02bbolelo. Made on Molok\u02bbi and in Hawaii.",
+      "link": "https://thekealopikoshop.com/"
+    },
+    {
+      "title": "Rumi Murakami",
+      "detail": "Fashion designer, Kaimuki",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Modern, soft tailoring made in Kaimuki, Honolulu. Made-to-order available. Atelier at 1152 Koko Head Ave #204.",
+      "link": "https://www.rumimurakami.com/"
+    },
+    {
+      "title": "Noa Noa Hawaii",
+      "detail": "Batik clothing, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Unique one-of-a-kind batik garments in Hawaiian and Pacific island tapa designs. Hand-batiked in natural fabrics.",
+      "link": "https://www.noanoahawaii.com/"
+    },
+    {
+      "title": "Blue Ginger",
+      "detail": "Hawaiian resort wear, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Hawaiian prints clothing and accessories for beach, island vacation, and matching family sets.",
+      "link": "https://www.blueginger.com/"
+    },
+    {
+      "title": "Manaola",
+      "detail": "Native Hawaiian designer, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Kapa-inspired prints in contemporary aloha wear by Native Hawaiian designer Manaola Yap. Limited quantities.",
+      "link": "https://www.manaolahawaii.com/"
+    },
+    {
+      "title": "Ginger13",
+      "detail": "Jewelry, home decor & botanicals, Downtown HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Handcrafted jewelry, home decor, and botanical finds in the heart of Downtown Honolulu.",
+      "link": "https://www.ginger13.com/"
+    },
+    {
+      "title": "Native Hands Jewelry",
+      "detail": "Jewelry, Waikiki",
+      "category": "Shopping",
+      "address": "2162 Kalakaua Ave, Honolulu, HI 96815",
+      "lat": 21.2791,
+      "lng": -157.8302,
+      "notes": "HNL \u2014 Native American and Hawaiian handcrafted jewelry.",
+      "link": "https://www.nativehands.net/"
+    },
+    {
+      "title": "Island Boy Shop",
+      "detail": "Curated lifestyle boutique, Kaimuki",
+      "category": "Shopping",
+      "address": "3464 Waialae Ave, Honolulu, HI 96816",
+      "lat": 21.2901,
+      "lng": -157.8024,
+      "notes": "HNL \u2014 LGBTQ+ AAPI-owned boutique in Kaimuki. Clothing, jewelry, flowers, home goods, and vintage finds from local designers including Rumi Murakami. Owner Andrew Mau (RISD).",
+      "link": "https://islandboy.shop/"
+    },
+    {
+      "title": "Roberta Oaks",
+      "detail": "Aloha shirts & accessories, HNL",
+      "category": "Shopping",
+      "address": "",
+      "notes": "HNL \u2014 Small-batch, handmade aloha shirts in original prints. Made in Honolulu. Also does pet apparel, table linens, and clothing.",
+      "link": "https://www.robertaoaks.com/"
+    },
+    {
+      "title": "Crafts Way",
+      "detail": "Artificial flowers & hula crafts, Aiea",
+      "category": "Shopping",
+      "address": "98-023 Hekaha St, Aiea, HI 96701",
+      "lat": 21.3932,
+      "lng": -157.9343,
+      "notes": "HNL \u2014 Highest-quality foam, clay, and silk artificial flowers since 2004. Custom hairpieces, wedding bouquets, lei supplies for hula. Also in Waikiki (International Market Place).",
+      "link": "https://www.craftsway.com/"
+    },
+    {
+      "title": "SanshoCat",
+      "detail": "Handmade cat-themed ceramics & printmaking, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Craft fair booth \u2014 handmade cat-themed ceramics, printmaking, and more",
+      "link": ""
+    },
+    {
+      "title": "Neko Ceramic Studio",
+      "detail": "Cat mini mugs, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Craft fair booth \u2014 handmade mini mugs, Tiki Mug pre-order via QR",
+      "link": ""
+    },
+    {
+      "title": "Fog Cats & Yanchako",
+      "detail": "Cat rugs, pins & stationery, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Craft fair booth \u2014 tufted cat rugs, enamel pins, stationery",
+      "link": ""
+    },
+    {
+      "title": "Sayukips",
+      "detail": "Whimsical handmade cat pottery, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Craft fair booth \u2014 whimsical handmade pottery, cat motifs",
+      "link": ""
+    },
+    {
+      "title": "Tiny Orbit Studio",
+      "detail": "Ceramic mugs, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "notes": "Craft fair booth \u2014 handmade ceramic mugs, animal-shaped designs",
+      "link": ""
+    },
+    {
+      "title": "Portola Redwoods State Park",
+      "detail": "Redwood retreat, La Honda",
+      "category": "Walking/Running",
+      "address": "Portola Redwoods State Park, La Honda, CA",
+      "lat": 37.2664,
+      "lng": -122.2144,
+      "notes": "Santa Cruz Mountains hidden gem. Sequoia Nature Trail (easy, under 1mi, crosses a seasonal bridge over Pescadero Creek). Iverson Trail & Shell Tree (easy/mod, ~1.5mi loop, follows Peters Creek to the hollowed-out Shell Tree). Old Tree Trail (easy, ~1.2mi RT, one of the oldest/tallest redwoods in the park). $10 vehicle entry fee. Dogs allowed in campsites and on paved roads, not on dirt trails. Deeply shaded, quiet basin.",
+      "link": ""
+    },
+    {
+      "title": "Blackbird Books",
+      "detail": "Bookstore & plant shop, Outer Sunset",
+      "category": "Shopping",
+      "address": "Outer Sunset, San Francisco, CA",
+      "lat": 37.7558,
+      "lng": -122.4936,
+      "notes": "Thoughtful curation of books and local art, plus coffee, food, a plant shop, and a serene outdoor space.",
+      "link": ""
+    },
+    {
+      "title": "Green Apple Books",
+      "detail": "Bookstore, SF institution since 1967",
+      "category": "Shopping",
+      "address": "Green Apple Books, San Francisco, CA",
+      "lat": 37.7783,
+      "lng": -122.464,
+      "notes": "A maze of endless rooms and shelves of new and used books \u2014 something for everyone.",
+      "link": "https://www.greenapplebooks.com/",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "826 Valencia",
+      "detail": "Youth writing center + pirate supply store, Mission",
+      "category": "Shopping",
+      "address": "826 Valencia, San Francisco, CA",
+      "lat": 37.7527,
+      "lng": -122.4216,
+      "notes": "Publishing/writing programs for youth from underserved communities, fronted by a pirate supply store \u2014 pick up a pair of dice for mice.",
+      "link": ""
+    },
+    {
+      "title": "Omnivore Books",
+      "detail": "Culinary bookstore, Noe Valley",
+      "category": "Shopping",
+      "address": "Omnivore Books, San Francisco, CA",
+      "lat": 37.7502,
+      "lng": -122.4337,
+      "notes": "Almost every cookbook imaginable, old and new, plus a wonderful collection of food-centered children's books, on a sweet quiet corner in Noe Valley.",
+      "link": ""
+    },
+    {
+      "title": "On Waverly",
+      "detail": "Asian American bookshop, Chinatown",
+      "category": "Shopping",
+      "address": "On Waverly, San Francisco, CA",
+      "lat": 37.7941,
+      "lng": -122.4058,
+      "notes": "Chinatown shop full of Asian American children's books, cookbooks, novels, goods by local artists, miniature mahjong sets, tiny red stools and all.",
+      "link": ""
+    },
+    {
+      "title": "Yutori",
+      "detail": "Modern Japanese cafe & market, Palo Alto",
+      "category": "Food",
+      "address": "3375 El Camino Real, Palo Alto, CA",
+      "lat": 37.4237,
+      "lng": -122.1141,
+      "notes": "Open daily \u2014 cafe & market 8-5, hot deli 10:30-5. Restaurant & bar coming soon.",
+      "link": "",
+      "pinCheck": true
+    },
+    {
+      "title": "California State Railroad Museum",
+      "detail": "Largest locomotive collection in the Western US, Sacramento",
+      "category": "Misc",
+      "address": "California State Railroad Museum, Sacramento, CA",
+      "lat": 38.5816,
+      "lng": -121.5039,
+      "notes": "Smithsonian affiliate, under 2 hrs from SF. Guided tours, scenic train excursions, and the renowned Candlelight concert series.",
+      "link": ""
+    },
+    {
+      "title": "Kamei Ceramics",
+      "detail": "Ceramics shop, Richmond District",
+      "category": "Shopping",
+      "address": "525 Clement St, San Francisco, CA",
+      "lat": 37.7826,
+      "lng": -122.4632,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Cotogna",
+      "detail": "Italian restaurant, SF",
+      "category": "Food",
+      "address": "Cotogna, San Francisco, CA",
+      "lat": 37.7969,
+      "lng": -122.4013,
+      "notes": "Recommended favorite via IG restaurant rec list.",
+      "link": "https://www.instagram.com/cotogna_sf"
+    },
+    {
+      "title": "Back to Back SF",
+      "detail": "Restaurant, SF",
+      "category": "Food",
+      "address": "Back to Back SF, San Francisco, CA",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "notes": "Recommended favorite via IG restaurant rec list.",
+      "link": "https://www.instagram.com/backtobacksf"
+    },
+    {
+      "title": "Kin Khao",
+      "detail": "Thai restaurant, Union Square",
+      "category": "Food",
+      "address": "Kin Khao, San Francisco, CA",
+      "lat": 37.7879,
+      "lng": -122.4075,
+      "notes": "Recommended favorite via IG restaurant rec list.",
+      "link": "https://www.instagram.com/kinkhao"
+    },
+    {
+      "title": "Zandy Peking Duck",
+      "detail": "Peking duck restaurant, SF",
+      "category": "Food",
+      "address": "Zandy Peking Duck, San Francisco, CA",
+      "lat": 37.7793,
+      "lng": -122.4192,
+      "notes": "Recommended favorite via IG restaurant rec list.",
+      "link": "https://www.instagram.com/zandypekingduck"
+    },
+    {
+      "title": "Belvedere Palace",
+      "detail": "Palace grounds, running route, Vienna",
+      "category": "Walking/Running",
+      "address": "Belvedere Palace, Vienna, Austria",
+      "lat": 48.1912,
+      "lng": 16.3809,
+      "notes": "7am run recommended to beat the tourist crowds \u2014 unbeatable route.",
+      "link": ""
+    },
+    {
+      "title": "Siwa Salt Pools",
+      "detail": "High-salinity floating pools, Egypt desert",
+      "category": "Views",
+      "address": "Siwa Salt Pools, Siwa Oasis, Egypt",
+      "lat": 29.2033,
+      "lng": 25.5197,
+      "notes": "Formed from salt mining, not a natural geographic feature. Salt concentration is high enough that you can't sink \u2014 even more extreme than the Dead Sea.",
+      "link": ""
+    },
+    {
+      "title": "Cape Kiwanda",
+      "detail": "Sand dune & tide pools, Pacific City, OR",
+      "category": "Views",
+      "address": "Cape Kiwanda, Pacific City, OR",
+      "lat": 45.2189,
+      "lng": -123.9756,
+      "notes": "240-foot sand dune, sandstone, tide pools, sandy beaches. Has a rock formation similar to Haystack Rock in Cannon Beach. Easier 1-mile walk option: follow the beach toward the rocks instead of climbing the dune.",
+      "link": ""
+    },
+    {
+      "title": "Agora Kyoto Shijo",
+      "detail": "Hotel, Kyoto, Japan",
+      "category": "Misc",
+      "address": "Agora Kyoto Shijo, Kyoto, Japan",
+      "lat": 35.0037,
+      "lng": 135.7614,
+      "notes": "~$30/night via Booking.com \u2014 described as a 4-star find. Has a matcha-making station.",
+      "link": ""
+    },
+    {
+      "title": "Traveler's Factory",
+      "detail": "Unique travel shop, 4 min from Shibuya, Tokyo",
+      "category": "Shopping",
+      "address": "Traveler's Factory, Shibuya, Tokyo, Japan",
       "lat": 35.6595,
       "lng": 139.7004,
-      "address": "3-ch\u014dme-10-12 Shibuya, Shibuya City, Tokyo 150-0002, Japan",
-      "notes": "Nagaoka-style ramen, pork tonkotsu + gyokai soup, housemade noodles. Popular with ramen heads. Phone: +81 3-6805-0860.",
-      "link": "https://tabelog.com/tokyo/A1303/A130301/13243202/",
-      "category": "Food",
-      "title": "AGE 3",
-      "detail": "Tokyo, Japan",
-      "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$$"
+      "notes": "One of the most unique shops in Tokyo. Made for travelers. Sells TRAVELER'S notebooks, travel goods, postcards, stamps from around the world, and more. Perfect if you love traveling.",
+      "link": ""
     },
     {
-      "id": "enriched-50",
-      "catalogNo": "PL-050",
-      "status": "want",
+      "title": "Unko's House",
+      "detail": "Vintage Hawaii kine stuff shop, Wahiawa",
+      "category": "Shopping",
+      "address": "711 Kilani Ave. Suite 1, Wahiawa, HI 96786",
+      "lat": 21.5049,
+      "lng": -158.0039,
+      "notes": "Hours: Sunday 12pm-3pm, Wednesday 10am-5pm. Vintage Hawaiian apparel, art, goods.",
+      "link": "https://www.unkoshouse.com"
+    },
+    {
+      "title": "Kisabur\u014d N\u014dj\u014d",
+      "detail": "Farm-themed izakaya restaurant, Bunkyo, Tokyo",
+      "category": "Food",
+      "address": "Bunky\u014d, Tokyo, Japan",
+      "lat": 35.7116,
+      "lng": 139.7645,
+      "notes": "Cozy, farm-themed. Famous for all-you-can-eat tamago kake gohan (raw egg on rice) featuring premium, branded eggs. 3.8\u2605 (790 reviews), \u00a51,000\u20132,000. Google: Kisabur\u014d Farm.",
+      "link": "",
+      "priceLevel": "$"
+    },
+    {
+      "title": "KUMONOCHA",
+      "detail": "Cloud Matcha, Kyoto",
+      "category": "Food",
+      "address": "Kyoto, Japan",
+      "lat": 34.9926,
+      "lng": 135.769,
+      "notes": "Viral matcha spot in Kyoto. Recommended as a must-try food experience.",
+      "link": "https://kumonocha.com/",
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "AGE 3",
+      "detail": "Viral fried sandwiches, Tokyo",
+      "category": "Food",
+      "address": "Tokyo, Japan",
+      "lat": 35.6595,
+      "lng": 139.7004,
+      "notes": "Recommended viral food to try in Tokyo.",
+      "link": "https://tabelog.com/tokyo/A1303/A130301/13243202/",
+      "price": "$$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "HIIRAGI GINZA",
+      "detail": "Shaved mango ice, Tokyo",
+      "category": "Food",
+      "address": "Ginza, Tokyo, Japan",
       "lat": 35.6724,
       "lng": 139.7622,
-      "address": "7-7-7 Ginza, Chuo-ku, Tokyo 104-0061, Japan (GINZA777 ADCBUILDING 3F)",
-      "notes": "Japanese sweets, traditional confectionery. 4 min walk from Ginza Station Exit A3. Phone: +81-3-3289-1235. Mon-Fri 11:30-15:00 (lunch), 17:30-21:30 (dinner). Closed Sun & 2nd/3rd Sat.",
+      "notes": "Viral shaved mango ice cream spot.",
       "link": "https://ssl.tabelog.com/en/tokyo/A1313/A131301/13300655",
-      "category": "Shopping",
-      "title": "HIIRAGI GINZA",
-      "detail": "Tokyo, Japan",
+      "price": "$$$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$$"
+      "pinCheck": true
     },
     {
-      "id": "enriched-51",
-      "catalogNo": "PL-051",
-      "status": "want",
+      "title": "EST",
+      "detail": "Michelin-starred dinner, Tokyo",
+      "category": "Food",
+      "address": "Tokyo, Japan",
       "lat": 35.6645,
       "lng": 139.7314,
-      "address": "Check local listings or Tabelog for current address (Ginza area)",
-      "notes": "Popular in Ginza, specialty varies. Recommend searching on Tabelog or Google Maps for exact location.",
+      "notes": "Michelin-starred restaurant.",
       "link": "https://tabelog.com/",
-      "category": "Food",
-      "title": "EST",
-      "detail": "Tokyo/Ginza, Japan",
+      "price": "$$$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$$"
+      "pinCheck": true
     },
     {
-      "id": "enriched-52",
-      "catalogNo": "PL-052",
-      "status": "want",
+      "title": "W\u00c4LDER",
+      "detail": "Viral bakery, Kyoto",
+      "category": "Food",
+      "address": "Kyoto, Japan",
       "lat": 35.6664,
       "lng": 139.7385,
-      "address": "Check local listings or Tabelog for current address (Ginza area)",
-      "notes": "Listed in Ginza dining guides. Recommend searching on Tabelog or Google Maps for exact current location.",
+      "notes": "Viral bakery spot in Kyoto.",
       "link": "https://tabelog.com/",
-      "category": "Food",
-      "title": "W\u00c4LDER",
-      "detail": "Tokyo/Ginza, Japan",
+      "price": "$$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
+      "pinCheck": true
     },
     {
-      "id": "enriched-53",
-      "catalogNo": "PL-053",
-      "status": "want",
+      "title": "SARYO TESSHIN",
+      "detail": "Cute candy sticks, Kyoto",
+      "category": "Shopping",
+      "address": "Kyoto, Japan",
+      "lat": 35.0116,
+      "lng": 135.768,
+      "notes": "Known for cute candy sticks.",
+      "link": ""
+    },
+    {
+      "title": "THE FRONT ROOM",
+      "detail": "Viral French toast, Tokyo",
+      "category": "Food",
+      "address": "Tokyo, Japan",
       "lat": 35.6642,
       "lng": 139.7347,
-      "address": "Check local listings or Google Maps (Tokyo area)",
-      "notes": "Contemporary dining in Tokyo. Recommend searching on Google Maps for exact location & hours.",
+      "notes": "Viral French toast spot.",
       "link": "https://www.google.com/maps/",
-      "category": "Food",
-      "title": "THE FRONT ROOM",
-      "detail": "Tokyo, Japan",
+      "price": "$$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
+      "pinCheck": true
     },
     {
-      "id": "enriched-54",
-      "catalogNo": "PL-054",
-      "status": "want",
+      "title": "PIZZERIA OSTERIA",
+      "detail": "Pizza restaurant, Tokyo",
+      "category": "Food",
+      "address": "Tokyo, Japan",
       "lat": 35.6633,
       "lng": 139.7347,
-      "address": "Check local listings or Tabelog for current address",
-      "notes": "Italian/pizza in Tokyo. Recommend searching on Tabelog or Google Maps for exact location.",
+      "notes": "Recommended pizza spot in Tokyo.",
       "link": "https://tabelog.com/",
-      "category": "Food",
-      "title": "PIZZERIA OSTERIA",
-      "detail": "Tokyo, Japan",
+      "price": "$$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
+      "pinCheck": true
     },
     {
-      "id": "enriched-55",
-      "catalogNo": "PL-055",
-      "status": "want",
-      "lat": 35.6724,
-      "lng": 139.7622,
-      "address": "Check local listings or Google Maps",
-      "notes": "Tokyo dining. Recommend searching on Google Maps for exact location & current hours.",
-      "link": "https://www.google.com/maps/",
-      "category": "Food",
       "title": "COW COW KITCHEN",
-      "detail": "Tokyo, Japan",
-      "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-56",
-      "catalogNo": "PL-056",
-      "status": "want",
+      "detail": "Hokkaido puff pastries, Tokyo",
+      "category": "Food",
+      "address": "Tokyo, Japan",
       "lat": 35.6724,
       "lng": 139.7622,
-      "address": "Ginza, Tokyo (specific address: check Tabelog or Google Maps)",
+      "notes": "Viral Hokkaido puff pastries.",
+      "link": "https://www.google.com/maps/",
+      "price": "$$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "7-11",
+      "detail": "Frozen waffle ice cream, Japan",
+      "category": "Food",
+      "address": "Japan",
+      "lat": 35.6762,
+      "lng": 139.7385,
+      "notes": "Viral frozen waffle ice cream (found at 7-11 across Japan).",
+      "link": "https://www.7-11.co.jp/",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Ikina Sushi Dokoro Abe Aoyama",
+      "detail": "Sushi restaurant, Aoyama, Tokyo",
+      "category": "Food",
+      "address": "150-0001 Tokyo, Shibuya City, Jingumae, 5 Chome-46-7 G E MS\u9752\u5c71CROSS \u5730\u4e0b1\u968e",
+      "lat": 35.6658,
+      "lng": 139.7303,
+      "notes": "",
+      "link": "https://www.byfood.com/restaurant/ikina-sushidokoro-abe-aoyama-17862",
+      "pinQuery": "5 Chome-46-7 Jingumae, Shibuya City, Tokyo",
+      "pinCheck": true
+    },
+    {
+      "title": "Godaime Hanayama Udon Ginza",
+      "detail": "Udon restaurant, Ginza, Tokyo",
+      "category": "Food",
+      "address": "Ginza, Tokyo, Japan",
+      "lat": 35.6724,
+      "lng": 139.7622,
       "notes": "Udon specialty in Ginza. Recommend searching Tabelog for current location.",
       "link": "https://tabelog.com/",
-      "category": "Food",
-      "title": "Godaime Hanayama Udon Ginza",
-      "detail": "Tokyo/Ginza, Japan",
+      "price": "$",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$"
+      "pinCheck": true
+    },
+    {
+      "title": "M\u00falafossur Waterfall",
+      "detail": "Waterfall, G\u00e1sadalur, Faroe Islands",
+      "category": "Views",
+      "address": "G\u00e1sadalur, Faroe Islands",
+      "lat": 62.0174,
+      "lng": -7.1745,
+      "notes": "One of the must-visit places in the Faroe Islands. Within 2-hour flight from other Faroe islands.",
+      "link": ""
+    },
+    {
+      "title": "Traelanipa & Lake S\u00f8rv\u00e1gsvatn",
+      "detail": "Trail & lake, Faroe Islands",
+      "category": "Walking/Running",
+      "address": "Faroe Islands",
+      "lat": 62.0144,
+      "lng": -7.165,
+      "notes": "Must-visit hike. On private land \u2014 requires hiking fee or local guide. Book in advance.",
+      "link": ""
+    },
+    {
+      "title": "Dunnesdrangar",
+      "detail": "Rock formations, Faroe Islands",
+      "category": "Views",
+      "address": "Faroe Islands",
+      "lat": 61.9833,
+      "lng": -6.8167,
+      "notes": "Must-visit place in the Faroe Islands.",
+      "link": ""
+    },
+    {
+      "title": "Drangarni Sea Arch",
+      "detail": "Sea arch, Faroe Islands",
+      "category": "Views",
+      "address": "Faroe Islands",
+      "lat": 61.95,
+      "lng": -7.1833,
+      "notes": "Must-visit sea arch in the Faroe Islands.",
+      "link": ""
+    },
+    {
+      "title": "Saksun & Gj\u00f3gy Villages",
+      "detail": "Traditional villages, Faroe Islands",
+      "category": "Misc",
+      "address": "Saksun, Faroe Islands",
+      "lat": 61.9667,
+      "lng": -7.1667,
+      "notes": "Must-visit traditional villages in the Faroe Islands.",
+      "link": ""
+    },
+    {
+      "title": "Kallur Lighthouse",
+      "detail": "Lighthouse on Kalsoy island, Faroe Islands",
+      "category": "Views",
+      "address": "Kalsoy, Faroe Islands",
+      "lat": 62.3081,
+      "lng": -6.7525,
+      "notes": "Must-visit lighthouse in the Faroe Islands.",
+      "link": ""
+    },
+    {
+      "title": "Mykines Island",
+      "detail": "Island with puffins, Faroe Islands",
+      "category": "Views",
+      "address": "Mykines, Faroe Islands",
+      "lat": 61.8667,
+      "lng": -7.6167,
+      "notes": "Must-visit island in the Faroe Islands \u2014 known for puffins.",
+      "link": ""
+    },
+    {
+      "title": "Su\u00f0uroy",
+      "detail": "Southernmost island, Faroe Islands",
+      "category": "Misc",
+      "address": "Su\u00f0uroy, Faroe Islands",
+      "lat": 61.5,
+      "lng": -6.8333,
+      "notes": "The southernmost island of the Faroe Islands.",
+      "link": ""
+    },
+    {
+      "title": "Sushi Delight",
+      "detail": "Sushi restaurant, Lomita, CA",
+      "category": "Food",
+      "address": "2117 Pacific Coast Hwy, Lomita, CA",
+      "lat": 33.7575,
+      "lng": -118.3245,
+      "notes": "Est. 2005. Phone: 310-530-1725. South Bay favorite \u2014 voted favorite in 2024. Has a kaiten sushi counter.",
+      "link": "https://www.sushi-delight.com"
+    },
+    {
+      "title": "Chamonix Running Track",
+      "detail": "Scenic running route, Chamonix, France",
+      "category": "Walking/Running",
+      "address": "Chamonix, France",
+      "lat": 45.9228,
+      "lng": 6.8694,
+      "notes": "Very scenic running track. No specific address.",
+      "link": ""
+    },
+    {
+      "title": "Story Spark",
+      "detail": "Indie publisher/stationery, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth. storespark.com",
+      "link": "https://storespark.com"
+    },
+    {
+      "title": "Made by Tiffani",
+      "detail": "Craft items, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth.",
+      "link": ""
+    },
+    {
+      "title": "Snippet Stories",
+      "detail": "Stickers & crafts, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth.",
+      "link": ""
+    },
+    {
+      "title": "Seoul Wings",
+      "detail": "Illustration & crafts, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth. Has sticker designs and more.",
+      "link": ""
+    },
+    {
+      "title": "Noah Sturm",
+      "detail": "Fine art, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth. noahsturmfineart.com",
+      "link": "https://noahsturmfineart.com"
+    },
+    {
+      "title": "Nicole Parra",
+      "detail": "Illustration & design, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth. Illustration & design, fossilforager.art",
+      "link": "https://fossilforager.art"
+    },
+    {
+      "title": "Art Aleisha",
+      "detail": "Illustration & art, craft fair vendor",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Craft fair booth. byaleishacom. Instagram: @illustratedbyaleisha",
+      "link": ""
+    },
+    {
+      "title": "Rosicrucian Egyptian Museum",
+      "detail": "Egyptian museum, San Jose",
+      "category": "Misc",
+      "address": "1660 Park Ave, San Jose, CA 95191",
+      "lat": 37.3342,
+      "lng": -121.9233,
+      "notes": "Fri 10am-5pm, Sat-Sun 11am-6pm. Closed Mon-Thu. Phone: 408-947-3635.",
+      "link": "https://egyptianmuseum.org"
+    },
+    {
+      "title": "Urban Ore",
+      "detail": "Salvage & reuse shop, Berkeley",
+      "category": "Shopping",
+      "address": "900 Murray St, Berkeley, CA 94710",
+      "lat": 37.8716,
+      "lng": -122.2727,
+      "notes": "Mon-Sat 8:30am-5pm, Sun 10am-5pm. Phone: 510-841-7283. Architectural salvage, furniture, building materials.",
+      "link": "https://urbanore.com"
+    },
+    {
+      "title": "Berry Island Farms",
+      "detail": "U-pick berries, Gilroy",
+      "category": "Misc",
+      "address": "Gilroy, CA",
+      "lat": 37.0058,
+      "lng": -121.5613,
+      "notes": "U-pick organic strawberries, blackberries, raspberries, boysenberries, olallieberries. Open Saturdays 9am-1pm year-round (first-come, first-serve). Cash only. Closed-toe shoes required.",
+      "link": ""
+    },
+    {
+      "title": "Marin Farmers Market",
+      "detail": "Farmers market, Marin",
+      "category": "Shopping",
+      "address": "Marin Civic Center & Veterans Memorial Auditorium, San Rafael, CA",
+      "lat": 37.9913,
+      "lng": -122.5337,
+      "notes": "Thursday (Veterans Memorial Auditorium) & Sunday (Civic Center), 8am-1pm year-round. Phone: 415-472-6100.",
+      "link": ""
+    },
+    {
+      "title": "Lake Timescale",
+      "detail": "Trail/lake, Bay Area",
+      "category": "Walking/Running",
+      "address": "Bay Area, CA",
+      "lat": null,
+      "lng": null,
+      "notes": "Location TBD \u2014 need specific location details.",
+      "link": ""
+    },
+    {
+      "title": "The Purge Consignment Hawaii",
+      "detail": "Consignment store, Kaimuki, Honolulu",
+      "category": "Shopping",
+      "address": "1135 12th Ave, Kaimuki, HI",
+      "lat": 21.3129,
+      "lng": -157.8197,
+      "notes": "Thu 3-7pm, Fri-Sat 11am-7pm, Sun 11am-5pm. Consignment boutique.",
+      "link": ""
+    },
+    {
+      "title": "Kew Gardens",
+      "detail": "Royal Botanical Gardens, Richmond",
+      "category": "Views",
+      "address": "TW9 3AB, Richmond, London, UK",
+      "lat": 51.4868,
+      "lng": -0.2922,
+      "notes": "Royal Botanical Gardens in Richmond, southwest London.",
+      "link": "https://www.kew.org"
+    },
+    {
+      "title": "Peephole Cinema",
+      "detail": "Art installation microcinema, SF Mission",
+      "category": "Misc",
+      "address": "280 Orange Alley, San Francisco, CA 94110",
+      "lat": 37.7571,
+      "lng": -122.4156,
+      "notes": "Free public cinema showing silent short films 24/7 through a dime-sized peephole. Open 24 hours.",
+      "link": "https://www.peepholecinema.com"
+    },
+    {
+      "title": "Envelop SF",
+      "detail": "Immersive audio listening venue, The Midway",
+      "category": "Misc",
+      "address": "900 Marin St, San Francisco, CA 94124",
+      "lat": 37.7433,
+      "lng": -122.3734,
+      "notes": "32-speaker immersive sound venue. Collective listening sessions, spatial music performances, wellness & education. Check website for event schedule.",
+      "link": "https://www.envelop.us"
+    },
+    {
+      "title": "Klani Hair Ties",
+      "detail": "Hair accessories shop",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Klani hair ties \u2014 location/hours TBD.",
+      "link": ""
+    },
+    {
+      "title": "Geirangerfjord",
+      "detail": "UNESCO-protected fjord, Norway",
+      "category": "Views",
+      "address": "More og Romsdal, Norway",
+      "lat": 62.1003,
+      "lng": 7.1833,
+      "notes": "Deep blue water, cascading waterfalls, steep mountains. Activities: rafting, canyoneering, hiking.",
+      "link": ""
+    },
+    {
+      "title": "Bryggen",
+      "detail": "Colorful harbor district, Bergen, Norway",
+      "category": "Views",
+      "address": "Bergen, Norway",
+      "lat": 60.3639,
+      "lng": 5.3228,
+      "notes": "UNESCO-listed. Colorful wooden houses, waterfront shops, local fish market, Bryggens Museum.",
+      "link": ""
+    },
+    {
+      "title": "Pulpit Rock (Preikestolen)",
+      "detail": "Iconic 2000-foot cliff, Lysefjord, Norway",
+      "category": "Views",
+      "address": "Lysefjord, Norway",
+      "lat": 58.9854,
+      "lng": 6.1436,
+      "notes": "Dramatic scenic viewpoint accessible by hiking or boat. UNESCO-protected fjord.",
+      "link": ""
+    },
+    {
+      "title": "Lofoten Islands",
+      "detail": "Archipelago with Viking history, Norway",
+      "category": "Misc",
+      "address": "Lofoten, Norway",
+      "lat": 68.1281,
+      "lng": 13.5947,
+      "notes": "Known for fishing, skiing, windswept beaches. Lofotr Viking Museum, fishing villages. Northern lights Sept-Apr.",
+      "link": ""
+    },
+    {
+      "title": "Oslo Opera House",
+      "detail": "Contemporary architecture, Oslo",
+      "category": "Misc",
+      "address": "Oslo, Norway",
+      "lat": 59.9066,
+      "lng": 10.7522,
+      "notes": "Home to Norway's ballet and opera. Modern architecture with public access to rooftop.",
+      "link": ""
+    },
+    {
+      "title": "Frogner Park",
+      "detail": "Public park with sculptures, Oslo",
+      "category": "Views",
+      "address": "Oslo, Norway",
+      "lat": 59.9249,
+      "lng": 10.7058,
+      "notes": "Art installations by Gustav Vigeland, sculptures, landscaping. Adjacent to Oslo City Museum.",
+      "link": ""
+    },
+    {
+      "title": "\u00c5lesund",
+      "detail": "Port town with Art Nouveau architecture, Norway",
+      "category": "Misc",
+      "address": "\u00c5lesund, Norway",
+      "lat": 62.4724,
+      "lng": 6.1627,
+      "notes": "Famous for Art Nouveau architecture. Port town on southwestern coast.",
+      "link": ""
+    },
+    {
+      "title": "Fl\u00e5m Railway",
+      "detail": "Mountain railway scenic route, Norway",
+      "category": "Walking/Running",
+      "address": "Fl\u00e5m, Norway",
+      "lat": 60.8656,
+      "lng": 7.1921,
+      "notes": "Journey through mountain pass to Myrdal and onwards to Bergen. UNESCO World Heritage route.",
+      "link": ""
+    },
+    {
+      "title": "Fishcake",
+      "detail": "Rice dish pop-up event venue, Honolulu",
+      "category": "Food",
+      "address": "307C Kamani St, Honolulu, HI",
+      "lat": 21.3315,
+      "lng": -157.8559,
+      "notes": "Rice Fest event Sept 3, 6pm-8:30pm. Local food vendors, handcrafted rice merch.",
+      "link": "https://www.instagram.com/fishcakehawaii"
+    },
+    {
+      "title": "SALT at Our Kaka'ako",
+      "detail": "Marketplace food, music & vendors, Honolulu",
+      "category": "Misc",
+      "address": "Our Kaka'ako, Honolulu, HI",
+      "lat": 21.2923,
+      "lng": -157.8647,
+      "notes": "Fri Sept 4 \u2014 Food, music, vintage, market vendors 3pm-10pm at SALT.",
+      "link": ""
+    },
+    {
+      "title": "Whimsi Clips",
+      "detail": "Silicone spring clips, online shop",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Baby goods/kids goods \u2014 stroller hacks, floor-saves. 15% off first set via whimsiclips.com",
+      "link": "https://www.whimsiclips.com"
+    },
+    {
+      "title": "Bikinibird",
+      "detail": "Beachwear & resort wear shop, O'ahu | Maui",
+      "category": "Shopping",
+      "address": "O'ahu, Maui, Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "5 shops. Bikinis since 2014. Endless brands, beach + resort wear. bikinibird.com",
+      "link": "https://www.bikinibird.com"
+    },
+    {
+      "title": "Claire Shelloha Treasures",
+      "detail": "Seashell jewelry & card skins, Ventura & Oahu",
+      "category": "Shopping",
+      "address": "Ventura, CA & Oahu, HI",
+      "lat": null,
+      "lng": null,
+      "notes": "Seashell jewelry & card skins. DM for wholesale or orders. shell.oha on IG.",
+      "link": "https://www.shellohtreasures.com"
+    },
+    {
+      "title": "Daisy Chain Fields",
+      "detail": "Festival/event, Great Park, Irvine",
+      "category": "Misc",
+      "address": "Great Park, Irvine, CA",
+      "lat": 33.687,
+      "lng": -117.8677,
+      "notes": "Aug 29. Multi-event festival with vendors, music, art. linktr.ee/daisychainfields",
+      "link": "https://linktr.ee/daisychainfields"
+    },
+    {
+      "title": "Aloha Cut + Cloth",
+      "detail": "Clothing manufacturer, Honolulu",
+      "category": "Shopping",
+      "address": "Honolulu, Hawaii",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "notes": "Made in Hawai'i custom fabric, cut + sew for small biz, workshops for new brands.",
+      "link": "https://linktr.ee/alohacutandcloth"
+    },
+    {
+      "title": "Hapa.made",
+      "detail": "Sewing workshops & sun hats, Hawaii",
+      "category": "Misc",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "Learn to sew workshops 8/22 + 9/12. Make your own clothes. Natsumatsuri Festival 8/28, 4-8pm.",
+      "link": "https://www.eventbrite.com/e/19961873300402"
+    },
+    {
+      "title": "Pewa by Pono Potions",
+      "detail": "Potion shop, downtown Honolulu",
+      "category": "Shopping",
+      "address": "Downtown Honolulu, Hawaii",
+      "lat": 21.3099,
+      "lng": -157.8581,
+      "notes": "Pono potions shop in downtown Honolulu.",
+      "link": ""
+    },
+    {
+      "title": "Creative Pebble",
+      "detail": "2.0 USB desktop speakers, online",
+      "category": "Misc",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Minimalist OG Pebble speakers. Simple design, USB powered. creative.com",
+      "link": "https://www.creative.com"
+    },
+    {
+      "title": "Wacaco Prestina Coffee Brewer",
+      "detail": "Premium portable coffee brewer",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Quick & easy workflow for brewing specialty coffee. Featured by Tanner Colson Coffee.",
+      "link": "https://www.wacaco.com"
+    },
+    {
+      "title": "Dinosaur Arba Jewelry",
+      "detail": "Adjustable dinosaur rings, online shop",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Adjustable dinosaur rings (Stegosaurus, T. rex, Brachiosaurus, Triceratops). Internal diameter 1.8cm.",
+      "link": "https://www.instagram.com/dinosaurarba"
+    },
+    {
+      "title": "LEGO Magnolia Branches",
+      "detail": "Botanical LEGO set 10314",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Pink magnolia flowers with brown branches. 435 pieces, 18+. $49.99.",
+      "link": "https://www.lego.com"
+    },
+    {
+      "title": "Ron Herman / \u30ed\u30f3\u30cf\u30fc\u30de\u30f3",
+      "detail": "Japanese lifestyle brand & cafe, Shibuya Tokyo",
+      "category": "Shopping",
+      "address": "\u5343\u99c4\u30f6\u8c372-11-1, Shibuya, Tokyo 151-8575",
+      "lat": 35.6658,
+      "lng": 139.7036,
+      "notes": "Apparel, waikiki store, accessories, lifestyle goods. Cafe, Journal, Look Book, seasonal collections.",
+      "link": "https://ronherman.jp"
+    },
+    {
+      "title": "Science Gallery Melbourne",
+      "detail": "Interactive exhibits on social behaviour, University of Melbourne",
+      "category": "Misc",
+      "address": "University of Melbourne, Melbourne, Australia",
+      "lat": -37.7979,
+      "lng": 144.9628,
+      "notes": "Exhibits that make you think about social behaviour. Through Dec 3 (as of Oct 2022). Free entry.",
+      "link": "https://www.sciencegallerymelbourne.com.au"
+    },
+    {
+      "title": "For Simple Sustainability",
+      "detail": "Fashion studio & seasonal sale event",
+      "category": "Shopping",
+      "address": "1993 Pauoa Rd, Honolulu, HI",
+      "lat": 21.3282,
+      "lng": -157.8645,
+      "notes": "End of summer sale + Fall/Winter first look. Saturday 9/5, 11am-4pm. Past season pieces marked down, new collection arrives.",
+      "link": ""
+    },
+    {
+      "title": "Campus Canteen - Melbourne Uni (Parkville)",
+      "detail": "Cheap eats cafe, $5.20 daily rotating meals",
+      "category": "Food",
+      "address": "University of Melbourne, Parkville, Victoria, Australia",
+      "lat": -37.7979,
+      "lng": 144.9628,
+      "notes": "$5.20 daily rotating meals, right on campus. Melbourne Uni Parkville edition.",
+      "link": "",
+      "priceLevel": "$"
+    },
+    {
+      "title": "The Heart of Carlton",
+      "detail": "Cafe with $4 everything, pasta, baguettes, drinks",
+      "category": "Food",
+      "address": "Carlton, Melbourne, Victoria, Australia",
+      "lat": -37.806,
+      "lng": 144.9717,
+      "notes": "Everything is $4 (pasta, baguettes, drinks). 6 min walk from campus. @theheartofcarlton",
+      "link": "https://www.instagram.com/theheartofcarlton",
+      "priceLevel": "$"
+    },
+    {
+      "title": "Analog Melbourne",
+      "detail": "NYC-inspired cafe, Parkville, $10 breakfast combos",
+      "category": "Food",
+      "address": "University of Melbourne, Parkville, Victoria, Australia",
+      "lat": -37.7979,
+      "lng": 144.9628,
+      "notes": "New NYC-inspired cafe, $10 breakfast combos, 1 min walk from campus. @analogmelbourne @melb.teatime",
+      "link": "https://www.instagram.com/analogmelbourne",
+      "priceLevel": "$"
+    },
+    {
+      "title": "Mankeumi @ Bottari Cafe",
+      "detail": "Hidden Korean spot, Parkville, $15 meals",
+      "category": "Food",
+      "address": "Melbourne, Victoria, Australia",
+      "lat": -37.7979,
+      "lng": 144.9628,
+      "notes": "Hidden Korean spot, $15 meals with rice + 2 sides, tteokbokki, fried chicken, self-serve ramen bar. 9 min walk. @mankeumi_au",
+      "link": "https://www.instagram.com/mankeumi_au",
+      "priceLevel": "$$"
+    },
+    {
+      "title": "Kenangan Kecil",
+      "detail": "Indonesian meals, Parkville, $15",
+      "category": "Food",
+      "address": "Melbourne, Victoria, Australia",
+      "lat": -37.7979,
+      "lng": 144.9628,
+      "notes": "$15 Indonesian meals, 9 min walk from campus. @kenangankecil.au",
+      "link": "https://www.instagram.com/kenangankecil.au",
+      "priceLevel": "$$"
+    },
+    {
+      "title": "Ho'olei MAUI",
+      "detail": "Native Hawaiian-owned lei & merch shop, Honolulu",
+      "category": "Shopping",
+      "address": "73 S. Pu'unene Ave, Honolulu, HI",
+      "lat": 21.3129,
+      "lng": -157.8197,
+      "notes": "Native Hawaiian-owned artist. Lei & merch. Made by ho'olei. @simplylocalhawaii 73 S. Pu'unene Ave.",
+      "link": "https://www.madebyhoolei.com"
+    },
+    {
+      "title": "Confused Creative Studio",
+      "detail": "Photobooth & creative studio event",
+      "category": "Misc",
+      "address": "Melbourne, Australia",
+      "lat": -37.8136,
+      "lng": 144.9631,
+      "notes": "Cute photobooth experience. Knit/crochet lace backdrops. @confusedcreative.studio",
+      "link": ""
+    },
+    {
+      "title": "Na Koa",
+      "detail": "Hawaiian shop",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Small Kine Gift",
+      "detail": "Gift shop",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Circular Fashion Hawaii / The Reuse",
+      "detail": "Circular fashion & sustainable reuse shop, Hawaii",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "Circular fashion & sustainable reuse.",
+      "link": ""
+    },
+    {
+      "title": "Hina Hawaii",
+      "detail": "Shop, Hawaii",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Hang Um Hawaii",
+      "detail": "Shop, Hawaii",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Eww Wet Food Art Shop",
+      "detail": "Art/food shop",
+      "category": "Shopping",
+      "address": "Hawaii",
+      "lat": null,
+      "lng": null,
+      "notes": "",
+      "link": ""
+    },
+    {
+      "title": "Aloha Happy Hats",
+      "detail": "Papale, Lauhala hats, claw clips, Honolulu",
+      "category": "Shopping",
+      "address": "Aloha Stadium Swapmeet - WG11S, Honolulu, HI",
+      "lat": 21.3519,
+      "lng": -157.9251,
+      "notes": "Papale, Lauhala hats, claw clips. Open: 8am-2pm Wed, Sat. @aloha._happy",
+      "link": "https://www.instagram.com/aloha._happy"
+    },
+    {
+      "title": "Mangrove Boardwalk",
+      "detail": "Walking/scenic boardwalk, Darwin, Australia",
+      "category": "Walking/Running",
+      "address": "Darwin, Australia",
+      "lat": -12.4381,
+      "lng": 130.8353,
+      "notes": "Must-do if you visit Darwin. Beautiful mangrove forest boardwalk. @dustanddaydreamsjd",
+      "link": ""
+    },
+    {
+      "title": "RC Outfitters",
+      "detail": "Small local shop, Peoria, Illinois",
+      "category": "Shopping",
+      "address": "Peoria, Illinois",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "notes": "Track & field sports store. Small local shop in Peoria. @lounaschu",
+      "link": ""
+    },
+    {
+      "title": "Hello Small Brands",
+      "detail": "Small brand discovery platform, luxury with purpose",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Discover brands doing things differently. Luxury with purpose, Planet Positive, giving back to communities, People First. www.hellosmallbrands.com",
+      "link": "https://www.hellosmallbrands.com"
+    },
+    {
+      "title": "Jalen Muraoka Art",
+      "detail": "Hawai\u02bbi artist, drawing, painting, surface design",
+      "category": "Misc",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Drawing, painting, surface pattern design. Nails, color polls, available patterns, prints IRL. Bring some art home. @jalenart",
+      "link": "https://jalenart.com"
+    },
+    {
+      "title": "Sano Miso Kameido Main Store",
+      "detail": "Miso shop with 70+ varieties, Amusement Park in Kameido, Tokyo",
+      "category": "Food",
+      "address": "Kameido, Tokyo, Japan",
+      "lat": 35.7596,
+      "lng": 139.8116,
+      "notes": "Miso Amusement Park with over 70 types of Japanese miso to choose from. Bucket heaven for miso pastes.",
+      "link": ""
+    },
+    {
+      "title": "Spectacles Bridge / \u773c\u93e1\u6a4b",
+      "detail": "Japan's oldest double-arch stone bridge, 1634, Nagasaki",
+      "category": "Views",
+      "address": "Nagasaki, Japan",
+      "lat": 32.7487,
+      "lng": 129.8735,
+      "notes": "Built 1634 by Chinese monk using techniques from China. Stone bridge. Historic landmark.",
+      "link": ""
+    },
+    {
+      "title": "Nakadori Shopping Street",
+      "detail": "Nagasaki's oldest shopping street, turned 400 in 2025",
+      "category": "Shopping",
+      "address": "Nagasaki, Japan",
+      "lat": 32.7487,
+      "lng": 129.8735,
+      "notes": "Nagasaki's oldest shopping street. Turned 400 in 2025.",
+      "link": ""
+    },
+    {
+      "title": "Coffee Hitomachi",
+      "detail": "Siphon-brewed coffee stand, Nagasaki",
+      "category": "Food",
+      "address": "Nagasaki, Japan",
+      "lat": 35.6761,
+      "lng": 139.7949,
+      "notes": "Favorite coffee stand, down a back lane. Siphon-brewed coffee. 10 min walk from Spectacles Bridge.",
+      "link": "https://tabelog.com/",
+      "price": "$",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Nagasaki Omagari Neko Shrine / \u732b\u306e\u540d\u524d\u3042\u308a\u30cd\u30b3\u795e\u793e",
+      "detail": "Cat shrine with shop, Nagasaki",
+      "category": "Misc",
+      "address": "Nagasaki, Japan",
+      "lat": 32.7487,
+      "lng": 129.8735,
+      "notes": "Shrine for cats. Yes, really. There's a shop too. 10 min walk from Spectacles Bridge.",
+      "link": ""
+    },
+    {
+      "title": "FT Teramachi / Temple Street",
+      "detail": "Fourteen temples and two shrines, mountain foot, Nagasaki",
+      "category": "Misc",
+      "address": "Nagasaki, Japan",
+      "lat": 32.7487,
+      "lng": 129.8735,
+      "notes": "Fourteen temples and two shrines in a row, at the foot of the mountain. 10 min walk from Spectacles Bridge.",
+      "link": ""
+    },
+    {
+      "title": "Kofukuji",
+      "detail": "Japan's oldest Chinese temple, 1620, Nagasaki",
+      "category": "Misc",
+      "address": "Nagasaki, Japan",
+      "lat": 32.7487,
+      "lng": 129.8735,
+      "notes": "Japan's oldest Chinese temple, from 1620. It's the temple that monk came from. You can sit and drink matcha inside.",
+      "link": ""
+    },
+    {
+      "title": "Rilovento",
+      "detail": "Affordable modern furniture, online shop",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Dark green sectional sofa $349.99, convertible platform sofa $359.99. Cool + affordable furniture finds.",
+      "link": ""
+    },
+    {
+      "title": "Mai Hilahila / Anykine Vintage",
+      "detail": "Native Hawaiian vintage clothing shop",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Modern mea, vintage vibe. Native Hawaiian, feminist. Vintage collection curated for w\u0101hine. maihilahila.com",
+      "link": "https://www.maihilahila.com"
+    },
+    {
+      "title": "What We Call Home",
+      "detail": "Short film, Hawaii International Film Festival",
+      "category": "Misc",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Family in a self-governed houseless community on O\u02bbahu facing government removal. A father leads the village; his son and daughter come to understand what home means.",
+      "link": ""
+    },
+    {
+      "title": "Made by Good Karma",
+      "detail": "Sustainable slow fashion, hand block printed",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "100% cotton, no synthetics. Hand block printed, tie dyed, upcycled in small batches. September Markets: Jackalope, Sept 19-20, Green St, Pasadena. madebygoodkarma.com",
+      "link": "https://www.madebygoodkarma.com"
+    },
+    {
+      "title": "Disuko Melbourne",
+      "detail": "Japanese disco diner with Handroll Omakase, Bourke St",
+      "category": "Food",
+      "address": "Bourke Street, Melbourne, Australia",
+      "lat": -37.8136,
+      "lng": 144.9669,
+      "notes": "Multi-level venue inspired by 1980s Tokyo. New Handroll Omakase: 5/6/7-course menu at the neon-lit Half Moon Omakase Bar \u2014 scallop sashimi, wagyu tataki, prawn tempura, kingfish sashimi. Cocktails and sake pairings.",
+      "link": ""
+    },
+    {
+      "title": "Work It Out Kauai \u2014 Lei Club 2026",
+      "detail": "Lei-print apparel drop, Kauai",
+      "category": "Shopping",
+      "address": "Kauai, HI",
+      "lat": 22.0964,
+      "lng": -159.5261,
+      "notes": "Newest Lei Club shirts \u2014 botanical prints (maile, ohia lehua, plumeria, kukui). 2026 drop.",
+      "link": ""
+    },
+    {
+      "title": "Sam & Service Dog Hero",
+      "detail": "Disability advocate & multi-purpose service dog",
+      "category": "Misc",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Writing on chronic illness (ME/CFS, EDS, T1D) and disability advocacy. Substack: herosmyhero.",
+      "link": "https://substack.com/@herosmyhero"
+    },
+    {
+      "title": "Montsalvat",
+      "detail": "Historic arts estate with wisteria bloom, Eltham",
+      "category": "Views",
+      "address": "Eltham, Victoria, Australia",
+      "lat": -37.7136,
+      "lng": 145.1522,
+      "notes": "80-year-old wisteria trees bloom for 2-3 weeks each spring, poolside wander. Wine bar moves beneath the canopy for one special night. Two springtime events.",
+      "link": ""
+    },
+    {
+      "title": "Veja",
+      "detail": "Ethical shoe brand, independent since 2004",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Run by the same two founders since 2004, never taken outside investment. Sustainable sneakers.",
+      "link": "https://www.veja-store.com"
+    },
+    {
+      "title": "Freitag",
+      "detail": "Recycled truck tarp bags, family-owned since 1993",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Two brothers started in 1993, still fully own today. Each bag unique \u2014 recycled truck tarps.",
+      "link": "https://www.freitag.ch"
+    },
+    {
+      "title": "Proton",
+      "detail": "Encrypted email, Swiss nonprofit-controlled",
+      "category": "Misc",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Encrypted email; biggest voting shareholder is a Swiss nonprofit foundation.",
+      "link": "https://proton.me"
+    },
+    {
+      "title": "Elmhurst",
+      "detail": "Plant milk, family-owned since 1925",
+      "category": "Food",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Plant milk company still owned by the family that started it in 1925.",
+      "link": "https://elmhurst1925.com"
+    },
+    {
+      "title": "Amour Linen",
+      "detail": "Linen clothing brand",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Archive sale 40% off sitewide. Valencia Dress (Cacao Alwyde, Deep Olive Kotryn, Blush Pink Alwyde), Aurora Dress (Sage Green). @amourlinen",
+      "link": "https://www.amourlinen.com"
+    },
+    {
+      "title": "Sweenly Beauty",
+      "detail": "Lip pen & nails pen",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Lip pen and nails pen. @sweenlyoff. sweenly.com",
+      "link": "https://sweenly.com"
+    },
+    {
+      "title": "Curiosity Shop",
+      "detail": "Trinket shop, Berkeley",
+      "category": "Shopping",
+      "address": "Berkeley, CA",
+      "lat": 37.8695,
+      "lng": -122.2673,
+      "notes": "\"100,000 things you don't need.\" Trinket lover's paradise.",
+      "link": ""
+    },
+    {
+      "title": "Dulton",
+      "detail": "Home goods, American retro aesthetic, Japan",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Like MUJI but with playful American retro designs. Wide selection from furniture to knick knacks. @dulton_official",
+      "link": ""
+    },
+    {
+      "title": "Kimia",
+      "detail": "Handbags, NYC girl chic",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Contour bag in Burgundy. For the sexy, NYC girl chic type of look. @kimiasofficial",
+      "link": ""
+    },
+    {
+      "title": "Poelle Atelier",
+      "detail": "Playful statement handbags",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "More playful, makes a statement but works with any outfit. @poelle_atelier",
+      "link": ""
+    },
+    {
+      "title": "Rhythm Kids Capsule",
+      "detail": "Kids clothing capsule, rhythmlivin.com",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Kids Vintage Stripe LS T-Shirt Golden Brown $45, Kids Superstar SS T-Shirt Vintage Black $29.",
+      "link": "https://rhythmlivin.com/collections/kids-capsule"
+    },
+    {
+      "title": "Mahinalani Haven",
+      "detail": "Hawai\u02bbi inspired creations, Kanaka owned, Maui",
+      "category": "Shopping",
+      "address": "Maui, HI",
+      "lat": 20.7984,
+      "lng": -156.3319,
+      "notes": "Kanaka owned, Maui based. mahinalanihaven.com",
+      "link": "https://mahinalanihaven.com"
+    },
+    {
+      "title": "JLUX Label",
+      "detail": "Clothing \u2014 resort, yacht club, escape collections",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Collections: New Escape, Resort, Yacht Club, Drift&Find. Free shipping over $150. @jluxlabel",
+      "link": "https://jluxlabel.com"
+    },
+    {
+      "title": "Tokyu Food Show",
+      "detail": "Underground food hall, Shibuya Station B1F",
+      "category": "Food",
+      "address": "Shibuya Station B1F, Shibuya, Tokyo, Japan",
+      "lat": 35.6645,
+      "lng": 139.7314,
+      "notes": "Underground food hall beneath Shibuya Station. Pastries, snacks, delis.",
+      "link": "https://www.tokyu.co.jp/",
+      "geocodeAttempted": true,
+      "pinCheck": true
+    },
+    {
+      "title": "Sola\u00ed the Label",
+      "detail": "Clothing, $35 & under final sale",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "$35 & under new-to-final-sale. @solaithelabel",
+      "link": ""
+    },
+    {
+      "title": "Keeps",
+      "detail": "Furniture \u2014 platform beds & frames",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "Platform beds, frames, home furniture. builtforkeeps.com",
+      "link": "https://www.builtforkeeps.com"
+    },
+    {
+      "title": "Joy's Ceramics Studio",
+      "detail": "Ceramics, Portland Belmont Street Fair",
+      "category": "Shopping",
+      "address": "Portland, OR",
+      "lat": 45.5051,
+      "lng": -122.675,
+      "notes": "Beautiful ceramics. Portland Belmont Street Fair. @joysceramicsstudio",
+      "link": ""
+    },
+    {
+      "title": "Little Spirit Houses",
+      "detail": "Nightlights, Portland Belmont Street Fair",
+      "category": "Shopping",
+      "address": "Portland, OR",
+      "lat": 45.5051,
+      "lng": -122.675,
+      "notes": "The dreamiest nightlights. Portland Belmont Street Fair. @littlespirithouses",
+      "link": ""
+    },
+    {
+      "title": "Ozznek Shoes",
+      "detail": "Shoes with coin purse detail",
+      "category": "Shopping",
+      "address": "Portland, OR",
+      "lat": 45.5051,
+      "lng": -122.675,
+      "notes": "Coin purse shoes. Portland Belmont Street Fair. @ozznekshoes",
+      "link": ""
+    },
+    {
+      "title": "Raw Oregon Honey",
+      "detail": "Honey vendor, Portland Belmont Street Fair",
+      "category": "Shopping",
+      "address": "Portland, OR",
+      "lat": 45.5051,
+      "lng": -122.675,
+      "notes": "Blackberry honey. Portland Belmont Street Fair. @raworegonhoney",
+      "link": ""
+    },
+    {
+      "title": "Bird's Basement",
+      "detail": "Jazz club, Melbourne \u2014 Birdland's only sister club",
+      "category": "Misc",
+      "address": "Bird's Basement, Melbourne, VIC, Australia",
+      "lat": -37.8181,
+      "lng": 144.9651,
+      "notes": "Only jazz club outside New York with the Birdland name. Launched 2016 with Ravi Coltrane. Full dinner service + touring jazz acts most nights. @birdsbasement",
+      "link": ""
+    },
+    {
+      "title": "Puffing Billy Railway",
+      "detail": "Historic steam train, Belgrave day trip from Melbourne",
+      "category": "Misc",
+      "address": "Puffing Billy Railway, Belgrave, VIC, Australia",
+      "lat": -37.9007,
+      "lng": 145.3564,
+      "notes": "Historic steam train through the Dandenong Ranges. Wander Belgrave's small businesses and grab a bite after. @puffingbillyrailway",
+      "link": ""
+    },
+    {
+      "title": "The Ruby Jazz Club",
+      "detail": "Jazz club, Fortitude Valley, Brisbane \u2014 unmarked red door",
+      "category": "Misc",
+      "address": "Fortitude Valley, Brisbane, QLD, Australia",
+      "lat": -27.4561,
+      "lng": 153.0396,
+      "notes": "Hides behind an unmarked red door in Fortitude Valley. Founded by jazz pianist Meredith Brothers. Ticketed Fridays, free entry Saturdays (Jazz Music Institute trios).",
+      "link": ""
+    },
+    {
+      "title": "Curtains",
+      "detail": "Speakeasy jazz bar, Sydney \u2014 no sign, 300+ Japanese whiskies",
+      "category": "Misc",
+      "address": "Transport House, Sydney, NSW, Australia",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "notes": "From the group behind The Baxter Inn and Shady Pines Saloon. Inside Transport House \u2014 no signage, just a stairwell and a door. Live sets Thu\u2013Sun, 300+ Japanese whiskies.",
+      "link": ""
+    },
+    {
+      "title": "Lazybones Lounge",
+      "detail": "Live jazz bar, Marrickville, Sydney \u2014 free most nights",
+      "category": "Misc",
+      "address": "Lazybones Lounge, Marrickville, NSW, Australia",
+      "lat": -33.9099,
+      "lng": 151.1543,
+      "notes": "Velvet curtains, red walls, Hare Krishna mural on the ceiling. Live jazz most nights \u2014 free more often than not, rarely more than $10 at the door.",
+      "link": ""
+    },
+    {
+      "title": "Kamea Designs",
+      "detail": "Hawai\u02bbi clothing brand \u2014 Tencel & bamboo pieces, keiki to women's",
+      "category": "Shopping",
+      "address": "",
+      "lat": null,
+      "lng": null,
+      "notes": "\"Inspired by where we come from, made for where you are going.\" Family/faith-inspired designs, some made in Hawai\u02bbi. Patch Blanket, Women's, Men's, Keiki, Accessories lines. Exclusive limited collections (Tencel kimonos/pants, only 8 made). Bamboo/spandex bodysuits.",
+      "link": "https://www.kameadesigns.com/store-1-XPnVC"
     },
     {
       "id": "enriched-57",
@@ -203,68 +5666,6 @@
       "geocodeAttempted": true,
       "pinCheck": true,
       "price": "$"
-    },
-    {
-      "id": "enriched-58",
-      "catalogNo": "PL-058",
-      "status": "want",
-      "lat": 35.6761,
-      "lng": 139.7949,
-      "address": "Check local listings or Tabelog",
-      "notes": "Coffee specialty in Tokyo. Recommend searching Tabelog for location.",
-      "link": "https://tabelog.com/",
-      "category": "Food",
-      "title": "Coffee Hitomachi",
-      "detail": "Tokyo, Japan",
-      "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$"
-    },
-    {
-      "id": "enriched-59",
-      "catalogNo": "PL-059",
-      "status": "want",
-      "lat": 35.6645,
-      "lng": 139.7314,
-      "address": "Shibuya/Shinjuku Tokyu building basements (check Tokyu website)",
-      "notes": "Major food hall & restaurant vendor in Shibuya and Shinjuku Tokyu department store basements. Multiple vendors, casual dining.",
-      "link": "https://www.tokyu.co.jp/",
-      "category": "Food",
-      "title": "Tokyu Food Show",
-      "detail": "Tokyo, Japan",
-      "geocodeAttempted": true,
-      "pinCheck": true
-    },
-    {
-      "id": "enriched-60",
-      "catalogNo": "PL-060",
-      "status": "want",
-      "lat": 35.6762,
-      "lng": 139.7385,
-      "address": "Nationwide chain, many 24hr locations",
-      "notes": "Convenience store with fresh onigiri, bento, and ready-to-eat options. Quality food at low prices, unique to Japan.",
-      "link": "https://www.7-11.co.jp/",
-      "category": "Food",
-      "title": "7-11",
-      "detail": "Japan (multiple locations)",
-      "geocodeAttempted": true,
-      "pinCheck": true
-    },
-    {
-      "id": "enriched-61",
-      "catalogNo": "PL-061",
-      "status": "want",
-      "lat": 35.6836,
-      "lng": 139.7745,
-      "address": "Kyuei Building 1F, 3-1-15 Nihonbashi, Chuo-ku, Tokyo 103-0027",
-      "notes": "Famous kaisendon + ochazuke. Order while queuing (up to 2-3 hours wait). Less wait in late afternoon or at Ark Hills/Kagurazaka branches. \u00a51,000\u20133,600 (~$7\u2013$24).",
-      "link": "https://www.tsujihan-jp.com/",
-      "category": "Food",
-      "title": "Nihonbashi Kaisen Don Tsujihan",
-      "detail": "Tokyo, Japan",
-      "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
     },
     {
       "id": "enriched-62",
@@ -809,22 +6210,6 @@
       "price": "$$$"
     },
     {
-      "id": "enriched-96",
-      "catalogNo": "PL-096",
-      "status": "want",
-      "lat": 37.7975,
-      "lng": -122.4168,
-      "address": "1965 Powell St, San Francisco, CA 94133",
-      "notes": "Classic San Francisco seafood. Italian-American. Fisherman's Wharf institution. Crab & pasta.",
-      "link": "https://www.scomas.com/",
-      "category": "Food",
-      "title": "Scoma's Restaurant",
-      "detail": "San Francisco, California",
-      "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$$"
-    },
-    {
       "id": "enriched-97",
       "catalogNo": "PL-097",
       "status": "want",
@@ -1159,21 +6544,6 @@
       "pinCheck": true
     },
     {
-      "id": "enriched-118",
-      "catalogNo": "PL-118",
-      "status": "want",
-      "lat": 37.7783,
-      "lng": -122.464,
-      "address": "506 Clement St, San Francisco, CA 94118",
-      "notes": "Independent bookstore. New & used books. Clement St flagship. Quality curated inventory. Cozy vibe.",
-      "link": "https://www.greenapplebooks.com/",
-      "category": "Books",
-      "title": "Green Apple Books",
-      "detail": "San Francisco, California",
-      "geocodeAttempted": true,
-      "pinCheck": true
-    },
-    {
       "id": "enriched-119",
       "catalogNo": "PL-119",
       "status": "want",
@@ -1190,21 +6560,6 @@
       "price": "$$"
     },
     {
-      "id": "enriched-120",
-      "catalogNo": "PL-120",
-      "status": "want",
-      "lat": 37.7706,
-      "lng": -122.4545,
-      "address": "1855 Haight St, San Francisco, CA 94117",
-      "notes": "Legendary independent record store. Vinyl, CDs, rare finds. Haight-Ashbury. Mon-Sat 11am-8pm, Sun 11am-7pm.",
-      "link": "https://www.amoeba.com/",
-      "category": "Books",
-      "title": "Amoeba Music",
-      "detail": "San Francisco, California",
-      "geocodeAttempted": true,
-      "pinCheck": true
-    },
-    {
       "id": "enriched-121",
       "catalogNo": "PL-121",
       "status": "want",
@@ -1217,253 +6572,6 @@
       "title": "Vacation SF",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-mahina-made",
-      "catalogNo": "PL-122",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Clothing",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Clothing brand",
-      "link": "https://mahinamade.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Mahina Made",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-kapalili",
-      "catalogNo": "PL-123",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Clothing",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Clothing brand",
-      "link": "https://kapalili.store/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Kapalili",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-po-em",
-      "catalogNo": "PL-124",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Clothing",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Clothing & accessories",
-      "link": "https://po-em.studio/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Po-em",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-trades-hawaii",
-      "catalogNo": "PL-125",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Clothing",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Sustainable clothing",
-      "link": "https://tradeshawaii.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Trades Hawaii",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-kahua-collective",
-      "catalogNo": "PL-126",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Clothing",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Indigenous-led clothing collective",
-      "link": "https://kahuacollective.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Kahua Collective",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-urban-island-society",
-      "catalogNo": "PL-127",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Clothing",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Hawaii-inspired streetwear",
-      "link": "https://urbanislandsociety.us/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Urban Island Society",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-aokai-swim",
-      "catalogNo": "PL-128",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Swim",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Swimwear brand",
-      "link": "https://aokaiswim.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Aokai Swim",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-kuniko-swim",
-      "catalogNo": "PL-129",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Swim",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Luxury swimwear",
-      "link": "https://www.kunikoswim.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Kuniko Swim",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-hina's-treasures",
-      "catalogNo": "PL-130",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Jewelry",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Fine jewelry",
-      "link": "https://hinastreasureshawaii.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Hina's Treasures",
-      "pinCheck": true,
-      "price": "$"
-    },
-    {
-      "id": "enriched-hawaii-arlie-glass",
-      "catalogNo": "PL-131",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Jewelry",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Jewelry designer",
-      "link": "https://www.arlie-glass.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Arlie Glass",
-      "pinCheck": true,
-      "price": "$$$"
-    },
-    {
-      "id": "enriched-hawaii-na-wehi",
-      "catalogNo": "PL-132",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Jewelry",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Hawaii jewelry",
-      "link": "https://nawehi.com",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Na Wehi",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-ammi-handmade",
-      "catalogNo": "PL-133",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Bags",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Handmade bags & accessories",
-      "link": "https://ammihandmade.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "Ammi Handmade",
-      "pinCheck": true,
-      "price": "$$"
-    },
-    {
-      "id": "enriched-hawaii-ua-body",
-      "catalogNo": "PL-134",
-      "status": "want",
-      "addedAt": 1728000000000,
-      "lat": 21.3099,
-      "lng": -157.8581,
-      "geocodeAttempted": true,
-      "detail": "Body/Skin",
-      "when": "",
-      "address": "Honolulu, HI",
-      "notes": "Natural body care",
-      "link": "https://uabody.com/",
-      "category": "Shopping",
-      "eventDate": "",
-      "title": "ua body",
       "pinCheck": true,
       "price": "$$"
     },

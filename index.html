@@ -33,12 +33,15 @@
             <div id="content-places" class="flex-1 overflow-y-auto p-4">
                 <input type="text" id="search" placeholder="Search places..." class="w-full px-3 py-2 border border-stone-200 rounded-lg mb-4 text-sm">
                 
-                <div class="space-y-2">
+                <div class="space-y-1">
                     <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium bg-blue-100 text-blue-700" data-filter="all">All Places</button>
                     <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Food">🍽 Food</button>
                     <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Shopping">🛍 Shopping</button>
-                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Books">📚 Books</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Views">👁 Views</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Walking/Running">🥾 Walking/Running</button>
                     <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Experience">✨ Experience</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Books">📚 Books</button>
+                    <button class="filter-btn w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-100" data-filter="Misc">💡 Misc</button>
                 </div>
                 
                 <div id="places-list" class="mt-6 space-y-3"></div>
@@ -188,7 +191,10 @@
                 food: '#ef4444',
                 shopping: '#8b5cf6',
                 books: '#f59e0b',
-                experience: '#10b981'
+                experience: '#10b981',
+                views: '#0ea5e9',
+                'walking/running': '#84cc16',
+                misc: '#f97316'
             };
 
             places.forEach(p => {

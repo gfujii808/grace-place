@@ -12,7 +12,9 @@
       "category": "Shopping",
       "title": "Keep It Simple",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "link": "https://keepitsimplehawaii.com",
+      "price": "$$"
     },
     {
       "id": "seed-places-2",
@@ -22,19 +24,25 @@
       "lng": -121.9027,
       "address": "AIRAYA U-Pick Farm, Contra Costa, CA",
       "category": "Food",
-      "title": "AIRAYA U-Pick Farm"
+      "title": "AIRAYA U-Pick Farm",
+      "link": "https://www.yelp.com/biz/airaya-u-pick-farm",
+      "price": "$",
+      "notes": "U-pick fruit farm in Contra Costa County. Seasonal berries and stone fruit. Great family outing."
     },
     {
       "id": "seed-places-3",
       "catalogNo": "PL-003",
       "status": "want",
-      "lat": 35.6833,
-      "lng": 139.7744,
+      "lat": 35.6836,
+      "lng": 139.7745,
       "address": "Kyuei Building 1F, 3-1-15 Nihonbashi, Chuo-ku, Tokyo 103-0027",
       "notes": "Famous kaisendon + ochazuke...",
       "link": "https://www.tsujihan-jp.com/",
       "category": "Food",
-      "title": "Nihonbashi Kaisen Don Tsujihan"
+      "title": "Nihonbashi Kaisen Don Tsujihan",
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-48",
@@ -49,7 +57,8 @@
       "title": "KUMONOCHA",
       "detail": "Kyoto, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-49",
@@ -64,7 +73,8 @@
       "title": "AGE 3",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-50",
@@ -79,7 +89,8 @@
       "title": "HIIRAGI GINZA",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-51",
@@ -94,7 +105,8 @@
       "title": "EST",
       "detail": "Tokyo/Ginza, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-52",
@@ -109,7 +121,8 @@
       "title": "W\u00c4LDER",
       "detail": "Tokyo/Ginza, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-53",
@@ -124,7 +137,8 @@
       "title": "THE FRONT ROOM",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-54",
@@ -139,7 +153,8 @@
       "title": "PIZZERIA OSTERIA",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-55",
@@ -154,7 +169,8 @@
       "title": "COW COW KITCHEN",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-56",
@@ -169,7 +185,8 @@
       "title": "Godaime Hanayama Udon Ginza",
       "detail": "Tokyo/Ginza, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-57",
@@ -184,7 +201,8 @@
       "title": "Sano Miso Kameido",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-58",
@@ -199,7 +217,8 @@
       "title": "Coffee Hitomachi",
       "detail": "Tokyo, Japan",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-59",
@@ -235,16 +254,17 @@
       "id": "enriched-61",
       "catalogNo": "PL-061",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 35.6836,
+      "lng": 139.7745,
       "address": "Kyuei Building 1F, 3-1-15 Nihonbashi, Chuo-ku, Tokyo 103-0027",
       "notes": "Famous kaisendon + ochazuke. Order while queuing (up to 2-3 hours wait). Less wait in late afternoon or at Ark Hills/Kagurazaka branches. \u00a51,000\u20133,600 (~$7\u2013$24).",
       "link": "https://www.tsujihan-jp.com/",
       "category": "Food",
       "title": "Nihonbashi Kaisen Don Tsujihan",
       "detail": "Tokyo, Japan",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-62",
@@ -259,7 +279,8 @@
       "title": "BlueTree Hawaii \u2013 Kakaako",
       "detail": "Honolulu, Hawaii",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-63",
@@ -274,7 +295,8 @@
       "title": "Chez Panisse",
       "detail": "Berkeley, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-64",
@@ -289,7 +311,8 @@
       "title": "Comal",
       "detail": "Berkeley, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-65",
@@ -304,7 +327,8 @@
       "title": "Ippuku",
       "detail": "Berkeley, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-66",
@@ -319,7 +343,8 @@
       "title": "Cheese Board Pizza",
       "detail": "Berkeley, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-67",
@@ -334,7 +359,8 @@
       "title": "Vik's Chaat",
       "detail": "Berkeley, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-68",
@@ -349,7 +375,8 @@
       "title": "Peony",
       "detail": "Oakland, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-69",
@@ -364,7 +391,8 @@
       "title": "Gum Kuo",
       "detail": "Oakland, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-70",
@@ -379,7 +407,8 @@
       "title": "Xolo",
       "detail": "Oakland, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-71",
@@ -394,7 +423,8 @@
       "title": "Nick's Pizza",
       "detail": "Oakland, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-72",
@@ -409,67 +439,72 @@
       "title": "Red Bay Coffee",
       "detail": "Oakland, CA",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-73",
       "catalogNo": "PL-073",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.8066,
+      "lng": -122.2632,
       "address": "1726 Telegraph Ave, Oakland, CA 94612",
       "notes": "Cocktails, bocce ball in Uptown Oakland. Great spot before shows at Fox Theater.",
       "link": "https://www.makewesting.com/",
       "category": "Food",
       "title": "Make Westing",
       "detail": "Oakland, CA",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-74",
       "catalogNo": "PL-074",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.8046,
+      "lng": -122.2726,
       "address": "1410 Broadway, Oakland, CA 94612",
       "notes": "Underground restaurant, Asian fusion shareable plates, festive atmosphere, great for groups.",
       "link": "https://blindtigeroakland.com/",
       "category": "Food",
       "title": "Blind Tiger",
       "detail": "Oakland, CA",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-75",
       "catalogNo": "PL-075",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7983,
+      "lng": -122.2727,
       "address": "901 Washington St, Oakland, CA 94607",
       "notes": "Caribbean-inspired, seasonal menu, Oakland gem. Rum selection, spiced food, vibrant atmosphere.",
       "link": "https://www.missolliespice.com/",
       "category": "Food",
       "title": "Miss Ollie's",
       "detail": "Oakland, CA",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-76",
       "catalogNo": "PL-076",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.8271,
+      "lng": -122.2494,
       "address": "4226 Piedmont Ave, Oakland, CA 94610",
       "notes": "Over 100-year-old ice cream shop, sundaes/banana splits/shakes. Nostalgic Oakland institution on Piedmont Ave.",
       "link": "https://www.fentonscreamery.com/",
       "category": "Food",
       "title": "Fentons Creamery",
       "detail": "Oakland, CA",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-77",
@@ -499,127 +534,135 @@
       "title": "Libertine Parfumerie",
       "detail": "Melbourne / Sydney / Brisbane, Australia",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-79",
       "catalogNo": "PL-079",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": -8.6982,
+      "lng": 115.2623,
       "address": "Jalan Tamblingan, Denpasar, Bali",
       "notes": "Modern yakitori izakaya + vinyl-led listening bar (Tamba by Junsei). Grilled over binch\u014dtan charcoal. Chef Aman Lakhiani. Ph: +62 811 1007 7272. Instagram @junsei.bali",
       "link": "https://junsei.co.uk/bali",
       "category": "Food",
       "title": "Junsei",
       "detail": "Sanur, Bali",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-80",
       "catalogNo": "PL-080",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 51.5015,
+      "lng": -0.1761,
       "address": "Paddington/Kingston/Canary Wharf (London); Yarra River (Melbourne); Isle of Capri (Gold Coast); The Wharf (DC)",
       "notes": "Self-drive electric boats, no license needed. Seats up to 8. Made from 80% recycled PET + sustainable wood. 1-3 hour rentals. Bring your own picnic. London \u00a359-139/hr, Melbourne $111-207 AUD/hr, Gold Coast $98-228 AUD/hr.",
       "link": "https://www.goboat.co.uk/",
       "category": "Experience",
       "title": "GoBoat",
       "detail": "Multiple cities (London, Melbourne, Gold Coast, Washington DC, Birmingham)",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true
     },
     {
       "id": "enriched-81",
       "catalogNo": "PL-081",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 40.7484,
+      "lng": -74.003,
       "address": "Check NYC location",
       "notes": "Ranked #1 on Yelp's Top 100 U.S. Restaurants 2026. Italian fine dining.",
       "link": "https://www.cisiamnyc.com/",
       "category": "Food",
       "title": "Ci Siamo",
       "detail": "New York City",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-82",
       "catalogNo": "PL-082",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 40.7433,
+      "lng": -73.9882,
       "address": "Check NoMad location",
       "notes": "Modern Korean American dining. $75 prix fixe tasting menu (service included). Redefines Korean American cuisine.",
       "link": "https://www.atoboyny.com/",
       "category": "Food",
       "title": "Atoboy",
       "detail": "New York City, NoMad",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-83",
       "catalogNo": "PL-083",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 25.7741,
+      "lng": -80.1303,
       "address": "11 Washington Ave, Miami Beach, FL 33139",
       "notes": "Iconic Miami seafood institution. Famous for stone crab claws. 2026 ranking: top 10 USA restaurants.",
       "link": "https://www.joesstonecrab.com/",
       "category": "Food",
       "title": "Joe's Stone Crab",
       "detail": "Miami Beach, Florida",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-84",
       "catalogNo": "PL-084",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 25.7987,
+      "lng": -80.1998,
       "address": "Check Miami Wynwood location",
       "notes": "Ranked #20 on Yelp's Top 100 U.S. Restaurants 2026. Korean steakhouse.",
       "link": "https://www.coterestaurant.com/",
       "category": "Food",
       "title": "Cote Miami",
       "detail": "Miami, Florida",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-85",
       "catalogNo": "PL-085",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0279,
+      "lng": -118.2302,
       "address": "2121 E 7th Pl, Los Angeles, CA 90021",
       "notes": "Popular Italian restaurant. Handmade pasta, wood-fired pizza, house-cured meats. Industrial-chic setting.",
       "link": "https://www.bestia.la/",
       "category": "Food",
       "title": "Bestia",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-86",
       "catalogNo": "PL-086",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0165,
+      "lng": -118.4027,
       "address": "3455 Overland Ave, Los Angeles, CA 90034",
       "notes": "Japanese kaiseki. Traditional multi-course tasting menu. Top 50 USA restaurants 2026.",
       "link": "https://www.n-naka.com/",
       "category": "Food",
       "title": "n/naka",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-87",
@@ -634,7 +677,8 @@
       "title": "Swan Oyster Depot",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-88",
@@ -649,7 +693,8 @@
       "title": "Saison",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-89",
@@ -664,7 +709,8 @@
       "title": "Atelier Crenn",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-90",
@@ -679,7 +725,8 @@
       "title": "Benu",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-91",
@@ -694,7 +741,8 @@
       "title": "Quince",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-92",
@@ -709,52 +757,56 @@
       "title": "Lazy Bear",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-93",
       "catalogNo": "PL-093",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7932,
+      "lng": -122.3982,
       "address": "Check SF FiDi location",
       "notes": "2026 best new restaurant. Subtle, artful, not overly formal fine dining. By Carrie & Rupert Blease.",
       "link": "https://www.wolfsbane.restaurant/",
       "category": "Food",
       "title": "Wolfsbane",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-94",
       "catalogNo": "PL-094",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.787,
+      "lng": -122.4059,
       "address": "Check SF location",
       "notes": "2026 best new restaurant. Focus on elevated appetizers & starters. Light, innovative plates.",
       "link": "https://www.happycranesfbay.com/",
       "category": "Food",
       "title": "Happy Crane",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-95",
       "catalogNo": "PL-095",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7839,
+      "lng": -122.4328,
       "address": "1552 Fillmore St, San Francisco, CA 94115",
       "notes": "Michelin-starred. Modern tasting menu. $289pp tasting menu. New American fine dining.",
       "link": "https://www.averyrestaurant.com/",
       "category": "Food",
       "title": "Avery",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-96",
@@ -769,7 +821,8 @@
       "title": "Scoma's Restaurant",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-97",
@@ -784,7 +837,8 @@
       "title": "Waterbar Restaurant",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-98",
@@ -799,52 +853,56 @@
       "title": "Boudin Bakery",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-99",
       "catalogNo": "PL-099",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0836,
+      "lng": -118.3271,
       "address": "5955 Melrose Ave, Los Angeles, CA 90038",
       "notes": "Michelin-starred seafood. Fine dining omakase & raw bar. Top 50 USA restaurants 2026.",
       "link": "https://www.providencela.com/",
       "category": "Food",
       "title": "Providence",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$$"
     },
     {
       "id": "enriched-100",
       "catalogNo": "PL-100",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0366,
+      "lng": -118.5402,
       "address": "15225 Palisades Village Ln, Los Angeles, CA 90272",
       "notes": "Italian steakhouse. 2026 exciting opening. High-profile chef collaboration. Whole animal Italian dining.",
       "link": "https://www.spaccatutto.la/",
       "category": "Food",
       "title": "Spacca Tutto",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-101",
       "catalogNo": "PL-101",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0773,
+      "lng": -118.2655,
       "address": "2711 W Sunset Blvd, Los Angeles, CA 90026",
       "notes": "2026 exciting opening. Indo-Chinese food. Moody intimate space. Sichuan-style dishes.",
       "link": "https://www.schezwanclub.com/",
       "category": "Food",
       "title": "Schezwan Club",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-102",
@@ -859,7 +917,8 @@
       "title": "Community Thrift Store",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-103",
@@ -874,187 +933,200 @@
       "title": "Love Street Vintage",
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-104",
       "catalogNo": "PL-104",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7995,
+      "lng": -122.4065,
       "address": "Grant Ave, North Beach, San Francisco",
       "notes": "Hollywood-inspired vintage store moved from LA to SF. Curated vintage clothing & accessories.",
       "link": "https://www.viamarguttavintage.com/",
       "category": "Shopping",
       "title": "Via Margutta Vintage",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-105",
       "catalogNo": "PL-105",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7694,
+      "lng": -122.4468,
       "address": "Haight St, San Francisco",
       "notes": "Haight Street location. Curated items, cool makeover pieces. Vintage lovers' destination.",
       "link": "https://www.roommatesvintage.com/",
       "category": "Shopping",
       "title": "Roommates Vintage",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-106",
       "catalogNo": "PL-106",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.798,
+      "lng": -122.4211,
       "address": "1815 Polk St, San Francisco, CA 94109",
       "notes": "Black-owned boutique. Vintage, designer, independent labels. Polk St location. Shop dog gives hugs!",
       "link": "https://relovevintage.com/",
       "category": "Shopping",
       "title": "ReLove Vintage & Modern Resale",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-107",
       "catalogNo": "PL-107",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7991,
+      "lng": -122.4214,
       "address": "Polk St, San Francisco",
       "notes": "Y2K vibes, wide selection of clothes, shoes, accessories. Festival shopping. Polk St.",
       "link": "https://www.moodygoosevintage.com/",
       "category": "Shopping",
       "title": "Moody Goose Vintage",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-108",
       "catalogNo": "PL-108",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0831,
+      "lng": -118.3464,
       "address": "825 N La Brea Ave, Los Angeles, CA 90038",
       "notes": "Legendary LA thrift. Vintage, designer pieces. Affordable. Weekly rotation. Huge selection.",
       "link": "https://www.jetrag.com/",
       "category": "Shopping",
       "title": "Jet Rag",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-109",
       "catalogNo": "PL-109",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0835,
+      "lng": -118.3566,
       "address": "7428 Melrose Ave, Los Angeles, CA 90046",
       "notes": "Popular LA thrifting destination. Rare designer pieces, 1920s-90s inventory. Music venue vibe. Open 7 days.",
       "link": "https://www.wasteland.com/",
       "category": "Food",
       "title": "Wasteland",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-110",
       "catalogNo": "PL-110",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0592,
+      "lng": -118.2527,
       "address": "Check Los Angeles location",
       "notes": "LA's #1 boutique thrift store. Fashion + home goods (dining, kitchen, bathroom), furniture, decor.",
       "link": "https://trovelovers.com/",
       "category": "Food",
       "title": "Trove",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-111",
       "catalogNo": "PL-111",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 34.0369,
+      "lng": -118.3487,
       "address": "150 S La Brea Ave, Los Angeles, CA 90036",
       "notes": "Vintage & new clothing. Curated mix of designer, vintage, contemporary. La Brea location.",
       "link": "https://www.american-rag.com/",
       "category": "Shopping",
       "title": "American Rag Cie",
       "detail": "Los Angeles, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-112",
       "catalogNo": "PL-112",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 40.7319,
+      "lng": -73.9883,
       "address": "143 East 13th Street, New York, NY 10003",
       "notes": "East Village menswear vintage. Curated men's clothing, accessories. Designer-focused.",
       "link": "https://www.stockvintage.com/",
       "category": "Shopping",
       "title": "Stock Vintage",
       "detail": "New York City",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-113",
       "catalogNo": "PL-113",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 40.7208,
+      "lng": -73.9936,
       "address": "195 Chrystie Street, New York, NY 10002",
       "notes": "Antiques & vintage. Textiles, clothing, home goods. Lower East Side landmark.",
       "link": "https://www.paularubenstein.com/",
       "category": "Food",
       "title": "Paula Rubenstein",
       "detail": "New York City, Lower East Side",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-114",
       "catalogNo": "PL-114",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 40.7295,
+      "lng": -73.9837,
       "address": "346 East 9th Street, New York, NY 10003",
       "notes": "Women's vintage boutique. East Village. Glamorous clothing, accessories, art books, home decor.",
       "link": "https://9thstvintage.com/",
       "category": "Shopping",
       "title": "9th St. Vintage",
       "detail": "New York City, East Village",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-115",
       "catalogNo": "PL-115",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 40.7301,
+      "lng": -73.9877,
       "address": "Check East Village location",
       "notes": "Non-profit thrift store. Affordable prices across all items. Quality selection. East Village.",
       "link": "https://www.curethriftshop.com/",
       "category": "Shopping",
       "title": "Cure Thrift Shop",
       "detail": "New York City, East Village",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-116",
@@ -1105,16 +1177,17 @@
       "id": "enriched-119",
       "catalogNo": "PL-119",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7827,
+      "lng": -122.4618,
       "address": "220 Clement St, San Francisco, CA 94118",
       "notes": "Design & art bookstore. Books, merchandise, creative flair. Mon-Sat 10am-6pm, Sun 10am-5pm.",
       "link": "https://www.parklifestore.com/",
       "category": "Food",
       "title": "Park Life San Francisco",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-120",
@@ -1135,16 +1208,17 @@
       "id": "enriched-121",
       "catalogNo": "PL-121",
       "status": "want",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7995,
+      "lng": -122.4063,
       "address": "Grant Ave, North Beach, San Francisco",
       "notes": "Two locations on Grant Ave. Curated vintage & contemporary. Zac Posen inspiration source. North Beach.",
       "link": "https://www.vacationsf.com/",
       "category": "Food",
       "title": "Vacation SF",
       "detail": "San Francisco, California",
-      "geocodeAttempted": false,
-      "pinCheck": false
+      "geocodeAttempted": true,
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-mahina-made",
@@ -1162,7 +1236,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Mahina Made",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-kapalili",
@@ -1180,7 +1255,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Kapalili",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-po-em",
@@ -1198,7 +1274,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Po-em",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-trades-hawaii",
@@ -1216,7 +1293,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Trades Hawaii",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-kahua-collective",
@@ -1234,7 +1312,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Kahua Collective",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-urban-island-society",
@@ -1252,7 +1331,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Urban Island Society",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-aokai-swim",
@@ -1270,7 +1350,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Aokai Swim",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-kuniko-swim",
@@ -1288,7 +1369,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Kuniko Swim",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-hina's-treasures",
@@ -1306,7 +1388,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Hina's Treasures",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$"
     },
     {
       "id": "enriched-hawaii-arlie-glass",
@@ -1324,7 +1407,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Arlie Glass",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$$"
     },
     {
       "id": "enriched-hawaii-na-wehi",
@@ -1342,7 +1426,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Na Wehi",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-ammi-handmade",
@@ -1360,7 +1445,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "Ammi Handmade",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "id": "enriched-hawaii-ua-body",
@@ -1378,7 +1464,8 @@
       "category": "Shopping",
       "eventDate": "",
       "title": "ua body",
-      "pinCheck": true
+      "pinCheck": true,
+      "price": "$$"
     },
     {
       "title": "Books for Cooks (QVM)",
@@ -1409,7 +1496,7 @@
       "category": "Shopping",
       "price": "$$",
       "notes": "Bold, playful shoe designs. Comfortable to wear + great service!",
-      "link": "",
+      "link": "https://radicalyes.com.au",
       "detail": "Shoe shop with unique designs",
       "catalogNo": "PL-136",
       "id": "insta-radical-yes!-(north-melbourne)",
@@ -1429,7 +1516,7 @@
       "category": "Shopping",
       "price": "$$$",
       "notes": "Japanese craft heaven! Everything from Japanese artists, some pieces featured in galleries in Japan. Runs cute workshops like wagashi & ikebana sometimes!",
-      "link": "",
+      "link": "https://kurashi.com.au",
       "detail": "Japanese ceramics, crafts, and homewares",
       "catalogNo": "PL-137",
       "id": "insta-kurashi-japanese-crafts-(prahran)",
@@ -1469,7 +1556,7 @@
       "category": "Shopping",
       "price": "$$$",
       "notes": "Japanese craft heaven!! So many beautiful homewares & teaware, but best part.. they stock my fav Yutaka Ono pieces (<3 his heart-shaped katakuchi )",
-      "link": "",
+      "link": "https://osara.com.au",
       "detail": "Japanese ceramics and homewares showroom",
       "catalogNo": "PL-139",
       "id": "insta-osara-(collingwood)",
@@ -1549,7 +1636,7 @@
       "category": "Food",
       "price": "$$",
       "notes": "One of Melbourne's best gelato makers, now in its ninth store. A riot of colour, playfulness and exuberant Italian hospitality adding character to the cultural life. Opening next to Pellegrini's, an icon of Melbourne's Italian culture",
-      "link": "",
+      "link": "https://piccolinagelateria.com.au",
       "detail": "Gelato shop opening in Bourke precinct",
       "catalogNo": "PL-143",
       "id": "insta-piccolina",
@@ -1669,7 +1756,7 @@
       "category": "Food",
       "price": "$$",
       "notes": "Restaurant - Everything",
-      "link": "",
+      "link": "https://zarehrestaurant.com.au",
       "detail": "Armenian/Middle Eastern restaurant",
       "catalogNo": "PL-149",
       "id": "insta-zareh-(collingwood)",
@@ -1753,7 +1840,7 @@
       "category": "Food",
       "address": "Carlton North, VIC, Australia",
       "notes": "Favorite farmers market. Reopened with full capacity. Ideal way to spend a Saturday morning.",
-      "link": "",
+      "link": "https://carltonmarket.com.au",
       "price": "Free",
       "lat": -37.8008,
       "lng": 144.9613,

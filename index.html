@@ -144,19 +144,27 @@
             renderPlaces();
         });
 
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-blue-100', 'text-blue-700'));
-                btn.classList.add('bg-blue-100', 'text-blue-700');
-                currentFilter = btn.dataset.filter;
-                renderPlaces();
+        function attachFilterHandlers() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => {
+                        b.classList.remove('bg-blue-100', 'text-blue-700');
+                        b.classList.add('text-stone-700', 'hover:bg-stone-100');
+                    });
+                    btn.classList.remove('text-stone-700', 'hover:bg-stone-100');
+                    btn.classList.add('bg-blue-100', 'text-blue-700');
+                    currentFilter = btn.dataset.filter === 'all' ? 'all' : btn.dataset.filter;
+                    renderPlaces();
+                });
             });
-        });
+        }
+        
+        attachFilterHandlers();
 
         function renderPlaces() {
             const filtered = places.filter(p => {
-                const matchCategory = currentFilter === 'all' || p.category === currentFilter;
-                const matchSearch = p.title.toLowerCase().includes(currentSearch) || 
+                const matchCategory = currentFilter === 'all' || (p.category && p.category.toLowerCase() === currentFilter.toLowerCase());
+                const matchSearch = !currentSearch || p.title.toLowerCase().includes(currentSearch) || 
                                   (p.address || '').toLowerCase().includes(currentSearch);
                 return matchCategory && matchSearch;
             });

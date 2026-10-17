@@ -56,7 +56,8 @@
       "lat": 21.3069,
       "lng": -157.8583,
       "notes": "Modern fashion brand celebrating limited collections inspired by neighborhoods and place",
-      "link": "https://www.orihnl.com"
+      "link": "https://www.orihnl.com",
+      "isPopup": true
     },
     {
       "title": "'Oa Pacific Legacywear",
@@ -3181,7 +3182,8 @@
       "lat": 34.2678,
       "lng": 135.3967,
       "notes": "Wakayama Electric Railway Kishigawa Line terminal \u2014 famous for its cat stationmasters (started with Tama), a cat-shaped station building, themed trains, and a cafe/shop. From Wakayama Station: ~30 min on the Kishigawa Line. \u00a5800 one-day pass for unlimited rides.",
-      "link": ""
+      "link": "",
+      "isPopup": true
     },
     {
       "title": "Godmothers Books",
@@ -3333,7 +3335,8 @@
       "lat": 37.9077,
       "lng": -122.5785,
       "notes": "Only reachable by hiking or biking in (Pantoll Ranger Station route ~45 min, shortest). Pancake breakfasts first Sunday of the month, May\u2013Oct, 9am-1pm or until supplies run out. Cash/Venmo only. $13-15 for pancakes.",
-      "link": ""
+      "link": "",
+      "isPopup": true
     },
     {
       "title": "IKEA Hotel (Hotel Entr\u00e9)",
@@ -3649,7 +3652,8 @@
       "lat": 37.0326,
       "lng": -121.6002,
       "notes": "Family theme park in the Garlic Capital of the World. 3 water play zones, 6 gardens (incl. Monarch Garden), rides for all ages, train & boat rides, The Green Barn indoor science activities. Tickets $65 online / $80 gate / $70 child+senior / under 3 free. Parking $25. Premium membership ($104) = unlimited visits through Dec 31 + free parking + bring-a-friend free Fridays.",
-      "link": "https://www.instagram.com/gilroy_gardens"
+      "link": "https://www.instagram.com/gilroy_gardens",
+      "isPopup": true
     },
     {
       "title": "All the Single Kitties",
@@ -3721,7 +3725,8 @@
       "lat": 41.8009,
       "lng": -73.1215,
       "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
-      "link": ""
+      "link": "",
+      "isMultiLocation": true
     },
     {
       "title": "Purrfect Lounge",
@@ -3741,7 +3746,8 @@
       "lat": 41.3612,
       "lng": -71.9668,
       "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
-      "link": ""
+      "link": "",
+      "isMultiLocation": true
     },
     {
       "title": "Spacecat Brewery",
@@ -3901,7 +3907,8 @@
       "lat": 41.7262,
       "lng": -71.2837,
       "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
-      "link": ""
+      "link": "",
+      "isMultiLocation": true
     },
     {
       "title": "Mad Cats & More",
@@ -3911,7 +3918,8 @@
       "lat": 41.6901,
       "lng": -71.5623,
       "notes": "From a New England cat-themed travel list (sponsored by Salem Cat Museum).",
-      "link": ""
+      "link": "",
+      "isMultiLocation": true
     },
     {
       "title": "Royal Bobcat",
@@ -4834,7 +4842,8 @@
       "lat": 37.0058,
       "lng": -121.5613,
       "notes": "U-pick organic strawberries, blackberries, raspberries, boysenberries, olallieberries. Open Saturdays 9am-1pm year-round (first-come, first-serve). Cash only. Closed-toe shoes required.",
-      "link": ""
+      "link": "",
+      "isPopup": true
     },
     {
       "title": "Marin Farmers Market",
@@ -4844,17 +4853,21 @@
       "lat": 37.9913,
       "lng": -122.5337,
       "notes": "Thursday (Veterans Memorial Auditorium) & Sunday (Civic Center), 8am-1pm year-round. Phone: 415-472-6100.",
-      "link": ""
+      "link": "",
+      "isMultiLocation": true
     },
     {
       "title": "Lake Timescale",
       "detail": "Trail/lake, Bay Area",
       "category": "Walking/Running",
       "address": "Bay Area, CA",
-      "lat": null,
-      "lng": null,
+      "lat": 37.7749,
+      "lng": -122.4194,
       "notes": "Location TBD \u2014 need specific location details.",
-      "link": ""
+      "link": "",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "The Purge Consignment Hawaii",
@@ -5022,20 +5035,26 @@
       "detail": "Beachwear & resort wear shop, O'ahu | Maui",
       "category": "Shopping",
       "address": "O'ahu, Maui, Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": -37.8044,
+      "lng": 144.9965,
       "notes": "5 shops. Bikinis since 2014. Endless brands, beach + resort wear. bikinibird.com",
-      "link": "https://www.bikinibird.com"
+      "link": "https://www.bikinibird.com",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Claire Shelloha Treasures",
       "detail": "Seashell jewelry & card skins, Ventura & Oahu",
       "category": "Shopping",
       "address": "Ventura, CA & Oahu, HI",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Seashell jewelry & card skins. DM for wholesale or orders. shell.oha on IG.",
-      "link": "https://www.shellohtreasures.com"
+      "link": "https://www.shellohtreasures.com",
+      "isMultiLocation": true,
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center"
     },
     {
       "title": "Daisy Chain Fields",
@@ -5062,10 +5081,13 @@
       "detail": "Sewing workshops & sun hats, Hawaii",
       "category": "Misc",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Learn to sew workshops 8/22 + 9/12. Make your own clothes. Natsumatsuri Festival 8/28, 4-8pm.",
-      "link": "https://www.eventbrite.com/e/19961873300402"
+      "link": "https://www.eventbrite.com/e/19961873300402",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Pewa by Pono Potions",
@@ -5232,65 +5254,83 @@
       "detail": "Hawaiian shop",
       "category": "Shopping",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Hawaiian gifts & crafts celebrating Indigenous culture & local artists.",
       "link": "",
-      "price": "$$"
+      "price": "$$",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Small Kine Gift",
       "detail": "Gift shop",
       "category": "Shopping",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Local Hawaii gifts & souvenirs supporting small island makers.",
       "link": "",
-      "price": "$"
+      "price": "$",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Circular Fashion Hawaii / The Reuse",
       "detail": "Circular fashion & sustainable reuse shop, Hawaii",
       "category": "Shopping",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Circular fashion & sustainable reuse.",
-      "link": ""
+      "link": "",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Hina Hawaii",
       "detail": "Shop, Hawaii",
       "category": "Shopping",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Hawaii-made gifts & apparel with traditional island designs.",
       "link": "",
-      "price": "$$"
+      "price": "$$",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Hang Um Hawaii",
       "detail": "Shop, Hawaii",
       "category": "Shopping",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Local Hawaii art & gifts celebrating island culture.",
       "link": "",
-      "price": "$$"
+      "price": "$$",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Eww Wet Food Art Shop",
       "detail": "Art/food shop",
       "category": "Shopping",
       "address": "Hawaii",
-      "lat": null,
-      "lng": null,
+      "lat": 21.3099,
+      "lng": -157.8581,
       "notes": "Art supply & gift shop in Hawaii with playful name & creative vibes.",
       "link": "",
-      "price": "$"
+      "price": "$",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual-city-center",
+      "isMultiLocation": true
     },
     {
       "title": "Aloha Happy Hats",
@@ -5709,7 +5749,8 @@
       "lat": -37.8181,
       "lng": 144.9651,
       "notes": "Only jazz club outside New York with the Birdland name. Launched 2016 with Ravi Coltrane. Full dinner service + touring jazz acts most nights. @birdsbasement",
-      "link": ""
+      "link": "",
+      "isPopup": true
     },
     {
       "title": "Puffing Billy Railway",
@@ -6189,7 +6230,8 @@
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
       "pinCheck": true,
-      "price": "$$"
+      "price": "$$",
+      "isPopup": true
     },
     {
       "id": "enriched-88",
@@ -6205,7 +6247,8 @@
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
       "pinCheck": true,
-      "price": "$$$$"
+      "price": "$$$$",
+      "isPopup": true
     },
     {
       "id": "enriched-89",
@@ -6237,7 +6280,8 @@
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
       "pinCheck": true,
-      "price": "$$$$"
+      "price": "$$$$",
+      "isPopup": true
     },
     {
       "id": "enriched-91",
@@ -6269,7 +6313,8 @@
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
       "pinCheck": true,
-      "price": "$$$"
+      "price": "$$$",
+      "isPopup": true
     },
     {
       "id": "enriched-93",
@@ -6557,7 +6602,8 @@
       "detail": "Los Angeles, California",
       "geocodeAttempted": true,
       "pinCheck": true,
-      "price": "$$"
+      "price": "$$",
+      "isPopup": true
     },
     {
       "id": "enriched-112",
@@ -6683,7 +6729,9 @@
       "detail": "San Francisco, California",
       "geocodeAttempted": true,
       "pinCheck": true,
-      "price": "$$"
+      "price": "$$",
+      "isMultiLocation": true,
+      "isPopup": true
     },
     {
       "title": "Books for Cooks (QVM)",
@@ -6903,7 +6951,8 @@
       "geocodeAttempted": false,
       "pinCheck": false,
       "when": "",
-      "eventDate": ""
+      "eventDate": "",
+      "isPopup": true
     },
     {
       "title": "Libertine Parfumerie (Melbourne)",
@@ -7144,7 +7193,8 @@
       "geocodeAttempted": true,
       "geocodeSource": "manual",
       "notes": "Design market & gallery featuring Scandinavian designers, crafts, and contemporary art.",
-      "price": "$$"
+      "price": "$$",
+      "isPopup": true
     },
     {
       "title": "Bakers Delight Deli Pop-up",
@@ -7155,7 +7205,8 @@
       "lng": 144.9965,
       "geocodeAttempted": true,
       "geocodeSource": "manual",
-      "price": "$$"
+      "price": "$$",
+      "isPopup": true
     },
     {
       "title": "Mimco Archive Store",
@@ -7166,7 +7217,77 @@
       "lng": 151.2289,
       "geocodeAttempted": true,
       "geocodeSource": "manual",
-      "price": "$"
+      "price": "$",
+      "isPopup": true
+    },
+    {
+      "title": "Fri\u00f0heimar",
+      "category": "Food",
+      "address": "Fri\u00f0heimar, Reykholts, Iceland",
+      "notes": "Geothermal greenhouse farm growing 700 tons of tomatoes yearly. All-you-can-eat tomato soup & fresh bread buffet. Wine bar & bistro on-site. Golden Circle route.",
+      "price": "$$",
+      "lat": 64.0833,
+      "lng": -20.8333,
+      "link": "https://www.fridheimar.is",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual"
+    },
+    {
+      "title": "F\u00e4bodleden (Coolcation UNESCO Trail)",
+      "category": "Walking/Running",
+      "address": "Sweden (Dalarna region)",
+      "notes": "Hidden gem hiking trail, 120 miles (193 km) through woodlands, clear lakes, wildberry meadows. Cool even in summer. UNESCO Cultural Heritage status 2024. Recently upgraded with new signage.",
+      "lat": 61.5,
+      "lng": 15.0,
+      "link": "https://www.natgeotravel.com",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual"
+    },
+    {
+      "title": "Waiheke Island Wineries",
+      "category": "Food",
+      "address": "Waiheke Island, Auckland, New Zealand",
+      "notes": "Island near Auckland with boutique wineries, art galleries, and restaurants. Take ferry from downtown.",
+      "price": "$$",
+      "lat": -37.1833,
+      "lng": 175.6167,
+      "link": "https://www.waiheke.co.nz",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual"
+    },
+    {
+      "title": "Hobbiton Movie Set",
+      "category": "Experience",
+      "address": "Matamata, Waikato, New Zealand",
+      "notes": "The Lord of the Rings Shire set open for tours. Immersive experience in rural Waikato. Bookings required.",
+      "price": "$$$",
+      "lat": -37.8711,
+      "lng": 175.7597,
+      "link": "https://www.hobbitontours.com",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual"
+    },
+    {
+      "title": "Milford Sound",
+      "category": "Views",
+      "address": "Fjordland National Park, South Island, New Zealand",
+      "notes": "Iconic fjord with dramatic waterfalls, rainforest, and marine life. Boat cruises or kayaking available. One of NZ's top natural wonders.",
+      "lat": -44.6521,
+      "lng": 167.9276,
+      "link": "https://www.fjordland.org.nz",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual"
+    },
+    {
+      "title": "Tongariro Alpine Crossing",
+      "category": "Walking/Running",
+      "address": "Tongariro National Park, Central Plateau, New Zealand",
+      "notes": "One of NZ's best one-day hikes (19.4 km). Crosses volcanic landscape with alpine views. High altitude \u2014 weather changes fast.",
+      "lat": -38.7536,
+      "lng": 175.2619,
+      "link": "https://www.tongariroalpinecrossing.co.nz",
+      "geocodeAttempted": true,
+      "geocodeSource": "manual"
     }
   ]
 }
